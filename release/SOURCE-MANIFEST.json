@@ -1,0 +1,1145 @@
+{
+  "schema": "akash-source-mit-review-v1",
+  "source_date": "2026-10-12",
+  "bundle_root": "akash-source-candidate",
+  "captured_utc": "2026-10-13T00:21:38.179682+00:00",
+  "scope": "Local source-only MIT review export; no public repository publication",
+  "selection_policy": {
+    "base": "scripts/package_source_candidate_20261008.py",
+    "licensed_extension": "scripts/package_licensed_source_20261012.py"
+  },
+  "base_policy_sha256": "95e28e3541c65a82db36030f167807cd552a56ac128abdc55003b4367d477313",
+  "licensed_policy_sha256": "5eae456d399969a30d721b608ac1e7b6c03bb8d909abe326a90618c013b902d8",
+  "source_roots": [
+    "release",
+    "scripts",
+    "src",
+    "tests",
+    "web"
+  ],
+  "root_files": [
+    "LICENSE",
+    "README.md",
+    "pyproject.toml",
+    "uv.lock"
+  ],
+  "additive_source_paths": [
+    "web/observation-geography-core-20261012.mjs",
+    "web/observation-geography-ui-20261012.mjs"
+  ],
+  "excluded_tests": {
+    "tests/test_checking_native_water_extent.py": "imports excluded research/evaluation-only source at collection",
+    "tests/test_kathmandu_checking_transport.py": "imports excluded research/evaluation-only source when optional pyshp is installed",
+    "tests/test_research_server.py": "imports research server requiring excluded original OSM data at collection",
+    "tests/test_research_radar_server.py": "imports research server requiring excluded original OSM data at collection",
+    "tests/test_trained_water_server.py": "imports research server requiring excluded original OSM data at collection"
+  },
+  "project_license": {
+    "spdx_id": "MIT",
+    "path": "LICENSE",
+    "license_sha256": "1ebce672ecef3f367b9173e6b2bfd506f9b0ea5c0baf289d7af4c6b9ac174704",
+    "scope": "Original Akash project source code only",
+    "owner_assertion_recorded_utc": "2026-10-11T18:20:04.244689+00:00",
+    "owner_assertion_sha256": "78324b1b5d9e63e8e37159cd4919e2263620a0fa105c55c6a42329c6452ec5ac",
+    "ownership_independently_verified": false,
+    "upstream_terms_preserved": true,
+    "third_party_boundaries": "release/THIRD-PARTY-BOUNDARIES.md"
+  },
+  "excluded_asset_categories": [
+    "raw/reference checking data and geometry",
+    "satellite imagery and DEM/geoid grids",
+    "trained checkpoints and copilot model weights",
+    "vendor/generated SNAP source and binaries",
+    "virtual environments, caches, archives and old execution outputs",
+    "unrelated user files and papers"
+  ],
+  "base_install": "uv sync --frozen",
+  "optional_inference_overlay": "scikit-learn==1.7.2 separately; excluded checkpoint/prerequisites required",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1283,
+      "sha256": "1ebce672ecef3f367b9173e6b2bfd506f9b0ea5c0baf289d7af4c6b9ac174704"
+    },
+    {
+      "path": "README.md",
+      "bytes": 43884,
+      "sha256": "2fde97737ca1ebb62f2564ee19b94b45a2f56d7a937ce6fd6be057be0da9336c"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 642,
+      "sha256": "09ae1289b5a3bfafb0612f2bbf0927d2207b8a5c473109409127ae567a22304b"
+    },
+    {
+      "path": "release/CONSOLE-NATIVE-ACTIVATION-20261012.md",
+      "bytes": 2956,
+      "sha256": "fe2128bdb07853e8edf49f93eaa19a0e9578ac17e97a31c186578118cb28e197"
+    },
+    {
+      "path": "release/HARDENING-EVIDENCE-2026-10-11.md",
+      "bytes": 12008,
+      "sha256": "9192c4a3a29c40ac107caf142ac0c719d8344c22bf6f05e06c9c97f7e6c3bbdc"
+    },
+    {
+      "path": "release/MULTIMODAL-WORKFLOW-20261012.md",
+      "bytes": 7375,
+      "sha256": "df1e71710888525c6992f0ff3b175d6f6210f6e8c750eb4e8c6e66be5a615970"
+    },
+    {
+      "path": "release/README-LICENSED-SOURCE-2026-10-12.md",
+      "bytes": 3236,
+      "sha256": "f2bf94208d7c1459dd309c085387f687ef1775535ac40e9557d576e352c73028"
+    },
+    {
+      "path": "release/README-SOURCE.md",
+      "bytes": 3520,
+      "sha256": "37ae1f07ec091f51c4e031e37b2b48335092f39e96fe625ad01305e5883053cb"
+    },
+    {
+      "path": "release/THIRD-PARTY-BOUNDARIES.md",
+      "bytes": 2529,
+      "sha256": "d5b2fe5a04dc264e969d3d31d2b3970448227a51df9e62c871dd738a28ced4fe"
+    },
+    {
+      "path": "release/native-setup/README.md",
+      "bytes": 7057,
+      "sha256": "57ff6d1f8fd4730926f45ae623fdb4d6a7803b73d6f261f995e224faa918df33"
+    },
+    {
+      "path": "release/native-setup/check_isolation.py",
+      "bytes": 2357,
+      "sha256": "27abf1557638c079ffb78ff8f906ead165c6c9c3f98681c860edf07642cf01b6"
+    },
+    {
+      "path": "release/native-setup/rehearse.py",
+      "bytes": 6964,
+      "sha256": "4fd3bd6faa827c3d6bddf9b2b3722e5b84e2cdffe5b6cb4b173e0af9e30ddab9"
+    },
+    {
+      "path": "release/native-setup/source-final-review-2026-10-10.md",
+      "bytes": 3341,
+      "sha256": "6543113023d05530aceff4e9fb56a716d8043dc6acc404d9948d876514690093"
+    },
+    {
+      "path": "release/native-setup/source-final-review-2026-10-10.py",
+      "bytes": 10929,
+      "sha256": "e9f878007c02ed6a48bbec324ca87fc451b37b51bea7248da145119a28960406"
+    },
+    {
+      "path": "release/smoke_source.py",
+      "bytes": 9337,
+      "sha256": "2671b93e8f8c6e9a6aa5159c9136e67bc71a4ceb0d03fc5b84d8f3d3cfb66fcd"
+    },
+    {
+      "path": "scripts/acquire_core_historic_osm.py",
+      "bytes": 14592,
+      "sha256": "ce68d82c1725b05192521072f4bf426984467344f53966bc093aecbf641e8d2c"
+    },
+    {
+      "path": "scripts/acquire_fresh_native.py",
+      "bytes": 4840,
+      "sha256": "949b5017210d970591865daca557de688acf5ff8b452aa6000b46653a32a1361"
+    },
+    {
+      "path": "scripts/acquire_historic_osm.py",
+      "bytes": 10898,
+      "sha256": "f70fb5de3b311a5e529488bedd4a2d175d9ee938ae57309b8f8d46312844ce93"
+    },
+    {
+      "path": "scripts/acquire_node_drive_historic_osm.py",
+      "bytes": 15134,
+      "sha256": "25fba684ac2a6fdea1541fed7a7f7b0132e7a45024dbf18c1c094619ed489032"
+    },
+    {
+      "path": "scripts/audit_observation_access.py",
+      "bytes": 15432,
+      "sha256": "6bf4179ef4d289c6c743ebf9e22073ebcc2f73743e4c5923aca3e68d08e19fa5"
+    },
+    {
+      "path": "scripts/benchmark_inspection.py",
+      "bytes": 12540,
+      "sha256": "661c4d61ebca9a58e17c9a4c3d9ea131602053174ffb4b2468d6ea807c722d82"
+    },
+    {
+      "path": "scripts/build_fresh_report.py",
+      "bytes": 41549,
+      "sha256": "99117c685187efe17fa8fce51f53926382fbf8e2eb79639ba7889924a0e94b81"
+    },
+    {
+      "path": "scripts/build_multimodal_case_report_20261012.py",
+      "bytes": 12007,
+      "sha256": "31210404168676b79681c2042e2c477d0eb2badc3771823a034690cae46ea188"
+    },
+    {
+      "path": "scripts/build_observation_access_viewer_20261011.py",
+      "bytes": 6005,
+      "sha256": "1d6d173e06fd94aa3a04bdefe34a435034354227b1c13fff234c2705027a476c"
+    },
+    {
+      "path": "scripts/build_observation_geography_20261012.py",
+      "bytes": 18139,
+      "sha256": "29c0ea7aa4f3b6b317a74e517a980b1030e36710e03a083b5966568ae8ab4810"
+    },
+    {
+      "path": "scripts/build_optical_completion_viewer_20261011.py",
+      "bytes": 2683,
+      "sha256": "d3bb614071866688a1bb85018dcc41ed7ceb6f4d48ccd029e3b2a2df944a914d"
+    },
+    {
+      "path": "scripts/build_optical_composite_viewer.py",
+      "bytes": 4471,
+      "sha256": "e9e07d80c9009a03a9ea104a7334fac4d38142c02bf9ebb2ce028c75dbb7f7ca"
+    },
+    {
+      "path": "scripts/build_radar_evidence.py",
+      "bytes": 9911,
+      "sha256": "ea9d7c5605ff9cedc6959461cd9c0600cceed7a16ddae65e52af0f966db729fc"
+    },
+    {
+      "path": "scripts/build_s2_debris_candidates.py",
+      "bytes": 18608,
+      "sha256": "892a200da60db521bf83ed9b5907d14ca2d2cc8f947432721eedc234ae10631b"
+    },
+    {
+      "path": "scripts/build_situation_brief_20261010.py",
+      "bytes": 8321,
+      "sha256": "7f4b053c4a7868e727775b9bf484d1144ff8e3068f0cd1604b9b331da855d7ff"
+    },
+    {
+      "path": "scripts/build_situation_brief_20261011.py",
+      "bytes": 10192,
+      "sha256": "08a23a16607aff0d7d7615d3fd148b681f12ea3dfcb735bf5896cdb80dee6673"
+    },
+    {
+      "path": "scripts/build_situation_pdf.py",
+      "bytes": 8016,
+      "sha256": "2ba9a88978072291dc0f5491e8ecc98929ade81535bd19154de09f81a1fac5f8"
+    },
+    {
+      "path": "scripts/build_submission_report.py",
+      "bytes": 22535,
+      "sha256": "cdf1b2d7af9c08ba49501a4aa6fccf3e8631b69c2c18fdeb80f519147f23980c"
+    },
+    {
+      "path": "scripts/build_submission_report_20261008.py",
+      "bytes": 24562,
+      "sha256": "60723f3023c859a07129bbfb78a6e16659df0dd0be50f1a9a4bfd882eef387fc"
+    },
+    {
+      "path": "scripts/build_submission_report_20261010.py",
+      "bytes": 26916,
+      "sha256": "83df76efcdda0b900017c973ffddde29cb9fb7cb762a6b93be079ca1e946e92b"
+    },
+    {
+      "path": "scripts/build_submission_report_20261011.py",
+      "bytes": 32896,
+      "sha256": "6856220d831d76f423f7bbb565535d98b07f66692ad6e3a3104482513b56e073"
+    },
+    {
+      "path": "scripts/check_cdse_access.py",
+      "bytes": 1862,
+      "sha256": "0a61e120802c3122715a91095c31a08976581dc65e22a885e40c26619c8d65c6"
+    },
+    {
+      "path": "scripts/check_focused_copilot.py",
+      "bytes": 8741,
+      "sha256": "281668db9be94d11f29411beb1c7cb0ffd4e5b942263da48aed4da6c4e2b6365"
+    },
+    {
+      "path": "scripts/check_fresh_copilot.py",
+      "bytes": 7848,
+      "sha256": "569535b4025dfc166df4fec27b00494642303ab52f621b671d4978109c4ab055"
+    },
+    {
+      "path": "scripts/check_radar_copilot.py",
+      "bytes": 6297,
+      "sha256": "dde8e9d5e2fb8ba51f076c7c867c6f162667fa093a2175f45c53a5ba3560dd79"
+    },
+    {
+      "path": "scripts/check_s2_observation_coverage.py",
+      "bytes": 18163,
+      "sha256": "26c32e7fa5feb02754221430a940e63cc70e82bc084781012238039aac091c6a"
+    },
+    {
+      "path": "scripts/check_saved_dem_samples.py",
+      "bytes": 6508,
+      "sha256": "422824ff48fa5c82dc7538bc292706f23812078f931c0522e48824fdce3c574d"
+    },
+    {
+      "path": "scripts/check_snap_context.py",
+      "bytes": 9597,
+      "sha256": "559ad1e318970fdee4b837979b22b19f8333028540c6bd6268de64b7756f024a"
+    },
+    {
+      "path": "scripts/complete_optical_inputs_20261011.py",
+      "bytes": 18988,
+      "sha256": "7f427b01cf2494443d81981e9826ec4a40b41575a654f408d91ff5785222f30b"
+    },
+    {
+      "path": "scripts/discover_fresh_case.py",
+      "bytes": 2160,
+      "sha256": "fbdc65d7b01f721f3d88a08a8fb18a3fd26f8235b146fb5174c31a20e7c18489"
+    },
+    {
+      "path": "scripts/evaluate_copilot.py",
+      "bytes": 11147,
+      "sha256": "90dba49c59a5cf49a03d6593b0c66f8d230cc270b5971e6a7068972f308188f4"
+    },
+    {
+      "path": "scripts/evaluate_copilot_independent.py",
+      "bytes": 3535,
+      "sha256": "1da60925c271f81a4e2925638c3b5de6454fb704c068b889070a4e91c217d9d2"
+    },
+    {
+      "path": "scripts/evaluate_hazard_reference.py",
+      "bytes": 22286,
+      "sha256": "210612c81f3dc6e9bf20665bdf2b6cc3d5b4722da265c91075df3fc8942331f6"
+    },
+    {
+      "path": "scripts/fetch_historic_osm_20261012.py",
+      "bytes": 2208,
+      "sha256": "f7e1860dc32b4d713ff2385f5b975b9eeea7efdd672cdd1ba9cb91c1cf175a05"
+    },
+    {
+      "path": "scripts/fetch_s1_crop.py",
+      "bytes": 12432,
+      "sha256": "ea1fcabe86c185fdc755256f3dd04f94c79843c6cf58902e218f820ec54784b8"
+    },
+    {
+      "path": "scripts/infer_fresh_water.py",
+      "bytes": 9849,
+      "sha256": "d8cd95d6d79bc079009aca6e858fec326fa2f068b38b65606d6090e8b1a7f1cd"
+    },
+    {
+      "path": "scripts/infer_trained_water.py",
+      "bytes": 13451,
+      "sha256": "06535d8f0125a8b1da2fd6e362f2bd447dfc6ecd4355bee817f9bc00225857cf"
+    },
+    {
+      "path": "scripts/inspect_pilot.py",
+      "bytes": 7971,
+      "sha256": "d306cfb8ce6b57acf0932aaf4abf79157f13a6793c58518b7dc2f34b856cbe1c"
+    },
+    {
+      "path": "scripts/make_fixture.py",
+      "bytes": 2936,
+      "sha256": "2d16d838821f49bc561cb3674975627f42e7f2b71aa20d1abb895a58cc08d804"
+    },
+    {
+      "path": "scripts/map_core_access.py",
+      "bytes": 8109,
+      "sha256": "078c53b2ff73177326b71f8935f3de4c17a484bebaae24de3f466dfb5ed611f9"
+    },
+    {
+      "path": "scripts/map_fresh_exposure.py",
+      "bytes": 31269,
+      "sha256": "c351e7542ea33dcee7446b30738bbe4a0d1a2327eb17802aef9027ee5e90509d"
+    },
+    {
+      "path": "scripts/map_node_drive_access.py",
+      "bytes": 8139,
+      "sha256": "b3409956607aeb14d0f312c31c66de8c4f9cf1163b1053bee8087194549e00d1"
+    },
+    {
+      "path": "scripts/map_radar_exposure.py",
+      "bytes": 20832,
+      "sha256": "9bf5c8b2ff71409b262f8184d18505c8dcb7d2cf0149db3fa1e6b4d0b6849bec"
+    },
+    {
+      "path": "scripts/map_supplemental_exposure.py",
+      "bytes": 9365,
+      "sha256": "f7f8793744475670c363363c7ffc283f6a60513912bb9347e0416b717b826e57"
+    },
+    {
+      "path": "scripts/package_licensed_source_20261012.py",
+      "bytes": 11275,
+      "sha256": "5eae456d399969a30d721b608ac1e7b6c03bb8d909abe326a90618c013b902d8"
+    },
+    {
+      "path": "scripts/package_saved_case.py",
+      "bytes": 15964,
+      "sha256": "b81da125e8b4f5c07bfd393528a2c9b019d29fef70a1b17b358464436b05bd2a"
+    },
+    {
+      "path": "scripts/package_source_candidate_20261008.py",
+      "bytes": 10235,
+      "sha256": "95e28e3541c65a82db36030f167807cd552a56ac128abdc55003b4367d477313"
+    },
+    {
+      "path": "scripts/package_source_candidate_20261011.py",
+      "bytes": 2250,
+      "sha256": "df45a88a07372d40cfe6804b131ffa72e0656253c89303718ee6af2a184ea6c6"
+    },
+    {
+      "path": "scripts/plan_fresh_case.py",
+      "bytes": 2470,
+      "sha256": "0cc8037b9e805c6b8c148c7993ab48daacf00a85226c48dd0d4c5ec87811c648"
+    },
+    {
+      "path": "scripts/plot_radar_evidence.py",
+      "bytes": 3905,
+      "sha256": "fd9224e27d4cc1896b7c707c4943271f25e5b17225bdeba4c3747a76b4b39e8c"
+    },
+    {
+      "path": "scripts/prepare_copdem_ellipsoid.py",
+      "bytes": 15194,
+      "sha256": "c6c377508acf7a6cfca9f3ca8d5f1a8cf6985de287ac2b6ef5ac334e7f69acf0"
+    },
+    {
+      "path": "scripts/prepare_fresh_dem.py",
+      "bytes": 6167,
+      "sha256": "f1e056cfee367a007b19026ab4324e1c33d0fe40e40808757296224259a32655"
+    },
+    {
+      "path": "scripts/prepare_snap_external_dem.py",
+      "bytes": 11772,
+      "sha256": "1310e0bf2e390ddf024f662d830f8803ea7c6fa7ca32a2c6a88b5930b87bfb0a"
+    },
+    {
+      "path": "scripts/prepare_snap_native.py",
+      "bytes": 6251,
+      "sha256": "62eab2643018e23753cd2a5cc0c9761993c7927bfc496fb8b61b81850bf8d781"
+    },
+    {
+      "path": "scripts/process_fresh_s1.py",
+      "bytes": 22645,
+      "sha256": "b95286acbf15f4fa67cd39fa382e80ec1c423af028f8d104649d225bb3800d9b"
+    },
+    {
+      "path": "scripts/process_s1.py",
+      "bytes": 3652,
+      "sha256": "083b3d8e9e2ded189fc2fceb26d4513b7f74b298d9932df299a443be9b6c4c75"
+    },
+    {
+      "path": "scripts/process_s1_copdem.py",
+      "bytes": 8503,
+      "sha256": "46aff72cb65aeb28dfaa086bb0e185dbe7ac297cd0fbc28e2d99377581b98907"
+    },
+    {
+      "path": "scripts/process_s1_snap.py",
+      "bytes": 11224,
+      "sha256": "3ff732b9da2038391025fa04d59ff0ee8ef9d391e8dde6070daffcdce8ab8d79"
+    },
+    {
+      "path": "scripts/prove_access_bounds.py",
+      "bytes": 8308,
+      "sha256": "eb74d85be31dde3dc3eb0ee9fdb67957201c6a13b3e14574c08972883f95974c"
+    },
+    {
+      "path": "scripts/prove_nearest_access.py",
+      "bytes": 2702,
+      "sha256": "bdcc188748c355f7623ec5f8199ab58d1767f16eb888e92b942f7b5f02488e16"
+    },
+    {
+      "path": "scripts/prove_snap_external_dem.py",
+      "bytes": 9450,
+      "sha256": "7f5c24a6dac8d294ca5df00feb3efd5a6673a48e9cfbd666cbe55984c32b473e"
+    },
+    {
+      "path": "scripts/refine_water_figure.py",
+      "bytes": 5088,
+      "sha256": "b5c8e08790ff67b121b45bfe4b3f3d7ccad2d41ee204b2b731f460f1c7815039"
+    },
+    {
+      "path": "scripts/render_node_drive_access.py",
+      "bytes": 24500,
+      "sha256": "ddf2ee7de989dde6c4516063232c25fe4ca7e3fe834b625eb55767f3b67875ec"
+    },
+    {
+      "path": "scripts/render_water_transfer.py",
+      "bytes": 8494,
+      "sha256": "167bd1e14339d2e23e4f3f35ded7502682c97a280158411d0addaefb3f1cc241"
+    },
+    {
+      "path": "scripts/run_copilot_model.py",
+      "bytes": 2696,
+      "sha256": "5b12d83015e64bbeb45981de86c054145e5bfb516d4ce43bd23b22a327dbe1b8"
+    },
+    {
+      "path": "scripts/run_fresh_case.py",
+      "bytes": 36750,
+      "sha256": "0637be8c06126c7205388f54ce8b03776a2741fc79e24240ef0b4a7847776bec"
+    },
+    {
+      "path": "scripts/run_fresh_observation_access_20261012.py",
+      "bytes": 28629,
+      "sha256": "b5e36b8247d913bb398a6504d703fcb17730c0887e1a27fac69e3eb53e5d1b8d"
+    },
+    {
+      "path": "scripts/run_fresh_optical_20261012.py",
+      "bytes": 23605,
+      "sha256": "d9e53115ac117bbc7e456ce3d1a1d5cb29e1fd1fa32ed11eef8272372df3b1e5"
+    },
+    {
+      "path": "scripts/run_fresh_optical_20261012_v2.py",
+      "bytes": 26985,
+      "sha256": "f1194f27457946da92bc354829eb59274018071c8c15bec7f94aa84c8dce2d50"
+    },
+    {
+      "path": "scripts/run_fresh_optical_20261012_v3.py",
+      "bytes": 26986,
+      "sha256": "89bf71c774f524a581c9a03f6a5c7f78d3b65189182fdb089de3e86696a19bd8"
+    },
+    {
+      "path": "scripts/run_multimodal_fresh_20261012.py",
+      "bytes": 12799,
+      "sha256": "9c428b46d6795dd3f7708a63d14866d49a67b3da714ba70d50742507bc1145e5"
+    },
+    {
+      "path": "scripts/run_optical_composite.py",
+      "bytes": 20032,
+      "sha256": "d4b1df5d352eeba527d482ba4189bc84bf755bcd6192cc95048a6fb63d5680f1"
+    },
+    {
+      "path": "scripts/serve_focused_copilot.py",
+      "bytes": 789,
+      "sha256": "f74e3b9ac3c19b03a486cb279593d54a1e6004c55ca0df7dc97201f5676fc589"
+    },
+    {
+      "path": "scripts/serve_fresh_console_20261012.py",
+      "bytes": 9486,
+      "sha256": "7047834236cab16ac82bda3be73b92c5bab0bbedcf79279fcdf2d89af0661e9d"
+    },
+    {
+      "path": "scripts/serve_fresh_copilot.py",
+      "bytes": 13160,
+      "sha256": "d02fec65d0e47bf6a7b9c8be184569825eb6970024724d5a8a8716ed43d62542"
+    },
+    {
+      "path": "scripts/serve_multi_case_copilot.py",
+      "bytes": 10199,
+      "sha256": "30611f0940fd76275bb799eccb9be78c78b2ffa3cc51e4f5eee9aec29f70f5a7"
+    },
+    {
+      "path": "scripts/serve_observation_copilot_20261011.py",
+      "bytes": 5545,
+      "sha256": "ed7d6470aa13994a1a58869ed7d74638650409ec00de41a19762d8fdca09ceca"
+    },
+    {
+      "path": "scripts/serve_research.py",
+      "bytes": 32435,
+      "sha256": "840fe9f9141c41dd4e48a68d80a8d73b53ca2170ad851d3574e4435a1b5baea9"
+    },
+    {
+      "path": "scripts/serve_saved_case.py",
+      "bytes": 11385,
+      "sha256": "c9b4ed2ea818cb69102a859f1d9dca3a83933d20b7beaecd42a98969c1d2b28a"
+    },
+    {
+      "path": "scripts/setup_native_runtime.py",
+      "bytes": 32084,
+      "sha256": "e7a1de42fb0d553c39087d58047d2867d1dea75a9bea4f9fa0b3ee16f91f0e81"
+    },
+    {
+      "path": "scripts/snap_gpt.py",
+      "bytes": 909,
+      "sha256": "1348137edab36616dfb319468ee12a5c49784b744f43a03e3c7a706161d593fc"
+    },
+    {
+      "path": "scripts/train_sen1_cpu.py",
+      "bytes": 16814,
+      "sha256": "8a592ee17e08b3235c983223c2769d6c0010c918e80d2f79bbe292a7c93d7071"
+    },
+    {
+      "path": "scripts/verify_inspection_results.py",
+      "bytes": 5096,
+      "sha256": "4f2f2ca5265552571ce683293ece377a6709c50f5d879b41bfc68e5f8b1d9961"
+    },
+    {
+      "path": "scripts/verify_radar_registration.py",
+      "bytes": 15296,
+      "sha256": "080c0f77a185acad3e43c8fa36268f88c6ab6d942cb6ef600996f46a0beed8f0"
+    },
+    {
+      "path": "src/akash_flood/__init__.py",
+      "bytes": 22,
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    {
+      "path": "src/akash_flood/access.py",
+      "bytes": 11565,
+      "sha256": "d58db1f3f080b604d172e2982ec8c81bf1962f22f3a4dd56d4811bfdf848fc86"
+    },
+    {
+      "path": "src/akash_flood/access_bounds.py",
+      "bytes": 13664,
+      "sha256": "0321c2552d3fa38948b61fef6fd7436d1e9af2c45971599a26089cfaa040fc1f"
+    },
+    {
+      "path": "src/akash_flood/buildings.py",
+      "bytes": 6095,
+      "sha256": "fc4e9ede857acb5408954e3146ba2ee32b833518e2d32a9c94d2b15f1c376e12"
+    },
+    {
+      "path": "src/akash_flood/catalog.py",
+      "bytes": 5202,
+      "sha256": "109c37661e1186fa15ccb21b3e93796ac927ea0326dcd9e641678040e94e08f0"
+    },
+    {
+      "path": "src/akash_flood/cli.py",
+      "bytes": 3284,
+      "sha256": "8a5aa0d5123079deadba4a99139568bc00b1a6e854336897266b5e2e9cb4e216"
+    },
+    {
+      "path": "src/akash_flood/console_activation_20261012.py",
+      "bytes": 12568,
+      "sha256": "9c00040bd65a83780b5e44c6493ee1105f2a579b9dd092a8b123260f332aaf2f"
+    },
+    {
+      "path": "src/akash_flood/copilot.py",
+      "bytes": 30276,
+      "sha256": "7e4ec6cf70d6a84c02c6764da3dab6ff49cb44caf7e796207886a2bd71524874"
+    },
+    {
+      "path": "src/akash_flood/flood.py",
+      "bytes": 3474,
+      "sha256": "271335b1ad50d25abbb6186bbd9c615dfa40c39ab4d03ba58abcfde3229491d4"
+    },
+    {
+      "path": "src/akash_flood/flood_model.py",
+      "bytes": 5840,
+      "sha256": "af81554d61c7a4d24a6d50dd1cfbeaa7b643e740384fb0694ccededfae8338a6"
+    },
+    {
+      "path": "src/akash_flood/focused_copilot.py",
+      "bytes": 16962,
+      "sha256": "0fa1be703fdb05acb931a42f5bb47a6b0ba5815dc481925954191f5816a9c5bb"
+    },
+    {
+      "path": "src/akash_flood/fresh_case.py",
+      "bytes": 34455,
+      "sha256": "ede92540b07cb4e628948defce1aceae090695b185d2adfe19162cc3a6c361ab"
+    },
+    {
+      "path": "src/akash_flood/fresh_console_20261012.py",
+      "bytes": 33291,
+      "sha256": "7170b33373555ae8609d85324e452c4a6ca559c8ef4251de8eaab7098075ea74"
+    },
+    {
+      "path": "src/akash_flood/fresh_copilot.py",
+      "bytes": 59731,
+      "sha256": "842950fbee1276a3cb5a276876a9787ee331e9f0f400ce29b1df8355d03ff957"
+    },
+    {
+      "path": "src/akash_flood/fresh_dem.py",
+      "bytes": 6096,
+      "sha256": "38fd4e0c3309c56825ac591b955d866bb1633e732cf10ee0b77e29b28c7b2a34"
+    },
+    {
+      "path": "src/akash_flood/fresh_native.py",
+      "bytes": 42474,
+      "sha256": "fd8d9ec040e8bba3ef070e283b7b47bb58745d0c54adff43a73d88249f7bd5e2"
+    },
+    {
+      "path": "src/akash_flood/fresh_spawn_20261012.py",
+      "bytes": 11231,
+      "sha256": "5568106a18295ee1fa1fd131c383a5f170d32b958377573e4320cbb7b80f5ec2"
+    },
+    {
+      "path": "src/akash_flood/inspection.py",
+      "bytes": 9433,
+      "sha256": "683c14449e011f11046be86b88515d0e513f2d6ea124e197d6ee025e43528827"
+    },
+    {
+      "path": "src/akash_flood/multi_case_copilot.py",
+      "bytes": 27554,
+      "sha256": "102d899610293538755c48527fbcce295f50a76f0617ef1f3d9f279d4d062c0a"
+    },
+    {
+      "path": "src/akash_flood/nearest_access.py",
+      "bytes": 4532,
+      "sha256": "d4d6ac5cfb2ac52a1da965ee671916ca53eef7c167eee7bfcc612094e5b4a6de"
+    },
+    {
+      "path": "src/akash_flood/observation_access.py",
+      "bytes": 14825,
+      "sha256": "fe9a37ef9dae050c4bfcd7aa30cb91e8ac420199bf3079de0c2600652e4a660b"
+    },
+    {
+      "path": "src/akash_flood/observation_copilot.py",
+      "bytes": 27839,
+      "sha256": "f0ebae503e84853270d318517de5fc7ef02f36d24e0721f6105c398f3bea489b"
+    },
+    {
+      "path": "src/akash_flood/optical_change.py",
+      "bytes": 9310,
+      "sha256": "d8c54acb56945f05de4b6e977557bd5d37057e77685a22bfe4ec7588dae3b8bb"
+    },
+    {
+      "path": "src/akash_flood/optical_composite.py",
+      "bytes": 15038,
+      "sha256": "41b21e66d07e341ecec5678a86d1852b19e648f2e89566732faf5e9b3b7235ff"
+    },
+    {
+      "path": "src/akash_flood/optical_observation.py",
+      "bytes": 13926,
+      "sha256": "239e91cae2774c5eb1a5772c251348746ffbd1744cf2e314553933953e3a0b7e"
+    },
+    {
+      "path": "src/akash_flood/osm.py",
+      "bytes": 3189,
+      "sha256": "bbe1764eab4651b1a4d7143e9515f6804a5cd5c66923ae4035a3274973c6ab25"
+    },
+    {
+      "path": "src/akash_flood/pipeline.py",
+      "bytes": 8760,
+      "sha256": "f9cf6df3d49abc80974419772b4e32779427403507dea25fde63e2d295ae045c"
+    },
+    {
+      "path": "src/akash_flood/public_discovery.py",
+      "bytes": 4286,
+      "sha256": "303500cffb4ce49a2e4acdeb03a83ceef49506b3ce4b31bae2a6d793b8765036"
+    },
+    {
+      "path": "src/akash_flood/radar.py",
+      "bytes": 4532,
+      "sha256": "d8e8978b87775faec09c4bbc2de77b2f98f4362f2838b9aa060635731330f55e"
+    },
+    {
+      "path": "src/akash_flood/radar_copilot.py",
+      "bytes": 43514,
+      "sha256": "3e9fdeaafab1b4a46d740abc7c8cfb22e162a364ee1034c9d1ecdaa46ee20682"
+    },
+    {
+      "path": "src/akash_flood/radar_evidence.py",
+      "bytes": 8308,
+      "sha256": "002df85cdd604c1691a04c6fcf32620ee72c09b5bb149f2a5493239d88dc0572"
+    },
+    {
+      "path": "src/akash_flood/raster.py",
+      "bytes": 2408,
+      "sha256": "23fc4b8cdc9a3d9810eae9740f26604c697065ab7a17110f28e2962fafdac4e1"
+    },
+    {
+      "path": "src/akash_flood/report.py",
+      "bytes": 6421,
+      "sha256": "c5ee3313e192db823cad1978551028e92ae0df2dac6b037180d7dfa3f79df9d6"
+    },
+    {
+      "path": "src/akash_flood/s1_crop.py",
+      "bytes": 11525,
+      "sha256": "dd8af27c97b89425d58e40892fb00387f996c9c2eac29775a1b906ba88bfb4e1"
+    },
+    {
+      "path": "src/akash_flood/snap_products.py",
+      "bytes": 8627,
+      "sha256": "f404a3b943c8a6ac08404511dac5e91ecd4ce99b6ca9dbf842d007b87e9c7b82"
+    },
+    {
+      "path": "src/akash_flood/terrain.py",
+      "bytes": 9157,
+      "sha256": "06f990e0d75f8410432196d299c84edc350b90e7b1918d21a95513836252816f"
+    },
+    {
+      "path": "src/akash_flood/water_inference.py",
+      "bytes": 4080,
+      "sha256": "2b751013903621b2f2c5e4923605de5bc73544b1344f154619b3d2709974b611"
+    },
+    {
+      "path": "tests/test_access.py",
+      "bytes": 5803,
+      "sha256": "5dbd63af3ec3666c644814c34db2d62a3aa419a1874843cc9a7a72b387e27f09"
+    },
+    {
+      "path": "tests/test_access_bounds.py",
+      "bytes": 7989,
+      "sha256": "a0bed79e9d78b1fcd113c42b546edd96097df8ec0efceda9d4bf81ef3f67c81b"
+    },
+    {
+      "path": "tests/test_acquire_historic_osm.py",
+      "bytes": 4727,
+      "sha256": "bde57182e53e31a14edb7933646ff249329a322f885ac50fbd46666b8ab339f7"
+    },
+    {
+      "path": "tests/test_buildings.py",
+      "bytes": 2817,
+      "sha256": "c6e55cff24d6118b13a4ea3829cde7cd692bb9c06a41c2e4580acf6e03d7f6be"
+    },
+    {
+      "path": "tests/test_catalog.py",
+      "bytes": 1323,
+      "sha256": "3779b0162328dc6735cc7d1efce050cce147c10e1263b1c39b40bdc5d7d15be9"
+    },
+    {
+      "path": "tests/test_complete_optical_inputs.py",
+      "bytes": 2371,
+      "sha256": "fd0679a374a1c900dd94746b03007c38d455a3ed13e228ca187365540ca61c85"
+    },
+    {
+      "path": "tests/test_console_activation_20261012.py",
+      "bytes": 14982,
+      "sha256": "a259fcdde035a6b5a98040a9818863b659355d9bee582c108a490584d3d1ed6b"
+    },
+    {
+      "path": "tests/test_copdem_ellipsoid.py",
+      "bytes": 4398,
+      "sha256": "79f28a5a2f5cfeba659f86392de1f9995603ede418aa0bd99c84c0c5488d1ce6"
+    },
+    {
+      "path": "tests/test_copdem_processing.py",
+      "bytes": 2033,
+      "sha256": "3441887a29c0185ff081992d8d20916e6d2cb07ce891b1d3633d9459cc60c2d3"
+    },
+    {
+      "path": "tests/test_copilot.py",
+      "bytes": 14212,
+      "sha256": "a235f9ced2b44322e1afc3b625bf96c1ebe7a15165abbd4998e64d00d9f2d822"
+    },
+    {
+      "path": "tests/test_core_access_review.py",
+      "bytes": 15565,
+      "sha256": "8dedd95dfcef72f46b570ccdf45376a372dda159c36c2cb937cb931bed676323"
+    },
+    {
+      "path": "tests/test_flood.py",
+      "bytes": 1258,
+      "sha256": "acbb9efde326596ef5ced2ac322d313f272e13101d4efdb5fa54d84b5281e12b"
+    },
+    {
+      "path": "tests/test_flood_model.py",
+      "bytes": 4607,
+      "sha256": "dee1ed4d9017476a25f24980626a74e964062caaa7de1c475b1f479053f7a7e7"
+    },
+    {
+      "path": "tests/test_focused_copilot.py",
+      "bytes": 10255,
+      "sha256": "081e55f587f5a6c7f8dd82ba5d8ce30a9c931f4962020176c5184b30d65d4e97"
+    },
+    {
+      "path": "tests/test_fresh_case.py",
+      "bytes": 14656,
+      "sha256": "4a72d07f5dbdbe7b47e2353955a2bd1752d9ba23872dd6e9709fb848d92f678a"
+    },
+    {
+      "path": "tests/test_fresh_console_20261012.py",
+      "bytes": 18499,
+      "sha256": "b9947d9091c4d2d342650a4edfbe94cf34d6dc77c551bdd9b518e32bca6e5cda"
+    },
+    {
+      "path": "tests/test_fresh_copilot.py",
+      "bytes": 15021,
+      "sha256": "f41f02e6bbd1812039fb601bc90adb3fba3a3089b9e0a0493551df7e74990a92"
+    },
+    {
+      "path": "tests/test_fresh_copilot_server.py",
+      "bytes": 9960,
+      "sha256": "c0ef10a1b6c3c296e7a8ca6e062212cbb117be4e2bcf6ceb346c023d35c19343"
+    },
+    {
+      "path": "tests/test_fresh_dem.py",
+      "bytes": 2440,
+      "sha256": "d68510910fdaa2ec274bc56991ffbe27c410d80295ca2b4e315e43c0ce267bb3"
+    },
+    {
+      "path": "tests/test_fresh_native.py",
+      "bytes": 16430,
+      "sha256": "cbf564411f5d4c4f639c00e739bd19c0f94f63933ca060ac881054efe3e8b825"
+    },
+    {
+      "path": "tests/test_fresh_observation_access_20261012.py",
+      "bytes": 14422,
+      "sha256": "99608f8f0b1ca0fda98889de0ceaa0e0633907ae66dff7f0f8e8513472b0b563"
+    },
+    {
+      "path": "tests/test_fresh_optical_20261012.py",
+      "bytes": 10270,
+      "sha256": "fa0b6ce93cd69671395f0c81a30c32a5706ec6efd21b4bf0e22142bf985a4438"
+    },
+    {
+      "path": "tests/test_fresh_optical_20261012_v2.py",
+      "bytes": 12942,
+      "sha256": "aebf676556fae1038edadbb1176f1dcc48431a43a4e71907e97c3f4603c03d20"
+    },
+    {
+      "path": "tests/test_fresh_optical_20261012_v3.py",
+      "bytes": 12942,
+      "sha256": "8553c1ad3a5d4b4441f49d80ff0734ea12440ee6418a7cd841eaec46110d6bca"
+    },
+    {
+      "path": "tests/test_fresh_report.py",
+      "bytes": 4049,
+      "sha256": "f3a254d182e20a141326c9c9a7520391441d234cd9c38b073ff8900ac0bcf183"
+    },
+    {
+      "path": "tests/test_fresh_report_optical.py",
+      "bytes": 4307,
+      "sha256": "c9a1cd01f03715014ada758cb562cb82dd839374eb34a5e190a7c5a00725ca12"
+    },
+    {
+      "path": "tests/test_fresh_s1_processing.py",
+      "bytes": 10001,
+      "sha256": "a756012518327a79b0b21e5ac0211c3ed833c4c741e960280347a4a11e930fb1"
+    },
+    {
+      "path": "tests/test_fresh_spawn_20261012.py",
+      "bytes": 5674,
+      "sha256": "ef636b8510d095e90a32c429d7df7d63839159fddd008264e381a4eed475e0ac"
+    },
+    {
+      "path": "tests/test_fresh_water.py",
+      "bytes": 1654,
+      "sha256": "a4b6b6ac632133d1855e66c2f6fe0ab7aa45a90b9a4c5528c63d6fd2ccef0a69"
+    },
+    {
+      "path": "tests/test_hazard_reference.py",
+      "bytes": 10299,
+      "sha256": "76a08ffed5f08ac7d4fa5dc0853fef2d12931a45fb8cc49504f954fe7ea5b9a8"
+    },
+    {
+      "path": "tests/test_historic_provider_20261012.py",
+      "bytes": 1737,
+      "sha256": "dda6c665b4778b708496ad588df7d2ed19b9b06a7b86e93e326f9e7746942e3d"
+    },
+    {
+      "path": "tests/test_historic_transport_review.py",
+      "bytes": 5736,
+      "sha256": "3706de12b7ca2c4937ea3d964615ba994dae9c64e845b5b4828ba4bcc77f713c"
+    },
+    {
+      "path": "tests/test_inspection.py",
+      "bytes": 3675,
+      "sha256": "2da3d0353863e8ae9741cd4c037048aac91dfc2f4222e82136a64988e1c145ee"
+    },
+    {
+      "path": "tests/test_map_fresh_exposure.py",
+      "bytes": 13717,
+      "sha256": "5063ea6fbd81310aa8316e40256128dc5830c52a675a53091e788f48154b8985"
+    },
+    {
+      "path": "tests/test_map_radar_exposure.py",
+      "bytes": 11001,
+      "sha256": "a188ee80978604e3643eeb460c1c33e99b0257cf5139058bf8385c6efc57ed82"
+    },
+    {
+      "path": "tests/test_multi_case_copilot.py",
+      "bytes": 7468,
+      "sha256": "d5f5bb37ff81b995942d3103c4662238a813136b1ad7dd716794653dbc95955a"
+    },
+    {
+      "path": "tests/test_multimodal_workflow_20261012.py",
+      "bytes": 5262,
+      "sha256": "c24e19df38bfe6835cc7026b4d259616932e59e96e7f309437e673613b90a747"
+    },
+    {
+      "path": "tests/test_native_runtime_setup.py",
+      "bytes": 12282,
+      "sha256": "0ec6c32927267299a153420f12c79e85f38691996823e9d8c8df543888330be4"
+    },
+    {
+      "path": "tests/test_nearest_access.py",
+      "bytes": 3719,
+      "sha256": "ee0466dac7665e081d2fa3ec65ee5106e93078f49d3134bf570591102a9c7979"
+    },
+    {
+      "path": "tests/test_node_drive_access_review.py",
+      "bytes": 12522,
+      "sha256": "31148b2940ac1efe2f2032ccf3b0f090db9ba0f22a5ea22e6e1eb289a950a501"
+    },
+    {
+      "path": "tests/test_node_drive_report_review.py",
+      "bytes": 9665,
+      "sha256": "4881a5c738f13d6423354be2c4332c2d52065799f9bd55661d158ef01da7f978"
+    },
+    {
+      "path": "tests/test_observation_access.py",
+      "bytes": 7700,
+      "sha256": "361020bdf5153a5ecb054fdfa5a35ed3b28034d6bd64bf4c5fd46dc9173841ca"
+    },
+    {
+      "path": "tests/test_observation_copilot.py",
+      "bytes": 11892,
+      "sha256": "ed1ca72b0662b8e15a3da55b546876262e60b17ba50eff6b818f8622d531efb2"
+    },
+    {
+      "path": "tests/test_optical_change.py",
+      "bytes": 5679,
+      "sha256": "b19790a95815545a2137adec3cdc5c71af457c4ee8f2acd57b916492487c25f2"
+    },
+    {
+      "path": "tests/test_optical_composite.py",
+      "bytes": 4705,
+      "sha256": "cdebe41ad7a0edad2b9984ef365f302d3f768ac296cad794f4c348cb214f56b5"
+    },
+    {
+      "path": "tests/test_optical_crop_reuse.py",
+      "bytes": 4038,
+      "sha256": "a1ecae27e5926048409fd059f17cf99aedad4084f8fd1d1f4a66563e2cf8a5b4"
+    },
+    {
+      "path": "tests/test_optical_observation.py",
+      "bytes": 19842,
+      "sha256": "4dbd066fb68e04ae60680eed82c069083f74289602aff1c4ee1c89c6bef56619"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "bytes": 1884,
+      "sha256": "e256f1397373ccca4a9712499893be28a141b622f13b7ad68e1883c13c57f7f2"
+    },
+    {
+      "path": "tests/test_public_discovery.py",
+      "bytes": 2184,
+      "sha256": "e7292784fb092b7d39f5714a64eb5f832a690ebcbde564e11ac7610be9fb4bdb"
+    },
+    {
+      "path": "tests/test_radar.py",
+      "bytes": 1498,
+      "sha256": "f6bb9cbc88140c1c754e8b0902e96f44d02291b739885eb442852fa5934f9db1"
+    },
+    {
+      "path": "tests/test_radar_copilot.py",
+      "bytes": 24021,
+      "sha256": "14b00ffecd8d3c7921ad62b6f2ec9701de5177019b95ceb37095d3f7ac40beb6"
+    },
+    {
+      "path": "tests/test_radar_evidence.py",
+      "bytes": 2766,
+      "sha256": "9d6f5df97ad6daa97f3394ac8ffaa44a6c72acf28dc06c013bd6dbc3bd06d6fe"
+    },
+    {
+      "path": "tests/test_radar_registration.py",
+      "bytes": 6864,
+      "sha256": "bf83b582f4d7921536f74b14a435f73d1abc93e600830a42c65bb585c7cec0c4"
+    },
+    {
+      "path": "tests/test_run_fresh_case.py",
+      "bytes": 11910,
+      "sha256": "1be36450f45be551dc546888d8d64dc5cfef096e4e5ca9b4b3253108171b9c6c"
+    },
+    {
+      "path": "tests/test_s1_crop.py",
+      "bytes": 4598,
+      "sha256": "43f1c5f86dd79a0f931ebbd3ceba82149dfc897e0089939f9df582fe6034fd58"
+    },
+    {
+      "path": "tests/test_saved_case_bundle.py",
+      "bytes": 11102,
+      "sha256": "2dc22bae81f034fd28cda382a940125664699f23ff0c4769ed81bbca5e055ff2"
+    },
+    {
+      "path": "tests/test_saved_dem_samples.py",
+      "bytes": 2177,
+      "sha256": "1848eb23d6ca06aafd4ab3027d0938169da8fc9f6101d86fb118b5996b912216"
+    },
+    {
+      "path": "tests/test_sen1_training_loader.py",
+      "bytes": 2385,
+      "sha256": "43fea00262213dc0118d4931844ceb41ee85f882f66a0ba28e572a8b3fefc004"
+    },
+    {
+      "path": "tests/test_snap_dem_overlay.py",
+      "bytes": 3626,
+      "sha256": "54e68686c9fb8686866e1e009eb656cc4a014d1bdbdec182777ec0bc4b1f1918"
+    },
+    {
+      "path": "tests/test_snap_processing.py",
+      "bytes": 3126,
+      "sha256": "844ea1e64e1bfe8c6fe0f04dd4979e972da47cd26b2110aa94e7643a6d0c8c80"
+    },
+    {
+      "path": "tests/test_snap_products.py",
+      "bytes": 4890,
+      "sha256": "41bffdf63cb9fc5c8e16b7b8007e8ed5e309c91deb50a21b0584449b98f6f6f3"
+    },
+    {
+      "path": "tests/test_supplemental_exposure.py",
+      "bytes": 3425,
+      "sha256": "0670b8a8f1f68c5e6fa77fb9b199ca5d86fd19cb92f85ae3abfbe624c2f97031"
+    },
+    {
+      "path": "tests/test_terrain.py",
+      "bytes": 2006,
+      "sha256": "121a3a59e49586fb2f50d75a5bf052fca32d5ea11ce4e6e0d53e7f204ec40b7f"
+    },
+    {
+      "path": "tests/test_water_inference.py",
+      "bytes": 2933,
+      "sha256": "e205c73198cd9c4733efe4851a7c8690481cca75ace77592a268ff323ca04c44"
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 198924,
+      "sha256": "507eee14eb3b01ca3a7f880ecf4eb98d7d300884b471ae0dad5b531cf3ae67d9"
+    },
+    {
+      "path": "web/app.js",
+      "bytes": 28285,
+      "sha256": "bbdc0f1e5f8ba449e9fef5cf8632f96d2447b512ade7f1d065cff5dff45e2955"
+    },
+    {
+      "path": "web/fresh-console-20261012/app.js",
+      "bytes": 10084,
+      "sha256": "752db903a76824d64e964fe87a6d1744dffdeeca4df1e007a642503fe6b56177"
+    },
+    {
+      "path": "web/fresh-console-20261012/index.html",
+      "bytes": 6382,
+      "sha256": "160ee9a26dece9f6ac48599ff3c324eaace01511d27af2c84c78cd914bd21e4f"
+    },
+    {
+      "path": "web/fresh-console-20261012/style.css",
+      "bytes": 7189,
+      "sha256": "c4e33c87249b3bebc7d44090f12debb4d631cef5d2d063a44c1d1ca5cc45225a"
+    },
+    {
+      "path": "web/fresh-copilot-panel.html",
+      "bytes": 4072,
+      "sha256": "388b1163b78d8637c474c70efad2a2238fff57ccd7ab0ebd197acf9554478348"
+    },
+    {
+      "path": "web/fresh-copilot.js",
+      "bytes": 4048,
+      "sha256": "8d74490f03f176d25b6dca7089d8d40da43bc819a21c729361b30e1b41c16054"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 10930,
+      "sha256": "cab42898079d7bb16f8592450ad879513c2030a9bc7617a97a764ea0e222b6a7"
+    },
+    {
+      "path": "web/multi-case-copilot.html",
+      "bytes": 9070,
+      "sha256": "d74a88af143eebbf4163106a07e4c1b23a6c8826700354e83cc1517800ecdb8c"
+    },
+    {
+      "path": "web/observation-access-audit.html",
+      "bytes": 15220,
+      "sha256": "7fa2705ff64365eb230752f70781c2674c646ed96208f3886c02c9d12579e210"
+    },
+    {
+      "path": "web/observation-copilot.html",
+      "bytes": 9877,
+      "sha256": "ffa93aaa399886ecfc06a30f47d18f6be5df01efb27ee94fb72af2f6f64e274c"
+    },
+    {
+      "path": "web/observation-geography-20261012.html",
+      "bytes": 12130,
+      "sha256": "d76065d52d1820f65b07dd8a72d68d93ea454eca6f4f6e31ef522b10c98b65ca"
+    },
+    {
+      "path": "web/observation-geography-core-20261012.mjs",
+      "bytes": 3458,
+      "sha256": "b8fb3d2a4ab34a869a9946f8268ac4b54ceec00d2b42ebeb60925facc6239234"
+    },
+    {
+      "path": "web/observation-geography-ui-20261012.mjs",
+      "bytes": 16368,
+      "sha256": "d6b997a2d00a3e99539c502297ea2bf74ea95b97079f9598c096a6ff56e46132"
+    },
+    {
+      "path": "web/optical-completion-audit.html",
+      "bytes": 12332,
+      "sha256": "e233b672634b947a29e2cd6e153c3bfe25b32e6dea9f38507efa17a5ec2b902e"
+    },
+    {
+      "path": "web/optical-composite-audit.html",
+      "bytes": 11155,
+      "sha256": "152b5e8c944fb83d59d571134a7d9755eb693c1eb7fdc60ba4756991b89131cb"
+    },
+    {
+      "path": "web/style.css",
+      "bytes": 12626,
+      "sha256": "d8c15ed5a04e0d4694cd12d72f562d2e9dc63295687a312e2834fea018501832"
+    }
+  ]
+}

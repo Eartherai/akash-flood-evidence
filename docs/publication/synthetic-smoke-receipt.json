@@ -1,0 +1,148 @@
+{
+  "schema": "akash-relocated-source-synthetic-smoke-v1",
+  "created_at": "2026-10-13T15:28:45.638065+00:00",
+  "extracted_source_root": "/Users/earther/Desktop/IIT mandi/akash-flood/output/github-publication-2026-10-13/repository/akash-source-candidate",
+  "installed_package_source": "/Users/earther/Desktop/IIT mandi/akash-flood/output/github-publication-2026-10-13/repository/akash-source-candidate/src/akash_flood/__init__.py",
+  "python_version": "3.13.14",
+  "data_kind": "synthetic_fixture",
+  "gpu_used": false,
+  "model_inference_run": false,
+  "scientific_accuracy_established": false,
+  "network_requests": 0,
+  "network_guard_probe_blocked": true,
+  "original_workspace_reads": 0,
+  "original_read_guard_probe_blocked": false,
+  "forbidden_original_root": null,
+  "synthetic_metrics": {
+    "thresholds": {
+      "water_threshold_db": -17.0,
+      "change_threshold_db": -3.0,
+      "max_slope_deg": 5.0,
+      "min_component_pixels": 8
+    },
+    "total_pixels": 4096,
+    "assessed_pixels": 4096,
+    "unassessed_pixels": 0,
+    "new_water_candidate_pixels": 240,
+    "preexisting_dark_pixels": 192,
+    "interpretation": "Screening candidates; not validated inundation or structural damage",
+    "has_slope_mask": true,
+    "has_physical_radar_invalid_mask": false,
+    "candidate_area_km2": 0.024,
+    "assessed_area_km2": 0.4096,
+    "pixel_area_m2": 100.0,
+    "building_features_exposed": 1,
+    "mapped_building_features": 2,
+    "building_features_excluded": 0,
+    "road_segments_exposed": 1,
+    "newly_disconnected_under_scenario": 1,
+    "graph_missing_nodes": [],
+    "elapsed_seconds": 0.01
+  },
+  "graph_nodes": 4,
+  "directed_edges": 6,
+  "uncertain_physical_links": 1,
+  "uncertain_directed_edges": 2,
+  "bound_status_counts": {
+    "ambiguous": 1,
+    "robust_connected": 1
+  },
+  "certificate_checks": {
+    "paths": 2,
+    "cuts": 1
+  },
+  "exact_pessimistic_cut_nodes": [
+    1,
+    2
+  ],
+  "guards": {
+    "network_operations_blocked": 1,
+    "original_reads_blocked": 0,
+    "subprocesses_blocked": 0,
+    "model_imports_blocked": 0
+  },
+  "outputs": [
+    {
+      "path": "output/ci-local-synthetic-smoke/inputs/osm.json",
+      "bytes": 1230,
+      "sha256": "5cd82eb6f107cb529db30f74f25c5b4f754a9b9c8c1693e30a821b4974b7a0d7"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/inputs/post.tif",
+      "bytes": 16770,
+      "sha256": "133416f1826de0fb1ddfb52dd9320f78c0f484e25bbc0059da3818d044bf4408"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/inputs/pre.tif",
+      "bytes": 16770,
+      "sha256": "a58c1124c11048d6b4a58e3949dcfe29e339a3e56a77d9a57a617893793f5bfc"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/inputs/run.json",
+      "bytes": 1388,
+      "sha256": "a7de66e1d8bc38114d1451a90b76739f76f92800a8242f9f4ed9d24864ad67b3"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/inputs/slope.tif",
+      "bytes": 16770,
+      "sha256": "a2a6f8feb6d4a26c3322c8e510c87fea37699808992e4d2a52f127eab0f7a76a"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/pipeline/building_geometry_audit.json",
+      "bytes": 173,
+      "sha256": "88e609d421d06c76ef43f32115c17b8f60697d38d1c4e902eb5c648c4ea25073"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/pipeline/exposed_buildings.geojson",
+      "bytes": 1019,
+      "sha256": "e94b96df4e7384434c6c372d2110c9c6320b0ebce27bc5b63e70efce8e0083df"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/pipeline/exposed_roads.geojson",
+      "bytes": 581,
+      "sha256": "7166f644c4c542809ebf639d4d34d1794d10bfd57ec1081252b0a05c01c20488"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/pipeline/hazard_candidates.tif",
+      "bytes": 1005,
+      "sha256": "d76886a343bd0e834bd014a4cf0b14dfde64bfb6f71c7eb219269b61585df944"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/pipeline/hazards.geojson",
+      "bytes": 812,
+      "sha256": "67b05cbc866f384f3bfec9ecc0873ef0171730b15fbc7cd813e3a03f354ae256"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/pipeline/map.html",
+      "bytes": 15275,
+      "sha256": "eae72c0240b5adfe7ad77f9e36661e634e6851c06492c1220bb96f27176c343d"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/pipeline/metrics.json",
+      "bytes": 774,
+      "sha256": "3f99361e6f56653aedf02c645d5b2782834629ffcb6460c6d5289e1ef5d0410a"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/pipeline/report.html",
+      "bytes": 3328,
+      "sha256": "57ac47827c563337b012e1d325b086b46843fddcf6cc9d9793c35056acaeeeb6"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/pipeline/run_manifest.json",
+      "bytes": 3364,
+      "sha256": "85bd116054a3d32fc965485230bd97bade4097aaf6a4ddd95ad3fe5392f34c2d"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/pipeline/settlement_access.json",
+      "bytes": 2124,
+      "sha256": "2abb07bc0d14847d2f382c21aa2d07aad2780114d289d642e847ce5458527eac"
+    },
+    {
+      "path": "output/ci-local-synthetic-smoke/uncertainty-certificate.json",
+      "bytes": 3858,
+      "sha256": "fd42a4eeb16493ec8ed3f6396f65f82979e6a19052baf590db64077765782feb"
+    }
+  ],
+  "wall_seconds": 2.206770083000265,
+  "scope": "fresh base-dependency source/CLI relocation and synthetic path/cut behavior; no satellite/model/SNAP workflow reproduction"
+}

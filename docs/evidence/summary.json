@@ -1,0 +1,28 @@
+{
+  "completed_at": "2026-10-06T18:17:24.106759+00:00",
+  "model": {
+    "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/sen1-cpu-v1/water-model.joblib",
+    "bytes": 54300,
+    "sha256": "8b8b5795aa890f01fa611d4bd46ed0b97b9e8b5974ebd6dfed5e27e0f8d54d2d"
+  },
+  "protocol_sha256": "57dc4cc412d09ef06889a29d6f3a7956d1c5666dbf57c58750b77575e3b749d2",
+  "training_pixels": 1050468,
+  "final_test_metrics": {
+    "water_iou": 0.4388519872729744,
+    "water_precision": 0.799854827727904,
+    "water_recall": 0.4929882941041625,
+    "water_f1": 0.6100029622987438,
+    "assessed_pixel_accuracy": 0.9263622735151836,
+    "label_valid_assessment_coverage": 0.9969731735383232,
+    "full_label_water_recall_unknown_not_detected": 0.49134546183516525
+  },
+  "gpu_used": false,
+  "maximum_resident_set_size_raw": 568999936,
+  "resident_size_platform": "Darwin",
+  "limitations": [
+    "Supervised water vsnonwater baseline only; no debris classifier",
+    "Permanent water and flooding are not distinguished by handlabels",
+    "No calibratedprobability or absolute geolocation claim",
+    "Ground-grid sigma0 preprocessing/domain differences limit transfer to Himalayan terrain"
+  ]
+}

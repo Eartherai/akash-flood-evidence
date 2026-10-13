@@ -1,0 +1,62 @@
+{
+  "frozen_at": "2026-10-06T18:17:03.875991+00:00",
+  "protocol": {
+    "path": "/Users/earther/Desktop/IIT mandi/akash-flood/research/sen1-cpu-training-protocol.json",
+    "bytes": 83237,
+    "sha256": "57dc4cc412d09ef06889a29d6f3a7956d1c5666dbf57c58750b77575e3b749d2"
+  },
+  "model": {
+    "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/sen1-cpu-v1/water-model.joblib",
+    "bytes": 54300,
+    "sha256": "8b8b5795aa890f01fa611d4bd46ed0b97b9e8b5974ebd6dfed5e27e0f8d54d2d"
+  },
+  "training_report": {
+    "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/sen1-cpu-v1/training-report.json",
+    "bytes": 185377,
+    "sha256": "0b25222daeb6d156dff108c48bf61c8647686ec15ad01fe9fd82e7052cd80e10"
+  },
+  "dataset_download_ledger": {
+    "path": "/Users/earther/Desktop/IIT mandi/akash-flood/data/sen1floods11-cpu/downloads.json",
+    "bytes": 1442356,
+    "sha256": "941ed1194dffb42c3f2437d61c6b593a026d6700aaefc5c5f7ea8dcce2ad975d"
+  },
+  "code": [
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/flood_model.py",
+      "bytes": 5840,
+      "sha256": "af81554d61c7a4d24a6d50dd1cfbeaa7b643e740384fb0694ccededfae8338a6"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/train_sen1_cpu.py",
+      "bytes": 16814,
+      "sha256": "8a592ee17e08b3235c983223c2769d6c0010c918e80d2f79bbe292a7c93d7071"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/uv.lock",
+      "bytes": 198924,
+      "sha256": "507eee14eb3b01ca3a7f880ecf4eb98d7d300884b471ae0dad5b531cf3ae67d9"
+    }
+  ],
+  "scikit_learn_version": "1.7.2",
+  "python_version": "3.12.13",
+  "threshold": 0.5,
+  "holdout_labels_loaded": false,
+  "reference_inputs_loaded": false,
+  "pre_fit_loader_corrections": {
+    "path": "/Users/earther/Desktop/IIT mandi/akash-flood/research/sen1-pre-fit-loader-corrections.json",
+    "bytes": 1976,
+    "sha256": "36241965473d3de75e80f338b36fc2929532e3590abb2ec58052cc6033cfb840"
+  },
+  "source_grid_metadata_audit": {
+    "path": "/Users/earther/Desktop/IIT mandi/akash-flood/research/sen1-loader-affine-serialization-audit.json",
+    "bytes": 405052,
+    "sha256": "fc0fe1474107787c9c23a768e11daafa700d9f58424a792f934a86743921d09a"
+  },
+  "forbidden_inputs": [
+    "EMSR927",
+    "CEMS",
+    "UNOSAT",
+    "Rasuwa labels or reference outcomes"
+  ],
+  "gpu_used": false
+}

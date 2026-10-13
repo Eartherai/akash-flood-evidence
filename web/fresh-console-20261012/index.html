@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akash · Run a new case</title>
+<link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#case-form">Skip to case setup</a>
+<header><a class="wordmark" href="/">Akash<span>Field evidence workspace</span></a><span class="local-label">Local execution</span></header>
+<main>
+<div class="intro"><div><h1>Run a new case.</h1><p>Choose an area and event date. Inspect an offline plan before fetching satellite data and running the local pipeline.</p></div><p class="scope-note">Research prototype. A completed run does not establish flood accuracy, road passability or full Track B compliance.</p></div>
+<div class="workspace">
+<section class="setup" aria-labelledby="setup-heading">
+<h2 id="setup-heading">Case setup</h2>
+<form id="case-form">
+<fieldset><legend>Area of interest</legend><p class="hint" id="bbox-hint">Longitude and latitude in decimal degrees. Processing adds 0.03° of context on each side.</p><div class="coordinate-grid">
+<label>West longitude<input name="west" type="number" step="any" required aria-describedby="bbox-hint"></label>
+<label>South latitude<input name="south" type="number" step="any" required aria-describedby="bbox-hint"></label>
+<label>East longitude<input name="east" type="number" step="any" required aria-describedby="bbox-hint"></label>
+<label>North latitude<input name="north" type="number" step="any" required aria-describedby="bbox-hint"></label>
+</div><p class="hint">Area plus context: at most 0.20 square degrees, within one UTM zone and hemisphere. Defaults are editable coordinates, not a saved result.</p></fieldset>
+<fieldset><legend>Time and sources</legend><div class="date-grid">
+<label>Event date (UTC)<input type="date" name="event_date" required></label>
+<label>Historical OSM cutoff (UTC)<input type="date" name="osm_snapshot" required></label>
+</div><p class="hint">The OSM cutoff must precede the event day. Discovery excludes the event day and searches within the selected date window.</p>
+<label>Pipeline<select name="workflow"><option value="water">Radar water state and report</option><option value="multimodal">Radar, optical observation and access</option></select></label><p id="cache-note" class="hint" hidden></p>
+<p id="pipeline-hint" class="hint">Availability is checked against the installed local source.</p>
+</fieldset>
+<details><summary>Resource limits</summary><div class="budget-grid">
+<label>Search window, days<input type="number" name="max_days" min="1" max="90" required></label>
+<label>Radar download cap, MB<input type="number" name="native_budget_mb" min="1" max="4100" required></label>
+<label>DEM download cap, MB<input type="number" name="dem_budget_mb" min="1" max="500" required></label>
+<label>Optical download cap, MB<input type="number" name="optical_budget_mb" min="1" max="100" required></label>
+<label>Each stage, seconds<input type="number" name="stage_timeout_seconds" min="1" max="3600" required></label>
+<label>Total run, seconds<input type="number" name="max_total_seconds" min="1" max="7200" required></label>
+<label>Optical fetch, seconds<input type="number" name="optical_timeout_seconds" min="1" max="600" required></label>
+</div><p class="hint">Multimodal optical pairing supports at most 24 days per side. Decimal MB count received response bodies. Historical OSM has a separate 30 MB cap and 120-second deadline. The console adds 15 seconds for process cleanup. Failed runs retain their receipts; retries require a new plan.</p></details>
+<div id="form-error" class="error" role="alert" tabindex="-1" hidden></div>
+<button id="plan-button" class="primary" type="submit">Inspect offline plan</button>
+<p class="hint">Planning verifies saved prerequisites and source identities. It starts no satellite download or stage subprocess.</p>
+</form>
+</section>
+<section class="execution" aria-labelledby="execution-heading">
+<div class="section-title"><h2 id="execution-heading">Execution record</h2><span id="status" class="status">No plan</span></div>
+<div id="empty-state" class="empty"><div class="contour" aria-hidden="true"><svg viewBox="0 0 240 100"><path d="M2 76 Q36 20 72 72 T145 62 T238 34 M2 90 Q38 35 74 83 T146 73 T238 47 M2 62 Q34 6 70 61 T143 50 T238 22"/></svg></div><h3>Start with a bounded plan</h3><p>Your area, source prerequisites and actual stage list will appear here. Execution begins only when you select “Run this plan”.</p></div>
+<div id="job-content" hidden>
+<p id="case-summary" class="case-summary"></p><p id="job-id" class="hint"></p>
+<div id="blockers" class="error" hidden></div>
+<div class="actions"><button id="run-button" class="primary" type="button">Run this plan</button><button id="cancel-button" class="danger" type="button" hidden>Cancel running process</button><button id="receipt-button" class="secondary" type="button">Save current receipt</button></div>
+<p id="report-link" hidden><a id="open-report" target="_blank" rel="noopener">Open generated case report</a></p>
+<p id="run-note" class="hint">Running fetches the declared sources within your budgets. No training or threshold changes are included.</p>
+<p id="progress-note" class="progress-note" aria-live="polite"></p>
+<ol id="stage-list" class="stages"></ol>
+<details class="logs"><summary>Actual process logs</summary><p id="log-note" class="hint">Only logs from this server-generated execution are shown.</p><pre id="stdout-log" aria-label="Process output">No process has started.</pre><pre id="stderr-log" aria-label="Process errors" hidden></pre></details>
+<details><summary>Plan and receipt details</summary><pre id="receipt-json" aria-label="Current source-bound plan and receipt"></pre></details>
+</div>
+</section>
+</div>
+<section class="recent" aria-labelledby="recent-heading"><div class="section-title"><h2 id="recent-heading">Cases from this console</h2><button id="refresh-button" class="text-button" type="button">Refresh</button></div><div id="recent-jobs"><p class="hint">No case plans yet.</p></div></section>
+<footer>CPU pipeline · Sentinel-1, Copernicus DEM and pre-event OpenStreetMap; optical stages use Sentinel-2 when available. Third-party data retain their original terms. No evaluation reference maps are prediction inputs.</footer>
+</main>
+</body>
+</html>

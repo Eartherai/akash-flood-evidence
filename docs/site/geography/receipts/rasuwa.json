@@ -1,0 +1,109 @@
+{
+  "schema": "akash-observation-access-receipt-v1",
+  "status": "completed",
+  "finished_at": "2026-10-11T07:14:55.521976+00:00",
+  "protocol": {
+    "path": "research/observation-access-2026-10-11/protocol.frozen.json",
+    "bytes": 16408,
+    "sha256": "e366442079bb98a09b68692b6c137fbc750275fdf0206666602e627111514f08"
+  },
+  "case": {
+    "case_id": "fresh-d22bcbfb6d7bc937",
+    "bbox": [
+      85.3,
+      28.12,
+      85.43,
+      28.32
+    ],
+    "context_bbox": [
+      85.27,
+      28.08,
+      85.46,
+      28.36
+    ],
+    "event_date": "2026-08-26",
+    "osm_snapshot": "2026-07-27T00:00:00Z",
+    "max_days": 24,
+    "context_buffer_deg": null,
+    "context_source": "explicit_bbox"
+  },
+  "original_status_counts": {
+    "ambiguous": 22,
+    "robust_connected": 10,
+    "unmapped": 20,
+    "baseline_disconnected": 3
+  },
+  "expanded_status_counts": {
+    "ambiguous": 32,
+    "unmapped": 20,
+    "baseline_disconnected": 3
+  },
+  "status_transitions": {
+    "ambiguous->ambiguous": 22,
+    "robust_connected->ambiguous": 10,
+    "unmapped->unmapped": 20,
+    "baseline_disconnected->baseline_disconnected": 3
+  },
+  "scope_status_counts": {
+    "all_source": {
+      "ambiguous": 32,
+      "unmapped": 20,
+      "baseline_disconnected": 3
+    },
+    "inside_water_aoi": {
+      "ambiguous": 15,
+      "unmapped": 6,
+      "baseline_disconnected": 2
+    },
+    "inside_extraction_context": {
+      "ambiguous": 27,
+      "unmapped": 15,
+      "baseline_disconnected": 2
+    },
+    "incidental_outside_context": {
+      "ambiguous": 5,
+      "unmapped": 5,
+      "baseline_disconnected": 1
+    }
+  },
+  "original_witness_count": 32,
+  "source_graph_nodes": 13347,
+  "source_directed_edges": 26688,
+  "source_physical_groups": 13344,
+  "uncertain_physical_group_count": 8434,
+  "uncertain_directed_edge_count": 16868,
+  "new_uncertain_physical_group_count": 8121,
+  "wall_seconds": 1.3972396660246886,
+  "cpu_seconds": 1.38138,
+  "peak_process_rss_bytes": 120160256,
+  "all_frozen_inputs_unchanged": true,
+  "outputs": [
+    {
+      "path": "outputs/observation-access-2026-10-11/rasuwa-v1/original-witness-support.json",
+      "bytes": 23390117,
+      "sha256": "523a72f5863d3388ce12b3133d93cd495207059ab91e4fbddf179f435850821f"
+    },
+    {
+      "path": "outputs/observation-access-2026-10-11/rasuwa-v1/expanded-scenario.json",
+      "bytes": 26051080,
+      "sha256": "e8a4baf26acfe3b71ad60e535eea26ddb1244351cfe32b4c1ecbb13181636c57"
+    }
+  ],
+  "claims": {
+    "observed_closures": false,
+    "safe_routes": false,
+    "local_hazard_accuracy": false,
+    "model_inference": false,
+    "training": false,
+    "network": false,
+    "gpu": false,
+    "reference_geometry_loaded": false
+  },
+  "limitations": [
+    "Source-bound graph/coverage analysis, not independent hazard validation.",
+    "Unknown/outside support is an explicit open/closed scenario, not physical observed damage or a failure probability.",
+    "Assessed nonwater does not establish physical passability; other unmapped and unspecified failures remain excluded.",
+    "Original source-to-OSM and nearest-target validation receipts are reused, not independently rerun.",
+    "Projected saved centreline support lengths differ in denominator from original great-circle graph distance."
+  ]
+}

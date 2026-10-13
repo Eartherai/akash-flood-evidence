@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-11T07:17:14.356742+00:00",
+  "checker": {
+    "path": "research/observation-access-2026-10-11/verify_independently.py",
+    "bytes": 7460,
+    "sha256": "66f856f6571341424d90cee55a82c079dd5f02e4788360e04a5f624e24d36a3f"
+  },
+  "results": [
+    {
+      "case": "rasuwa",
+      "status": "passed",
+      "original_witnesses_checked": 32,
+      "new_paths_checked": 32,
+      "new_cuts_checked": 32,
+      "independent_forward_dfs_extrema_checked": 64,
+      "reason_membership_counts": {
+        "new_water_candidate": 313,
+        "unassessed_within_aoi": 1503,
+        "outside_aoi": 6666
+      },
+      "status_counts": {
+        "ambiguous": 32,
+        "unmapped": 20,
+        "baseline_disconnected": 3
+      },
+      "wall_seconds": 0.5077947920071892,
+      "inputs": [
+        {
+          "path": "outputs/fresh-one-command-replay/exposure/roads.geojson",
+          "bytes": 56208997,
+          "sha256": "643bf93a6a8774e79c5ebd6ff21625949f3616079e499b7e7eac7a724272d62f"
+        },
+        {
+          "path": "outputs/fresh-one-command-replay/exposure/access-proof.json",
+          "bytes": 2639642,
+          "sha256": "fdf540c55e54612b84dd5003ff47781d73aca4757ed9626d92b9994a9b196737"
+        },
+        {
+          "path": "outputs/observation-access-2026-10-11/rasuwa-v1/original-witness-support.json",
+          "bytes": 23390117,
+          "sha256": "523a72f5863d3388ce12b3133d93cd495207059ab91e4fbddf179f435850821f"
+        },
+        {
+          "path": "outputs/observation-access-2026-10-11/rasuwa-v1/expanded-scenario.json",
+          "bytes": 26051080,
+          "sha256": "e8a4baf26acfe3b71ad60e535eea26ddb1244351cfe32b4c1ecbb13181636c57"
+        },
+        {
+          "path": "outputs/observation-access-2026-10-11/rasuwa-v1/receipt.json",
+          "bytes": 3280,
+          "sha256": "d32bec48a601673d4adae7651a5f3256a79ed5a1feee3b074e5fe368322cdbdf"
+        }
+      ]
+    },
+    {
+      "case": "kathmandu",
+      "status": "passed",
+      "original_witnesses_checked": 69,
+      "new_paths_checked": 69,
+      "new_cuts_checked": 41,
+      "independent_forward_dfs_extrema_checked": 138,
+      "reason_membership_counts": {
+        "outside_aoi": 119965,
+        "unassessed_within_aoi": 2533,
+        "new_water_candidate": 293
+      },
+      "status_counts": {
+        "ambiguous": 41,
+        "robust_connected": 28
+      },
+      "wall_seconds": 10.915049875009572,
+      "inputs": [
+        {
+          "path": "outputs/kathmandu-node-drive-access-2026-10-08/roads.geojson",
+          "bytes": 1090426534,
+          "sha256": "c5de78fc7546c842ecae2f47c74b22de11398ed66040d4cc625b9293939aa1d3"
+        },
+        {
+          "path": "outputs/kathmandu-node-drive-access-2026-10-08/access-proof.json",
+          "bytes": 2877746,
+          "sha256": "ef1592ede8c7f7b519affbf7e4361e56fb3c085c878187f97008021cb2168f34"
+        },
+        {
+          "path": "outputs/observation-access-2026-10-11/kathmandu-v1/original-witness-support.json",
+          "bytes": 33840522,
+          "sha256": "5d5d87dc2768baea7aa1d459b19337d855532400dc612e43a0061d79d1e75df9"
+        },
+        {
+          "path": "outputs/observation-access-2026-10-11/kathmandu-v1/expanded-scenario.json",
+          "bytes": 27832836,
+          "sha256": "60bb5d685e1f57b90b939740d06cf78b1d73135b4989c460d83bd848485c3c93"
+        },
+        {
+          "path": "outputs/observation-access-2026-10-11/kathmandu-v1/receipt.json",
+          "bytes": 2996,
+          "sha256": "3a43adde7769949a15ce9a56e19218bdd8eca4f229b9282c0f7368e55f0472e2"
+        }
+      ]
+    }
+  ],
+  "wall_seconds": 11.947732417000225,
+  "peak_process_rss_bytes": 720420864,
+  "scope": "Independent forward DFS, explicit cut-set and support arithmetic verification against hash-bound saved road records; shared bounded JSON transport only. Existing source-OSM/fixed-target provenance boundary reused; no hazard accuracy/model/reference/network operations."
+}

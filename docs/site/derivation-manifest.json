@@ -1,0 +1,29 @@
+{
+  "schema": "akash-public-display-derivation-v1",
+  "source": {
+    "path": "case/case-facts.json",
+    "bytes": 25375930,
+    "sha256": "d5a4b09abfbc724a464c701ac0962af6d056e1c158f1ed111166b9211970547c",
+    "derivation": "derive_evidence.py",
+    "reclassifies_hazards": false,
+    "solves_graph": false
+  },
+  "derived_files": {
+    "evidence.json": {
+      "bytes": 56304,
+      "sha256": "eef15f06f473c024e795b2cd9201ed43a5168af3638fe95548cae2cce496f4a1"
+    },
+    "routes.json": {
+      "bytes": 4312035,
+      "sha256": "89182e0912e2a9799be8ee20e636b28dab79c9664fa4bc68fe9894945183874d"
+    }
+  },
+  "settlement_count": 55,
+  "source_status_counts": {
+    "ambiguous": 32,
+    "unmapped": 20,
+    "baseline_disconnected": 3
+  },
+  "route_coordinate_simplification": false,
+  "unknown_is_not_negative": true
+}

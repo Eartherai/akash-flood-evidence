@@ -1,0 +1,22 @@
+<section class="panel wide" id="fresh-copilot" aria-labelledby="fresh-copilot-title">
+  <div class="fresh-heading"><div><div class="kicker">LOCAL CPU COPILOT / ENGLISH + NEPALI</div><h2 id="fresh-copilot-title">Ask what this evidence supports</h2></div><span class="fresh-badge">Source-cited answers</span></div>
+  <p class="muted">Ask about observations, candidates or a settlement's modeled access. Answers keep missing coverage and conditional road states explicit.</p>
+  <form id="fresh-ask-form">
+    <label for="fresh-question">Your question</label>
+    <textarea id="fresh-question" name="question" rows="2" maxlength="1200" required placeholder="How many new-water candidates are there, and what remains unknown?"></textarea>
+    <div class="fresh-actions"><label for="fresh-language">Answer language</label><select id="fresh-language"><option value="en">English</option><option value="ne">नेपाली</option></select><button type="submit" id="fresh-ask-button">Ask the copilot</button></div>
+  </form>
+  <div class="fresh-examples" aria-label="Example questions">
+    <button type="button" data-fresh-question="How many new-water candidates are there, and what remains unknown?" data-fresh-language="en">Water &amp; unknowns</button>
+    <button type="button" data-fresh-question="How much optical coverage is assessed, and are the candidates confirmed landslides?" data-fresh-language="en">Optical limits</button>
+    <button type="button" data-fresh-question="गोठेन बस्तीको मोडेलमा आधारित पहुँच र निश्चित गन्तव्य के हो?" data-fresh-language="ne">गोठेनको पहुँच</button>
+    <button type="button" data-fresh-question="Are these roads safe for an ambulance right now?" data-fresh-language="en">Test an unsupported claim</button>
+  </div>
+  <p id="fresh-model-status" class="muted" role="status">The local model runs when you ask a question.</p>
+  <div id="fresh-answer" hidden><div class="fresh-answer-heading"><strong id="fresh-answer-status"></strong><button type="button" id="fresh-download-answer">Save answer and sources</button></div><p id="fresh-answered-question" class="muted"></p><p id="fresh-answer-text"></p><details id="fresh-answer-sources"><summary>Inspect cited sources</summary><ol id="fresh-source-list"></ol></details><p id="fresh-answer-audit" class="muted"></p></div>
+  <small>Qwen selects saved fact IDs; displayed numbers and clauses come from verified case files. Unsupported claims are declined. Nepali clauses have not received human language review.</small>
+</section>
+<style>
+#fresh-copilot{margin-bottom:20px}.fresh-heading,.fresh-actions,.fresh-answer-heading{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.fresh-heading{justify-content:space-between}.fresh-heading h2{margin:5px 0}.fresh-badge{font-size:12px;background:#e5f0ed;padding:5px 10px;border-radius:20px}#fresh-ask-form{margin-top:15px}#fresh-ask-form>label{display:block;font-weight:600;margin:8px 0}#fresh-question{display:block;width:100%;font:inherit;border:1px solid #bfd2cc;border-radius:6px;padding:12px;resize:vertical;min-height:78px;color:#17353e}#fresh-language{font:inherit;padding:6px;border:1px solid #bfd2cc;border-radius:5px;background:white}.fresh-actions{margin-top:10px}.fresh-actions button{background:#087e82;color:white;padding:9px 16px}.fresh-examples{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.fresh-examples button{font-size:13px}#fresh-answer{padding:18px;background:#f0f5f3;border-radius:6px;margin:16px 0}#fresh-answer-text{white-space:pre-line;margin:14px 0;overflow-wrap:anywhere}.fresh-answer-heading{justify-content:space-between}#fresh-answer-sources li{padding:8px 0;overflow-wrap:anywhere;font-size:12px}#fresh-answer-audit{font-size:12px}#fresh-ask-button:disabled{opacity:.6;cursor:wait}@media(max-width:600px){.fresh-heading{align-items:flex-start}.fresh-actions label{font-size:13px}.fresh-answer-heading button{font-size:12px}}
+</style>
+<script src="/fresh-copilot.js" defer></script>

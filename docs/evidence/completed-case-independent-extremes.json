@@ -1,0 +1,298 @@
+{
+  "method": "Separate forward stack DFS over independently collected source-directed edges; checks original and expanded extremes, new route support and exact cut boundaries.",
+  "fixed_target_settlements_checked": 32,
+  "no_target_rows_preserved": 23,
+  "passed": true,
+  "checks": [
+    {
+      "settlement_id": "node/269569034",
+      "source_node_id": 3242860944,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/269569475",
+      "source_node_id": 9527460528,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/269569477",
+      "source_node_id": 3485841632,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/269569692",
+      "source_node_id": 9612560733,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": true,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/992955542",
+      "source_node_id": 3500883532,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/2524771371",
+      "source_node_id": 2524771374,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/2524771494",
+      "source_node_id": 11397524028,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/2527671108",
+      "source_node_id": 3478554850,
+      "fixed_destination_node_id": 3613046461,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": true,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/2554000784",
+      "source_node_id": 7920795932,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/2554587303",
+      "source_node_id": 9519016595,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/2772174479",
+      "source_node_id": 2864756039,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/2820552513",
+      "source_node_id": 767203074,
+      "fixed_destination_node_id": 767203087,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": true,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/3360413359",
+      "source_node_id": 3489600502,
+      "fixed_destination_node_id": 3613046461,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": true,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/3360413361",
+      "source_node_id": 10861602209,
+      "fixed_destination_node_id": 3613046461,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": true,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/3360413363",
+      "source_node_id": 3491180590,
+      "fixed_destination_node_id": 3613046461,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": true,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/3415530606",
+      "source_node_id": 11983497980,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/3415530630",
+      "source_node_id": 3476454313,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/3415546447",
+      "source_node_id": 3488915568,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/3495750389",
+      "source_node_id": 3508952914,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/3495750390",
+      "source_node_id": 3476664208,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/3495754793",
+      "source_node_id": 7938418770,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/3495857671",
+      "source_node_id": 8664303912,
+      "fixed_destination_node_id": 767203087,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/3510164368",
+      "source_node_id": 8245140406,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/5086621424",
+      "source_node_id": 2524771281,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/10207187270",
+      "source_node_id": 2706658118,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": true,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/10207223745",
+      "source_node_id": 3484438249,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": true,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/10833649292",
+      "source_node_id": 4022578954,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/11186154604",
+      "source_node_id": 9528383642,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/12956735547",
+      "source_node_id": 7560474750,
+      "fixed_destination_node_id": 3613046461,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": true,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/13242877442",
+      "source_node_id": 2554000188,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": false,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/13242877445",
+      "source_node_id": 3484362397,
+      "fixed_destination_node_id": 2706658083,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": true,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    },
+    {
+      "settlement_id": "node/13798689337",
+      "source_node_id": 3613046460,
+      "fixed_destination_node_id": 3613046461,
+      "all_open_reachable": true,
+      "original_all_closed_reachable": true,
+      "expanded_all_closed_reachable": false,
+      "status": "ambiguous"
+    }
+  ],
+  "physical_passability_validated": false,
+  "nearest_baseline_destination_selection_rerun": false
+}

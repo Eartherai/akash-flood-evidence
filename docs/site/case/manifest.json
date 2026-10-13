@@ -1,0 +1,111 @@
+{
+  "schema": "akash-fresh-combined-report-v1",
+  "status": "completed",
+  "created_utc": "2026-10-12T17:17:40.770485+00:00",
+  "case": {
+    "case_id": "fresh-37a0ecacd36e41d9",
+    "bbox": [
+      85.3,
+      28.12,
+      85.42,
+      28.31
+    ],
+    "context_bbox": [
+      85.27,
+      28.09,
+      85.45,
+      28.34
+    ],
+    "event_date": "2026-08-26",
+    "osm_snapshot": "2026-07-27T00:00:00Z",
+    "max_days": 24,
+    "context_buffer_deg": null,
+    "context_source": "explicit_bbox"
+  },
+  "inputs": [
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/report/source-and-output-manifest.json",
+      "bytes": 4565,
+      "sha256": "fc51a733f96892b45ce3edbfda4de39541ea662210c52685eaf602059b78cf47"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/execution-plan.json",
+      "bytes": 35319,
+      "sha256": "9f4726f2b75d7f51aa15fc76618790939c4b30ae750aa542d936e35d5ba02a82"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/report/report.json",
+      "bytes": 2858175,
+      "sha256": "672ba2ee09302fdc118338b4038a1e0b5cfdaae8f284d91c54aed39a15496d86"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/observation-access/receipt.json",
+      "bytes": 4278,
+      "sha256": "27e4d762613a63a93adc48b7b0c5f12737eb399ac0f0d505f4f722bc945e78a7"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/observation-access/original-witness-support.json",
+      "bytes": 23390033,
+      "sha256": "5a4773dbcae4907759a947438a89075d01ac01ce08648b3f10cee5f936281ac9"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/observation-access/expanded-scenario.json",
+      "bytes": 26091546,
+      "sha256": "d43bc5d0aa41f7eab905fdcc1985dd696737105b6d28600f7c813fd6c53848bc"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/observation-access/independent-extremes.json",
+      "bytes": 9728,
+      "sha256": "f8f970c99bc4080155d72704c1a5860c45f6a33e7b6403a050911bac9d6e1e61"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/report/map.png",
+      "bytes": 182725,
+      "sha256": "b810dc52e5ceb77228d007da084ee609548e93cb64bc09a17cc6c1f6f5aafa38"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/report/optical-overview.png",
+      "bytes": 17158,
+      "sha256": "035d8225ed1b230bd470c2e6fd7adc41ac9cb65f90d5929efe3da0d39e04290f"
+    }
+  ],
+  "code": [
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/build_multimodal_case_report_20261012.py",
+      "bytes": 12007,
+      "sha256": "31210404168676b79681c2042e2c477d0eb2badc3771823a034690cae46ea188"
+    }
+  ],
+  "outputs": {
+    "case-facts.json": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/combined-report/case-facts.json",
+      "bytes": 25375930,
+      "sha256": "d5a4b09abfbc724a464c701ac0962af6d056e1c158f1ed111166b9211970547c"
+    },
+    "index.html": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/combined-report/index.html",
+      "bytes": 13356,
+      "sha256": "825a152f1db45e4d5d7966731ef5c4744557e2f1bc005d300b06c692497df098"
+    },
+    "map.png": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/combined-report/map.png",
+      "bytes": 182725,
+      "sha256": "b810dc52e5ceb77228d007da084ee609548e93cb64bc09a17cc6c1f6f5aafa38"
+    },
+    "optical-overview.png": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/combined-report/optical-overview.png",
+      "bytes": 17158,
+      "sha256": "035d8225ed1b230bd470c2e6fd7adc41ac9cb65f90d5929efe3da0d39e04290f"
+    },
+    "situation.md": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/combined-report/situation.md",
+      "bytes": 1265,
+      "sha256": "cc42fc3a5c67fa532b20753046789edb8475d7ec874a4304e684cffeffaf5623"
+    }
+  },
+  "reference_labels_loaded": false,
+  "model_invoked_by_reporter": false,
+  "full_track_b_requirements_satisfied": false,
+  "local_hazard_accuracy_established": false,
+  "native_grids_resampled_or_fused": false
+}

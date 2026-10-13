@@ -1,0 +1,16 @@
+{
+  "schema": "akash-public-execution-proof-v1",
+  "files": {
+    "execution-receipt.json": {
+      "source": "akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/execution-receipt.json",
+      "bytes": 44838,
+      "sha256": "1d85b724d36d2a87e7f1a741ddd17a5589951cd12041cf769addffc5e5be2171"
+    },
+    "optical-transport.json": {
+      "source": "akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/optical/transport.json",
+      "bytes": 51942,
+      "sha256": "f584157ad0ad54c4f7d6b2782aa9a83099529a7f69e02e08bc8a9af185694afb"
+    }
+  },
+  "new_execution_performed": false
+}

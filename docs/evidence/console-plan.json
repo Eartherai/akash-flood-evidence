@@ -1,0 +1,815 @@
+{
+  "schema": "akash-fresh-case-runner-v1",
+  "created_at": "2026-10-12T17:14:42.658047+00:00",
+  "status": "execution_plan_only",
+  "out": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution",
+  "source_runner": {
+    "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_fresh_case.py",
+    "bytes": 36750,
+    "sha256": "0637be8c06126c7205388f54ce8b03776a2741fc79e24240ef0b4a7847776bec"
+  },
+  "python_executable": "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+  "case": {
+    "bbox": [
+      85.3,
+      28.12,
+      85.42,
+      28.31
+    ],
+    "context_bbox": [
+      85.27,
+      28.09,
+      85.45,
+      28.34
+    ],
+    "event_date": "2026-08-26",
+    "osm_snapshot": "2026-07-27"
+  },
+  "external_inputs": {
+    "osm": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/data/rasuwa-pilot/osm.json",
+      "bytes": 7424485,
+      "sha256": "9f96f2e0f090ee6f235011b2f3be8836a6e585fc877bc1c73d9f848f434240b0"
+    },
+    "osm_provenance": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/data/rasuwa-pilot/osm.provenance.json",
+      "bytes": 810,
+      "sha256": "3fbf66db2ff0de23d1f15727e399d1b8235caed04735a050e0bb7ce22577aa60"
+    },
+    "historic_osm_check": {
+      "status": "saved_historical_extract_checked",
+      "snapshot": "2026-07-27T00:00:00Z",
+      "bbox": [
+        85.27,
+        28.09,
+        85.45,
+        28.34
+      ],
+      "scope": "saved historic extract checked; no new OSM retrieval"
+    },
+    "native_source_cache_index": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/data/s1-snap-native/derived-wrapper-index.json",
+      "bytes": 25606,
+      "sha256": "294b448f0e3bb1c9c76f517b06ccc952e0c4e88c0c8082dc3de8108d12584920"
+    },
+    "native_source_cache": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/data/s1-snap-native",
+      "scope": "explicit prior-source import; acquire stage must independently verify all selected-item/source hashes; no new remote download claim"
+    },
+    "snap_runtime": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/data/snap-runtime/portable",
+      "override_supported": false,
+      "scope": "existing local runtime; launcher does not install/download SNAP"
+    },
+    "snap_runtime_manifest": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/data/snap-runtime/runtime-download-manifest.json",
+      "bytes": 921,
+      "sha256": "7f82cd1f2507092ef95e5281b4d94c18e39d365475b4c0ce8d7b420f44ab061d"
+    },
+    "dem_reader_patch": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/data/snap-external-dem-pixel-correction/manifest.json",
+      "bytes": 3172,
+      "sha256": "e8cbfc040c4788850e1740013250ff8b20a4879e7d15a443a191b6ab128f1d07"
+    },
+    "dem_reader_proof": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/snap-dem-center-proof/proof.json",
+      "bytes": 3107,
+      "sha256": "f94bb01e9ca3c99a90e7e72f7cf4fff3e5a416c9daaa6f986a5d0ba6463315d4"
+    },
+    "model_freeze": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/sen1-cpu-v1/model-evaluation-freeze.json",
+      "bytes": 2371,
+      "sha256": "786b7a35555fe46ca9168db677957d53e91a0f60a1557673b94b939c94c1fa12"
+    },
+    "geoid": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/data/copdem-ellipsoid/us_nga_egm08_25.tif",
+      "bytes": 80585622,
+      "sha256": "4191d471eefebf24091b56dbc604353cb3b8cf8cc70e448bb9ae56a272bef17a"
+    },
+    "requirements": {
+      "path": "/Users/earther/Desktop/IIT mandi/research/source-extracts/Track B.txt",
+      "bytes": 7419,
+      "sha256": "d14c5de497a2b270293c4a0c8e61205f22639b6ea9f51cccb3ee7c46acbfb094"
+    },
+    "additive_workflow_source": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_multimodal_fresh_20261012.py",
+      "bytes": 12799,
+      "sha256": "9c428b46d6795dd3f7708a63d14866d49a67b3da714ba70d50742507bc1145e5"
+    },
+    "spawn_helper_source": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/fresh_spawn_20261012.py",
+      "bytes": 11231,
+      "sha256": "5568106a18295ee1fa1fd131c383a5f170d32b958377573e4320cbb7b80f5ec2"
+    },
+    "fork_free_spawn_source": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/fresh_spawn_20261012.py",
+      "bytes": 11231,
+      "sha256": "5568106a18295ee1fa1fd131c383a5f170d32b958377573e4320cbb7b80f5ec2"
+    }
+  },
+  "environment": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "4",
+    "MKL_NUM_THREADS": "4"
+  },
+  "limits": {
+    "stage_timeout_seconds": 1200,
+    "max_total_seconds": 3600,
+    "log_bytes_per_stream": 10000000,
+    "native_response_body_budget_bytes": 3100000000,
+    "dem_response_body_budget_bytes": 200000000,
+    "osm_response_body_budget_bytes": 30000000,
+    "osm_requests": 1,
+    "optical_response_body_budget_bytes": 90000000,
+    "optical_deadline_seconds": 300
+  },
+  "stages": [
+    {
+      "name": "validate_sources",
+      "argv": [
+        "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_fresh_case.py",
+        "--_validate-inputs",
+        "--input-spec",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/execution-plan.json",
+        "--out",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/source-validation"
+      ],
+      "cwd": "/Users/earther/Desktop/IIT mandi/akash-flood",
+      "network_scope": "none",
+      "required": true,
+      "source_code": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_fresh_case.py",
+          "bytes": 36750,
+          "sha256": "0637be8c06126c7205388f54ce8b03776a2741fc79e24240ef0b4a7847776bec"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/source-validation/receipt.json",
+          "kind": "source_validation"
+        }
+      ],
+      "timeout_seconds": 1200
+    },
+    {
+      "name": "discover",
+      "argv": [
+        "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/discover_fresh_case.py",
+        "--bbox",
+        "85.27",
+        "28.09",
+        "85.45",
+        "28.34",
+        "--context-buffer-deg",
+        "0",
+        "--event-date",
+        "2026-08-26",
+        "--max-days",
+        "24",
+        "--out",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/discovery"
+      ],
+      "cwd": "/Users/earther/Desktop/IIT mandi/akash-flood",
+      "network_scope": "new public EarthSearch queries; no image pixels; bounded existing discovery client",
+      "required": true,
+      "source_code": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/discover_fresh_case.py",
+          "bytes": 2160,
+          "sha256": "fbdc65d7b01f721f3d88a08a8fb18a3fd26f8235b146fb5174c31a20e7c18489"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/public_discovery.py",
+          "bytes": 4286,
+          "sha256": "303500cffb4ce49a2e4acdeb03a83ceef49506b3ce4b31bae2a6d793b8765036"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/discovery/catalog.json",
+          "kind": "catalog"
+        }
+      ],
+      "timeout_seconds": 1200
+    },
+    {
+      "name": "plan_case",
+      "argv": [
+        "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/plan_fresh_case.py",
+        "--bbox",
+        "85.3",
+        "28.12",
+        "85.42",
+        "28.31",
+        "--context-bbox",
+        "85.27",
+        "28.09",
+        "85.45",
+        "28.34",
+        "--event-date",
+        "2026-08-26",
+        "--osm-snapshot",
+        "2026-07-27",
+        "--catalog",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/discovery/catalog.json",
+        "--max-days",
+        "24",
+        "--requirements",
+        "/Users/earther/Desktop/IIT mandi/research/source-extracts/Track B.txt",
+        "--out",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/planning",
+        "--osm",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/data/rasuwa-pilot/osm.json",
+        "--osm-provenance",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/data/rasuwa-pilot/osm.provenance.json"
+      ],
+      "cwd": "/Users/earther/Desktop/IIT mandi/akash-flood",
+      "network_scope": "none",
+      "required": true,
+      "source_code": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/plan_fresh_case.py",
+          "bytes": 2470,
+          "sha256": "0cc8037b9e805c6b8c148c7993ab48daacf00a85226c48dd0d4c5ec87811c648"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/fresh_case.py",
+          "bytes": 34455,
+          "sha256": "ede92540b07cb4e628948defce1aceae090695b185d2adfe19162cc3a6c361ab"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/planning/plan.json",
+          "kind": "case_plan"
+        }
+      ],
+      "timeout_seconds": 1200
+    },
+    {
+      "name": "acquire_native",
+      "argv": [
+        "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/acquire_fresh_native.py",
+        "--plan",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/planning/plan.json",
+        "--execute",
+        "--output-dir",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/native",
+        "--cache-dir",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/native-cache",
+        "--network-budget-bytes",
+        "3100000000",
+        "--source-cache",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/data/s1-snap-native"
+      ],
+      "cwd": "/Users/earther/Desktop/IIT mandi/akash-flood",
+      "network_scope": "explicit verified local import when possible; otherwise bounded anonymous public Sentinel-1 HTTPS acquisition",
+      "required": true,
+      "source_code": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/acquire_fresh_native.py",
+          "bytes": 4840,
+          "sha256": "949b5017210d970591865daca557de688acf5ff8b452aa6000b46653a32a1361"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/fresh_native.py",
+          "bytes": 42474,
+          "sha256": "fd8d9ec040e8bba3ef070e283b7b47bb58745d0c54adff43a73d88249f7bd5e2"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/native/derived-wrapper-index.json",
+          "kind": "native_index"
+        }
+      ],
+      "timeout_seconds": 1200
+    },
+    {
+      "name": "prepare_dem",
+      "argv": [
+        "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/prepare_fresh_dem.py",
+        "--bbox",
+        "85.27",
+        "28.09",
+        "85.45",
+        "28.34",
+        "--aoi-bbox",
+        "85.3",
+        "28.12",
+        "85.42",
+        "28.31",
+        "--budget-bytes",
+        "200000000",
+        "--geoid",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/data/copdem-ellipsoid/us_nga_egm08_25.tif",
+        "--out",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/dem"
+      ],
+      "cwd": "/Users/earther/Desktop/IIT mandi/akash-flood",
+      "network_scope": "verified cached eligible tile/geoid reuse where exact source matches; otherwise bounded Copernicus DEM/NGA geoid downloads",
+      "required": true,
+      "source_code": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/prepare_fresh_dem.py",
+          "bytes": 6167,
+          "sha256": "f1e056cfee367a007b19026ab4324e1c33d0fe40e40808757296224259a32655"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/fresh_dem.py",
+          "bytes": 6096,
+          "sha256": "38fd4e0c3309c56825ac591b955d866bb1633e732cf10ee0b77e29b28c7b2a34"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/prepare_copdem_ellipsoid.py",
+          "bytes": 15194,
+          "sha256": "c6c377508acf7a6cfca9f3ca8d5f1a8cf6985de287ac2b6ef5ac334e7f69acf0"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/dem/manifest.json",
+          "kind": "dem_manifest"
+        }
+      ],
+      "timeout_seconds": 1200
+    },
+    {
+      "name": "process_s1",
+      "argv": [
+        "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/process_fresh_s1.py",
+        "--plan",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/planning/plan.json",
+        "--source-index",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/native/derived-wrapper-index.json",
+        "--dem-manifest",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/dem/manifest.json",
+        "--dem-reader-patch",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/data/snap-external-dem-pixel-correction/manifest.json",
+        "--dem-reader-proof",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/snap-dem-center-proof/proof.json",
+        "--execute",
+        "--out",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/processing"
+      ],
+      "cwd": "/Users/earther/Desktop/IIT mandi/akash-flood",
+      "network_scope": "none",
+      "required": true,
+      "source_code": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/process_fresh_s1.py",
+          "bytes": 22645,
+          "sha256": "b95286acbf15f4fa67cd39fa382e80ec1c423af028f8d104649d225bb3800d9b"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/snap_products.py",
+          "bytes": 8627,
+          "sha256": "f404a3b943c8a6ac08404511dac5e91ecd4ce99b6ca9dbf842d007b87e9c7b82"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/process_s1_copdem.py",
+          "bytes": 8503,
+          "sha256": "46aff72cb65aeb28dfaa086bb0e185dbe7ac297cd0fbc28e2d99377581b98907"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/snap_gpt.py",
+          "bytes": 909,
+          "sha256": "1348137edab36616dfb319468ee12a5c49784b744f43a03e3c7a706161d593fc"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/processing/run-metadata.json",
+          "kind": "processing_record"
+        }
+      ],
+      "timeout_seconds": 1200
+    },
+    {
+      "name": "infer_water",
+      "argv": [
+        "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/infer_fresh_water.py",
+        "--processing-record",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/processing/run-metadata.json",
+        "--model-freeze",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/sen1-cpu-v1/model-evaluation-freeze.json",
+        "--out",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/water"
+      ],
+      "cwd": "/Users/earther/Desktop/IIT mandi/akash-flood",
+      "network_scope": "none",
+      "required": true,
+      "source_code": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/infer_fresh_water.py",
+          "bytes": 9849,
+          "sha256": "d8cd95d6d79bc079009aca6e858fec326fa2f068b38b65606d6090e8b1a7f1cd"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/flood_model.py",
+          "bytes": 5840,
+          "sha256": "af81554d61c7a4d24a6d50dd1cfbeaa7b643e740384fb0694ccededfae8338a6"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/water_inference.py",
+          "bytes": 4080,
+          "sha256": "2b751013903621b2f2c5e4923605de5bc73544b1344f154619b3d2709974b611"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/infer_trained_water.py",
+          "bytes": 13451,
+          "sha256": "06535d8f0125a8b1da2fd6e362f2bd447dfc6ecd4355bee817f9bc00225857cf"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/water/manifest.json",
+          "kind": "water_manifest"
+        }
+      ],
+      "timeout_seconds": 1200
+    },
+    {
+      "name": "map_exposure",
+      "argv": [
+        "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/map_fresh_exposure.py",
+        "--water-manifest",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/water/manifest.json",
+        "--plan",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/planning/plan.json",
+        "--out",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/exposure"
+      ],
+      "cwd": "/Users/earther/Desktop/IIT mandi/akash-flood",
+      "network_scope": "none",
+      "required": true,
+      "source_code": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/map_fresh_exposure.py",
+          "bytes": 31269,
+          "sha256": "c351e7542ea33dcee7446b30738bbe4a0d1a2327eb17802aef9027ee5e90509d"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/exposure/summary.json",
+          "kind": "exposure_summary"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/exposure/source-and-output-manifest.json",
+          "kind": "exposure_manifest"
+        }
+      ],
+      "timeout_seconds": 1200
+    },
+    {
+      "name": "freeze_optical_sources",
+      "argv": [
+        "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_fresh_optical_20261012_v3.py",
+        "--prepare-only",
+        "--catalog",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/discovery/catalog.json",
+        "--bbox",
+        "85.3",
+        "28.12",
+        "85.42",
+        "28.31",
+        "--event-date",
+        "2026-08-26",
+        "--plan",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/planning/plan.json",
+        "--max-days",
+        "24",
+        "--budget-bytes",
+        "90000000",
+        "--timeout-seconds",
+        "300",
+        "--out",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/optical"
+      ],
+      "cwd": "/Users/earther/Desktop/IIT mandi/akash-flood",
+      "network_scope": "none",
+      "required": true,
+      "source_code": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_fresh_optical_20261012_v3.py",
+          "bytes": 26986,
+          "sha256": "89bf71c774f524a581c9a03f6a5c7f78d3b65189182fdb089de3e86696a19bd8"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_multimodal_fresh_20261012.py",
+          "bytes": 12799,
+          "sha256": "9c428b46d6795dd3f7708a63d14866d49a67b3da714ba70d50742507bc1145e5"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/fresh_spawn_20261012.py",
+          "bytes": 11231,
+          "sha256": "5568106a18295ee1fa1fd131c383a5f170d32b958377573e4320cbb7b80f5ec2"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/optical_composite.py",
+          "bytes": 15038,
+          "sha256": "41b21e66d07e341ecec5678a86d1852b19e648f2e89566732faf5e9b3b7235ff"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/optical_change.py",
+          "bytes": 9310,
+          "sha256": "d8c54acb56945f05de4b6e977557bd5d37057e77685a22bfe4ec7588dae3b8bb"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/build_s2_debris_candidates.py",
+          "bytes": 18608,
+          "sha256": "892a200da60db521bf83ed9b5907d14ca2d2cc8f947432721eedc234ae10631b"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/optical/protocol.json",
+          "kind": "fresh_optical_protocol"
+        }
+      ],
+      "timeout_seconds": 1200
+    },
+    {
+      "name": "acquire_and_screen_optical",
+      "argv": [
+        "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_fresh_optical_20261012_v3.py",
+        "--execute",
+        "--out",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/optical"
+      ],
+      "cwd": "/Users/earther/Desktop/IIT mandi/akash-flood",
+      "network_scope": "New anonymous source-bound Sentinel-2 COG/SCL range requests; fixed pair, bounded bytes/time, no fallback",
+      "required": true,
+      "source_code": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_fresh_optical_20261012_v3.py",
+          "bytes": 26986,
+          "sha256": "89bf71c774f524a581c9a03f6a5c7f78d3b65189182fdb089de3e86696a19bd8"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_multimodal_fresh_20261012.py",
+          "bytes": 12799,
+          "sha256": "9c428b46d6795dd3f7708a63d14866d49a67b3da714ba70d50742507bc1145e5"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/fresh_spawn_20261012.py",
+          "bytes": 11231,
+          "sha256": "5568106a18295ee1fa1fd131c383a5f170d32b958377573e4320cbb7b80f5ec2"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/optical_composite.py",
+          "bytes": 15038,
+          "sha256": "41b21e66d07e341ecec5678a86d1852b19e648f2e89566732faf5e9b3b7235ff"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/optical_change.py",
+          "bytes": 9310,
+          "sha256": "d8c54acb56945f05de4b6e977557bd5d37057e77685a22bfe4ec7588dae3b8bb"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/build_s2_debris_candidates.py",
+          "bytes": 18608,
+          "sha256": "892a200da60db521bf83ed9b5907d14ca2d2cc8f947432721eedc234ae10631b"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/optical/manifest.json",
+          "kind": "fresh_optical_manifest"
+        }
+      ],
+      "timeout_seconds": 330
+    },
+    {
+      "name": "freeze_observation_scenario",
+      "argv": [
+        "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_fresh_observation_access_20261012.py",
+        "freeze",
+        "--exposure-manifest",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/exposure/source-and-output-manifest.json",
+        "--out",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/observation-access-protocol.json"
+      ],
+      "cwd": "/Users/earther/Desktop/IIT mandi/akash-flood",
+      "network_scope": "none",
+      "required": true,
+      "source_code": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_fresh_observation_access_20261012.py",
+          "bytes": 28629,
+          "sha256": "b5e36b8247d913bb398a6504d703fcb17730c0887e1a27fac69e3eb53e5d1b8d"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_multimodal_fresh_20261012.py",
+          "bytes": 12799,
+          "sha256": "9c428b46d6795dd3f7708a63d14866d49a67b3da714ba70d50742507bc1145e5"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/fresh_spawn_20261012.py",
+          "bytes": 11231,
+          "sha256": "5568106a18295ee1fa1fd131c383a5f170d32b958377573e4320cbb7b80f5ec2"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/observation_access.py",
+          "bytes": 14825,
+          "sha256": "fe9a37ef9dae050c4bfcd7aa30cb91e8ac420199bf3079de0c2600652e4a660b"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/observation-access-protocol.json",
+          "kind": "fresh_observation_protocol"
+        }
+      ],
+      "timeout_seconds": 1200
+    },
+    {
+      "name": "analyze_observation_access",
+      "argv": [
+        "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_fresh_observation_access_20261012.py",
+        "run",
+        "--protocol",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/observation-access-protocol.json",
+        "--out",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/observation-access"
+      ],
+      "cwd": "/Users/earther/Desktop/IIT mandi/akash-flood",
+      "network_scope": "none",
+      "required": true,
+      "source_code": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_fresh_observation_access_20261012.py",
+          "bytes": 28629,
+          "sha256": "b5e36b8247d913bb398a6504d703fcb17730c0887e1a27fac69e3eb53e5d1b8d"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_multimodal_fresh_20261012.py",
+          "bytes": 12799,
+          "sha256": "9c428b46d6795dd3f7708a63d14866d49a67b3da714ba70d50742507bc1145e5"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/fresh_spawn_20261012.py",
+          "bytes": 11231,
+          "sha256": "5568106a18295ee1fa1fd131c383a5f170d32b958377573e4320cbb7b80f5ec2"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/observation_access.py",
+          "bytes": 14825,
+          "sha256": "fe9a37ef9dae050c4bfcd7aa30cb91e8ac420199bf3079de0c2600652e4a660b"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/observation-access/receipt.json",
+          "kind": "fresh_observation_receipt"
+        }
+      ],
+      "timeout_seconds": 330
+    },
+    {
+      "name": "build_native_layer_report",
+      "argv": [
+        "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/build_fresh_report.py",
+        "--water-manifest",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/water/manifest.json",
+        "--exposure-manifest",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/exposure/source-and-output-manifest.json",
+        "--out",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/report",
+        "--optical-manifest",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/optical/manifest.json"
+      ],
+      "cwd": "/Users/earther/Desktop/IIT mandi/akash-flood",
+      "network_scope": "none",
+      "required": true,
+      "source_code": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/build_fresh_report.py",
+          "bytes": 41549,
+          "sha256": "99117c685187efe17fa8fce51f53926382fbf8e2eb79639ba7889924a0e94b81"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_multimodal_fresh_20261012.py",
+          "bytes": 12799,
+          "sha256": "9c428b46d6795dd3f7708a63d14866d49a67b3da714ba70d50742507bc1145e5"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/fresh_spawn_20261012.py",
+          "bytes": 11231,
+          "sha256": "5568106a18295ee1fa1fd131c383a5f170d32b958377573e4320cbb7b80f5ec2"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/report/report.json",
+          "kind": "report"
+        }
+      ],
+      "timeout_seconds": 1200
+    },
+    {
+      "name": "build_combined_case_report",
+      "argv": [
+        "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/build_multimodal_case_report_20261012.py",
+        "--report-binding",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/report/source-and-output-manifest.json",
+        "--execution-plan",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/execution-plan.json",
+        "--out",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/combined-report",
+        "--observation-receipt",
+        "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/observation-access/receipt.json"
+      ],
+      "cwd": "/Users/earther/Desktop/IIT mandi/akash-flood",
+      "network_scope": "none",
+      "required": true,
+      "source_code": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/build_multimodal_case_report_20261012.py",
+          "bytes": 12007,
+          "sha256": "31210404168676b79681c2042e2c477d0eb2badc3771823a034690cae46ea188"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_multimodal_fresh_20261012.py",
+          "bytes": 12799,
+          "sha256": "9c428b46d6795dd3f7708a63d14866d49a67b3da714ba70d50742507bc1145e5"
+        },
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/fresh_spawn_20261012.py",
+          "bytes": 11231,
+          "sha256": "5568106a18295ee1fa1fd131c383a5f170d32b958377573e4320cbb7b80f5ec2"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution/combined-report/manifest.json",
+          "kind": "fresh_combined_report"
+        }
+      ],
+      "timeout_seconds": 1200
+    }
+  ],
+  "omitted_steps": [
+    {
+      "step": "training",
+      "reason": "not included; unchanged frozen checkpoint only"
+    },
+    {
+      "step": "local/unseen_accuracy_validation",
+      "reason": "not established by launch or successful stage execution"
+    },
+    {
+      "step": "validated_debris_detection",
+      "reason": "Fixed optical surface-change hypotheses and explicit unknowns; local debris accuracy remains unvalidated"
+    },
+    {
+      "step": "observed_road_closures_and_operability",
+      "reason": "Conditional fixed-target graph bounds are computed; physical closures, passability and facility operation remain unobserved"
+    }
+  ],
+  "blockers": [],
+  "execution": {
+    "subprocesses_run": 0,
+    "network_requests_made_by_launcher": 0,
+    "network_scope": "none; offline plan only; future stage behavior is declared above"
+  },
+  "claim_scope": "Bounded raw-source engineering workflow; acquired optical candidates and observation scenario only when their required stages complete. No unrestricted-area, hazard-accuracy or passability guarantee.",
+  "full_track_b_requirements_satisfied": false,
+  "fresh_case_unseen_validation": false,
+  "reference_labels_loaded": false,
+  "gpu_used": false,
+  "retraining_or_retuning": false,
+  "workflow_schema": "akash-bounded-multimodal-workflow-v1",
+  "source_workflow": {
+    "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_multimodal_fresh_20261012.py",
+    "bytes": 12799,
+    "sha256": "9c428b46d6795dd3f7708a63d14866d49a67b3da714ba70d50742507bc1145e5"
+  },
+  "layers_requested": {
+    "optical": true,
+    "observation_access": true,
+    "report": true
+  },
+  "historic_osm_provider": "private-coffee",
+  "console_environment_check": {
+    "scikit_learn": "1.7.2",
+    "required_scikit_learn": "1.7.2",
+    "python_executable": "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python"
+  }
+}

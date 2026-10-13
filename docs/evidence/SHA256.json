@@ -1,0 +1,41 @@
+{
+  "scope": "Exact copied historical scientific/actual-run receipts; not new experiment",
+  "files": {
+    "sen1-cpu-training-protocol.json": {
+      "bytes": 83237,
+      "sha256": "57dc4cc412d09ef06889a29d6f3a7956d1c5666dbf57c58750b77575e3b749d2"
+    },
+    "summary.json": {
+      "bytes": 1190,
+      "sha256": "b58371f4c5205b6149a7e4942d508dfe4cf235ce80d29c911bf0f5caf030d57f"
+    },
+    "completed-case-independent-extremes.json": {
+      "bytes": 9728,
+      "sha256": "f8f970c99bc4080155d72704c1a5860c45f6a33e7b6403a050911bac9d6e1e61"
+    },
+    "training-report.json": {
+      "bytes": 185377,
+      "sha256": "0b25222daeb6d156dff108c48bf61c8647686ec15ad01fe9fd82e7052cd80e10"
+    },
+    "final_test-evaluation.json": {
+      "bytes": 96041,
+      "sha256": "9fd544fd80a34253cc5211c84a63b353ec43ad8f78c470cf30528dc4c57da134"
+    },
+    "README.md": {
+      "bytes": 534,
+      "sha256": "7d761d36a83344b34caee9fc62d2645f8f707b68086ef3fb188ad5b9034f12c4"
+    },
+    "model-evaluation-freeze.json": {
+      "bytes": 2371,
+      "sha256": "786b7a35555fe46ca9168db677957d53e91a0f60a1557673b94b939c94c1fa12"
+    },
+    "console-plan.json": {
+      "bytes": 35319,
+      "sha256": "9f4726f2b75d7f51aa15fc76618790939c4b30ae750aa542d936e35d5ba02a82"
+    },
+    "console-status.json": {
+      "bytes": 3657,
+      "sha256": "9e48d4097a69f40f5fa13f4bc81a4fb92d58cca5cfa5a2b2ce3286c2ba3a95c2"
+    }
+  }
+}

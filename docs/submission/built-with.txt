@@ -1,0 +1,22 @@
+Python
+NumPy
+SciPy
+scikit-learn
+Rasterio
+Shapely
+PyProj
+NetworkX
+ESA SNAP
+Sentinel-1
+Sentinel-2
+Copernicus DEM
+OpenStreetMap
+Sen1Floods11
+Qwen2.5
+llama.cpp
+JavaScript
+HTML5
+CSS3
+OpenAI Codex
+HyperFrames
+GSAP

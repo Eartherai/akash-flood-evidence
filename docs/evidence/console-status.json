@@ -1,0 +1,90 @@
+{
+  "schema": "akash-fresh-console-job-v1",
+  "id": "case-9668b96689efb7b0ead66f5c",
+  "created_at": "2026-10-12T17:14:42.661071+00:00",
+  "status": "completed",
+  "parameters": {
+    "bbox": [
+      85.3,
+      28.12,
+      85.42,
+      28.31
+    ],
+    "event_date": "2026-08-26",
+    "osm_snapshot": "2026-07-27",
+    "workflow": "multimodal",
+    "max_days": 24,
+    "native_budget_mb": 3100,
+    "dem_budget_mb": 200,
+    "optical_budget_mb": 90,
+    "stage_timeout_seconds": 1200,
+    "max_total_seconds": 3600,
+    "optical_timeout_seconds": 300
+  },
+  "runner": {
+    "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/run_multimodal_fresh_20261012.py",
+    "bytes": 12799,
+    "sha256": "9c428b46d6795dd3f7708a63d14866d49a67b3da714ba70d50742507bc1145e5"
+  },
+  "console_plan": {
+    "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/console-plan.json",
+    "bytes": 35319,
+    "sha256": "9f4726f2b75d7f51aa15fc76618790939c4b30ae750aa542d936e35d5ba02a82"
+  },
+  "output_path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/execution",
+  "run_attempts": 1,
+  "plan_subprocesses_run": 0,
+  "plan_network_requests": 0,
+  "trusted_startup_reuse": {
+    "source-cache": "/Users/earther/Desktop/IIT mandi/akash-flood/data/s1-snap-native",
+    "osm": "/Users/earther/Desktop/IIT mandi/akash-flood/data/rasuwa-pilot/osm.json",
+    "osm-provenance": "/Users/earther/Desktop/IIT mandi/akash-flood/data/rasuwa-pilot/osm.provenance.json"
+  },
+  "console_sources": [
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/fresh_console_20261012.py",
+      "bytes": 32296,
+      "sha256": "7eb7836d9a076dd6b9fd4df015fec4050bd33bfe89bc189ef5c06ea2046029a5"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/serve_fresh_console_20261012.py",
+      "bytes": 9099,
+      "sha256": "8d731aa35c99684a6b3731e0f16c9bada1f9c57d594b0b3d7cd0658108c2c0ad"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/fresh_spawn_20261012.py",
+      "bytes": 11231,
+      "sha256": "5568106a18295ee1fa1fd131c383a5f170d32b958377573e4320cbb7b80f5ec2"
+    }
+  ],
+  "full_track_b_requirements_satisfied": false,
+  "started_at": "2026-10-12T17:14:49.546542+00:00",
+  "worker_argv": [
+    "/Users/earther/.cache/uv/builds-v0/.tmpXyfq91/bin/python",
+    "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/serve_fresh_console_20261012.py",
+    "--worker-plan",
+    "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/console-plan.json"
+  ],
+  "worker_source": {
+    "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/serve_fresh_console_20261012.py",
+    "bytes": 9099,
+    "sha256": "8d731aa35c99684a6b3731e0f16c9bada1f9c57d594b0b3d7cd0658108c2c0ad"
+  },
+  "spawn_method": "posix_spawn_setsid",
+  "worker_pid": 49479,
+  "completed_at": "2026-10-12T17:17:40.819782+00:00",
+  "elapsed_seconds": 171.273,
+  "exit_code": 0,
+  "console_logs": {
+    "stdout": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/console.stdout.log",
+      "bytes": 45433,
+      "sha256": "bb4cbb6e7387e008a22ff27ab0c37917b7b2c7b5bb6ca2b9d59f8b0004610a30"
+    },
+    "stderr": {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-console-2026-10-12/case-9668b96689efb7b0ead66f5c/console.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

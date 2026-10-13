@@ -1,0 +1,1 @@
+Turn satellite change into auditable flood evidence: native radar and optical maps, explicit unknowns, and road-access proofs that show which route conclusions survive uncertainty.

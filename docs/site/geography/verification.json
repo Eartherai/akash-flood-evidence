@@ -1,0 +1,613 @@
+{
+  "schema": "akash-geographic-viewer-verification-v1",
+  "created_utc": "2026-10-11T18:48:27.236139+00:00",
+  "status": "coordinate_status_route_bindings_and_frozen_preservation_passed; browser_review_pending",
+  "sources": [
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/research/observation-access-2026-10-11/protocol.frozen.json",
+      "bytes": 16408,
+      "sha256": "e366442079bb98a09b68692b6c137fbc750275fdf0206666602e627111514f08"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/observation-access-viewer-2026-10-11/data.json",
+      "bytes": 7698500,
+      "sha256": "b5064a99ff9bf21070fdc8aae6a6c68b86e98657577a073c419ad6b2608b7fa8"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/observation-access-viewer-2026-10-11/verification.json",
+      "bytes": 3802,
+      "sha256": "66b9b95bbcd91b570a8d64b0e7b1f4241e23706ec3cc0c92bfd485855d588a6e"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/output/submission-hardening-r2-2026-10-11/05-viewers/observation-access/data.json",
+      "bytes": 7698500,
+      "sha256": "b5064a99ff9bf21070fdc8aae6a6c68b86e98657577a073c419ad6b2608b7fa8"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/research/observation-access-2026-10-11/independent-verification.json",
+      "bytes": 3976,
+      "sha256": "536cf932f9345a3669461427d39902fea9d976b6e226fe2d9fb6f091ba0632aa"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/LICENSE",
+      "bytes": 1283,
+      "sha256": "1ebce672ecef3f367b9173e6b2bfd506f9b0ea5c0baf289d7af4c6b9ac174704"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/observation-access-2026-10-11/rasuwa-v1/receipt.json",
+      "bytes": 3280,
+      "sha256": "d32bec48a601673d4adae7651a5f3256a79ed5a1feee3b074e5fe368322cdbdf"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/observation-access-2026-10-11/rasuwa-v1/original-witness-support.json",
+      "bytes": 23390117,
+      "sha256": "523a72f5863d3388ce12b3133d93cd495207059ab91e4fbddf179f435850821f"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/observation-access-2026-10-11/rasuwa-v1/expanded-scenario.json",
+      "bytes": 26051080,
+      "sha256": "e8a4baf26acfe3b71ad60e535eea26ddb1244351cfe32b4c1ecbb13181636c57"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/exposure/settlements.geojson",
+      "bytes": 3054970,
+      "sha256": "7232f63f7ea4afc1e88fbdf858f1d8403ff1c0b4a758898d8be685cd945882b6"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/exposure/destinations.geojson",
+      "bytes": 1727,
+      "sha256": "d7065f147a9740c4b774ac4efdda1c0ffeea3ead537a556d915edbdaacd528fd"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/observation-access-2026-10-11/kathmandu-v1/receipt.json",
+      "bytes": 2996,
+      "sha256": "3a43adde7769949a15ce9a56e19218bdd8eca4f229b9282c0f7368e55f0472e2"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/observation-access-2026-10-11/kathmandu-v1/original-witness-support.json",
+      "bytes": 33840522,
+      "sha256": "5d5d87dc2768baea7aa1d459b19337d855532400dc612e43a0061d79d1e75df9"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/observation-access-2026-10-11/kathmandu-v1/expanded-scenario.json",
+      "bytes": 27832836,
+      "sha256": "60bb5d685e1f57b90b939740d06cf78b1d73135b4989c460d83bd848485c3c93"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-node-drive-access-2026-10-08/settlements.geojson",
+      "bytes": 3324803,
+      "sha256": "c0747219167f68ff5bc604a71b67a1a8fccc677d0bbb22d460029fd031a4898b"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-node-drive-access-2026-10-08/destinations.geojson",
+      "bytes": 76911,
+      "sha256": "3ec33d53c83d5923e0b9186999846a0b7ab0d63aeb80d22d367cec498481ce46"
+    }
+  ],
+  "new_code": [
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/build_observation_geography_20261012.py",
+      "bytes": 18139,
+      "sha256": "29c0ea7aa4f3b6b317a74e517a980b1030e36710e03a083b5966568ae8ab4810"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/web/observation-geography-20261012.html",
+      "bytes": 12130,
+      "sha256": "d76065d52d1820f65b07dd8a72d68d93ea454eca6f4f6e31ef522b10c98b65ca"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/web/observation-geography-core-20261012.mjs",
+      "bytes": 3458,
+      "sha256": "b8fb3d2a4ab34a869a9946f8268ac4b54ceec00d2b42ebeb60925facc6239234"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/web/observation-geography-ui-20261012.mjs",
+      "bytes": 16368,
+      "sha256": "d6b997a2d00a3e99539c502297ea2bf74ea95b97079f9598c096a6ff56e46132"
+    }
+  ],
+  "outputs": {
+    "CODE-LICENSE.txt": {
+      "bytes": 1283,
+      "sha256": "1ebce672ecef3f367b9173e6b2bfd506f9b0ea5c0baf289d7af4c6b9ac174704"
+    },
+    "SOURCES-AND-RUN.md": {
+      "bytes": 1868,
+      "sha256": "5216ee6c1c550fc5ed0f55b1788b6d85e89d478681c29f50fa16573561dee8fc"
+    },
+    "context.json": {
+      "bytes": 124317,
+      "sha256": "9ea890d6234707015c0d4419e63de71451b2f40bd07d07aac8eaa426900ffc96"
+    },
+    "core.mjs": {
+      "bytes": 3458,
+      "sha256": "b8fb3d2a4ab34a869a9946f8268ac4b54ceec00d2b42ebeb60925facc6239234"
+    },
+    "data.json": {
+      "bytes": 7698500,
+      "sha256": "b5064a99ff9bf21070fdc8aae6a6c68b86e98657577a073c419ad6b2608b7fa8"
+    },
+    "index.html": {
+      "bytes": 12130,
+      "sha256": "d76065d52d1820f65b07dd8a72d68d93ea454eca6f4f6e31ef522b10c98b65ca"
+    },
+    "receipts/independent-verification.json": {
+      "bytes": 3976,
+      "sha256": "536cf932f9345a3669461427d39902fea9d976b6e226fe2d9fb6f091ba0632aa"
+    },
+    "receipts/kathmandu.json": {
+      "bytes": 2996,
+      "sha256": "3a43adde7769949a15ce9a56e19218bdd8eca4f229b9282c0f7368e55f0472e2"
+    },
+    "receipts/protocol.frozen.json": {
+      "bytes": 16408,
+      "sha256": "e366442079bb98a09b68692b6c137fbc750275fdf0206666602e627111514f08"
+    },
+    "receipts/rasuwa.json": {
+      "bytes": 3280,
+      "sha256": "d32bec48a601673d4adae7651a5f3256a79ed5a1feee3b074e5fe368322cdbdf"
+    },
+    "ui.mjs": {
+      "bytes": 16368,
+      "sha256": "d6b997a2d00a3e99539c502297ea2bf74ea95b97079f9598c096a6ff56e46132"
+    }
+  },
+  "checks": {
+    "frozen_records": 70,
+    "source_point_rows": 124,
+    "fixed_target_points": 25,
+    "route_supports_checked": 202,
+    "source_geometry_vertices_checked": 41898,
+    "empty_witness_rows": [
+      {
+        "case": "kathmandu",
+        "id": "node/2206264553",
+        "fractions": {
+          "assessed": null,
+          "unknown_within_aoi": null,
+          "outside_aoi": null
+        }
+      }
+    ],
+    "cases": {
+      "rasuwa": {
+        "all_source_status_counts": {
+          "ambiguous": 32,
+          "unmapped": 20,
+          "baseline_disconnected": 3
+        },
+        "water_aoi_status_counts": {
+          "ambiguous": 15,
+          "unmapped": 6,
+          "baseline_disconnected": 2
+        },
+        "context_status_counts": {
+          "ambiguous": 27,
+          "unmapped": 15,
+          "baseline_disconnected": 2
+        },
+        "source_point_extent_lonlat": [
+          85.257103,
+          28.0572988,
+          85.4762778,
+          28.3748534
+        ],
+        "saved_route_extent_lonlat": [
+          85.2571451,
+          28.107302,
+          85.4567108,
+          28.3808258
+        ],
+        "whole_case_extent_lonlat": [
+          85.257103,
+          28.0572988,
+          85.4762778,
+          28.3808258
+        ],
+        "fixed_target_points": 3,
+        "displayed_segment_count": 7164,
+        "mixed_support_segments": 145
+      },
+      "kathmandu": {
+        "all_source_status_counts": {
+          "ambiguous": 41,
+          "robust_connected": 28
+        },
+        "water_aoi_status_counts": {
+          "robust_connected": 28,
+          "ambiguous": 8
+        },
+        "context_status_counts": {
+          "ambiguous": 40,
+          "robust_connected": 28
+        },
+        "source_point_extent_lonlat": [
+          85.2245076,
+          27.5911514,
+          85.3820928,
+          27.8442987
+        ],
+        "saved_route_extent_lonlat": [
+          85.2160594,
+          27.591901,
+          85.3820928,
+          27.8463328
+        ],
+        "whole_case_extent_lonlat": [
+          85.2160594,
+          27.5911514,
+          85.3820928,
+          27.8463328
+        ],
+        "fixed_target_points": 22,
+        "displayed_segment_count": 13785,
+        "mixed_support_segments": 85
+      }
+    }
+  },
+  "frozen_sources_before_after": [
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/data/rasuwa-pilot/osm.json",
+      "bytes": 7424485,
+      "sha256": "9f96f2e0f090ee6f235011b2f3be8836a6e585fc877bc1c73d9f848f434240b0"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/data/rasuwa-pilot/osm.provenance.json",
+      "bytes": 810,
+      "sha256": "3fbf66db2ff0de23d1f15727e399d1b8235caed04735a050e0bb7ce22577aa60"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/exposure/access-proof.json",
+      "bytes": 2639642,
+      "sha256": "fdf540c55e54612b84dd5003ff47781d73aca4757ed9626d92b9994a9b196737"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/exposure/destinations.geojson",
+      "bytes": 1727,
+      "sha256": "d7065f147a9740c4b774ac4efdda1c0ffeea3ead537a556d915edbdaacd528fd"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/exposure/roads.geojson",
+      "bytes": 56208997,
+      "sha256": "643bf93a6a8774e79c5ebd6ff21625949f3616079e499b7e7eac7a724272d62f"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/exposure/scenario-policy.json",
+      "bytes": 1646,
+      "sha256": "ce88e9e3b8e8a0bda5b23eda4ae84e92d3eb50ceda4f9d2bc71904fcd9d8a12a"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/exposure/settlements.geojson",
+      "bytes": 3054970,
+      "sha256": "7232f63f7ea4afc1e88fbdf858f1d8403ff1c0b4a758898d8be685cd945882b6"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/exposure/source-and-output-manifest.json",
+      "bytes": 10751,
+      "sha256": "5009053814cb1e4e218c911489d7ceb3b379745be8cedfdc03177bc39f031e38"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/exposure/summary.json",
+      "bytes": 8441,
+      "sha256": "c274390cf35554bfb84c2efd42bb153335473b815ca1de8f99847f2ea69dc032"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/planning/plan.json",
+      "bytes": 205088,
+      "sha256": "add345a4ff0d3e47e07c2770ce5d09b65a1376062a30b9dcef1ed07f55a96c3e"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/processing/run-metadata.json",
+      "bytes": 34125,
+      "sha256": "30848a2de5d7941b0f32432c957bde3d657622a60c6a3d98d7db45c89cdcb187"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/water/after-water-score.tif",
+      "bytes": 5847280,
+      "sha256": "d1c2e1741f2bb40335f8fe1c5f39ea1a671687a366fef75aa4ce212f98924a02"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/water/after-water.tif",
+      "bytes": 132981,
+      "sha256": "973f81c7af3ff1f94d84d7c2e6358afdf6277f106d9877c6585b5685d47c4f14"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/water/aoi-mask.tif",
+      "bytes": 18186,
+      "sha256": "1dfb63b0eaf203adaefea49727c137964704f118db4f9a112661032d15d1d4bf"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/water/before-water-score.tif",
+      "bytes": 5854429,
+      "sha256": "5976c926a07859ff16ae563a75591fc01701abc840cc38d50f70e81c309cdaf7"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/water/before-water.tif",
+      "bytes": 133060,
+      "sha256": "362491f37d623b5381b1ae90a713e4d6614e1b1c44075e92e82d377d4dc5c39e"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/water/lost-water-candidates.tif",
+      "bytes": 123768,
+      "sha256": "f7d251520067d2f6886464144962bab18a82d1a605af7e990d41ab5e45cc33a0"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/water/manifest.json",
+      "bytes": 6011,
+      "sha256": "df63f70e87c746d1f50fb0cade62c2ee088860b78907f69f7b98a1d863dbdeb5"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/water/new-water-candidates.tif",
+      "bytes": 122739,
+      "sha256": "bf50024b23ddd98e11d5d07fedc06523fcd3ebaa3bde9fe797e788d5cae6fb37"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/water/policy.json",
+      "bytes": 1248,
+      "sha256": "b966abc263a8e05aa5c9569749b9d05762e4960da12300ea7e554c1211271027"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/fresh-one-command-replay/water/valid-mask.tif",
+      "bytes": 83489,
+      "sha256": "faf4dfcbe9437880fe027696f7f99aa411ffabed5e34b08f9fc0794779872ece"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-node-drive-access-2026-10-08/access-proof.json",
+      "bytes": 2877746,
+      "sha256": "ef1592ede8c7f7b519affbf7e4361e56fb3c085c878187f97008021cb2168f34"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-node-drive-access-2026-10-08/destinations.geojson",
+      "bytes": 76911,
+      "sha256": "3ec33d53c83d5923e0b9186999846a0b7ab0d63aeb80d22d367cec498481ce46"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-node-drive-access-2026-10-08/roads.geojson",
+      "bytes": 1090426534,
+      "sha256": "c5de78fc7546c842ecae2f47c74b22de11398ed66040d4cc625b9293939aa1d3"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-node-drive-access-2026-10-08/scenario-policy.json",
+      "bytes": 1599,
+      "sha256": "db836f367500d750aaf50406ea3c26b8bc0a7c1b04752133f7a6bf74859acf06"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-node-drive-access-2026-10-08/settlements.geojson",
+      "bytes": 3324803,
+      "sha256": "c0747219167f68ff5bc604a71b67a1a8fccc677d0bbb22d460029fd031a4898b"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-node-drive-access-2026-10-08/source-and-output-manifest.json",
+      "bytes": 12531,
+      "sha256": "9e819f15b46aae5d370f63b71b48e3af9399412e6c935f5878be60186ce3f6b7"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-node-drive-access-2026-10-08/summary.json",
+      "bytes": 8328,
+      "sha256": "43a8e0563b65d5f21da19041d04ff0422a00854a15aa5d1e2d892e12e6e8c568"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-node-drive-historic-osm-2026-10-08/network-receipt.json",
+      "bytes": 2165,
+      "sha256": "b43d28bec46c05dfd476b7a9e3ab0c1159a65cfd4d8658b9f86a5abf111633e2"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-node-drive-historic-osm-2026-10-08/osm.json",
+      "bytes": 37577948,
+      "sha256": "eced2fea35058df2b7bff82c7003714a94df2e63b167b3c83d97a2d0b9592cfc"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-node-drive-historic-osm-2026-10-08/protocol.json",
+      "bytes": 2233,
+      "sha256": "a69c4a9298e955923af36720ad264cfba5af7c6edadc856620381e5d67a17843"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-node-drive-historic-osm-2026-10-08/provenance.json",
+      "bytes": 2139,
+      "sha256": "9fe42d3e0cc301004f4333757202498dcd2ec880eb21d818ff07d17d764c244c"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-node-drive-historic-osm-2026-10-08/response.json",
+      "bytes": 29375561,
+      "sha256": "c0128467c2565390ffd13e9587e85c702f3b2138b2db9a07d744f44656f2c5fe"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-unseen-water/planning/plan.json",
+      "bytes": 163383,
+      "sha256": "e012fa9db1e2a5c5681abdbcc8853fa9b45bcf324728e423031da21ba8a34ae3"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-unseen-water/processing/run-metadata.json",
+      "bytes": 33497,
+      "sha256": "9cc8a72a3219716d7b868d1b7c1a953951919259006f345129af2150c92d88c2"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-unseen-water/water/after-water-score.tif",
+      "bytes": 5303681,
+      "sha256": "5cde8f3345935fd2b2d918f924f1a7aa9302e8c304d104d598043885bdf339a9"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-unseen-water/water/after-water.tif",
+      "bytes": 47730,
+      "sha256": "cd02548b28ae49abe961eb532526782084add3c5453aa3224df9428b9b9803f6"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-unseen-water/water/aoi-mask.tif",
+      "bytes": 17564,
+      "sha256": "ccb8e330f2f0e9b9dd0d585b6e129bab2ae8d956a37512dd891d6117dfb40bae"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-unseen-water/water/before-water-score.tif",
+      "bytes": 5476442,
+      "sha256": "6504de2a671e8025d727962c393caaecf59083e6a87c94a94f166dd9fc631d5c"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-unseen-water/water/before-water.tif",
+      "bytes": 47548,
+      "sha256": "2165c487d2160d907acb99539b86a19370601fa3fec08b12ce41c68e8f7f8b35"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-unseen-water/water/lost-water-candidates.tif",
+      "bytes": 46425,
+      "sha256": "d34f2e2aea11a485b88178a1e16e61bd712166b7d44b1459823dff0ff6a4576b"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-unseen-water/water/manifest.json",
+      "bytes": 5981,
+      "sha256": "880f1cb85bd3d188baf22f0bd7fd8f6536ca4a5869e21fa087da02bc208ce8cd"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-unseen-water/water/new-water-candidates.tif",
+      "bytes": 46549,
+      "sha256": "63e7f47147c81e75d5457d632f10d3f81ee4ac8ad92e704b7d27719cf8b10d65"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-unseen-water/water/policy.json",
+      "bytes": 1248,
+      "sha256": "65eb86870f2bf4019958a9607910dcb45c8f1e525bcdb1234916bc9ece1c5b25"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/kathmandu-unseen-water/water/valid-mask.tif",
+      "bytes": 37513,
+      "sha256": "57f5e41640dfefa35456f9c77e942a71bad805521597c28f8b4f3dd8140b931b"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/sen1-cpu-v1/final_test-evaluation.json",
+      "bytes": 96041,
+      "sha256": "9fd544fd80a34253cc5211c84a63b353ec43ad8f78c470cf30528dc4c57da134"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/sen1-cpu-v1/model-evaluation-freeze.json",
+      "bytes": 2371,
+      "sha256": "786b7a35555fe46ca9168db677957d53e91a0f60a1557673b94b939c94c1fa12"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/outputs/sen1-cpu-v1/water-model.joblib",
+      "bytes": 54300,
+      "sha256": "8b8b5795aa890f01fa611d4bd46ed0b97b9e8b5974ebd6dfed5e27e0f8d54d2d"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/research/fresh-exposure-report-review.md",
+      "bytes": 15180,
+      "sha256": "b8b4b4b1a85461048e0b9c4c41eb4f07eb3e525fbd6ede3a8f594679edc08e5b"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/research/kathmandu-core-access-review-2026-10-08.md",
+      "bytes": 21404,
+      "sha256": "334f2db08b0bba6cba5ec3beb828dc70f8388a448a68cbfed8dbcc2232953026"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/research/kathmandu-node-drive-access-audit-2026-10-08.json",
+      "bytes": 11585,
+      "sha256": "d3c0be3551ecf44143bcb28b86355ea9776b5cb53dbce2896f1b7df49648b346"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/research/sen1-cpu-training-protocol.json",
+      "bytes": 83237,
+      "sha256": "57dc4cc412d09ef06889a29d6f3a7956d1c5666dbf57c58750b77575e3b749d2"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/acquire_historic_osm.py",
+      "bytes": 10898,
+      "sha256": "f70fb5de3b311a5e529488bedd4a2d175d9ee938ae57309b8f8d46312844ce93"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/acquire_node_drive_historic_osm.py",
+      "bytes": 15134,
+      "sha256": "25fba684ac2a6fdea1541fed7a7f7b0132e7a45024dbf18c1c094619ed489032"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/audit_observation_access.py",
+      "bytes": 15432,
+      "sha256": "6bf4179ef4d289c6c743ebf9e22073ebcc2f73743e4c5923aca3e68d08e19fa5"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/infer_fresh_water.py",
+      "bytes": 9849,
+      "sha256": "d8cd95d6d79bc079009aca6e858fec326fa2f068b38b65606d6090e8b1a7f1cd"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/map_fresh_exposure.py",
+      "bytes": 31269,
+      "sha256": "c351e7542ea33dcee7446b30738bbe4a0d1a2327eb17802aef9027ee5e90509d"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/map_node_drive_access.py",
+      "bytes": 8139,
+      "sha256": "b3409956607aeb14d0f312c31c66de8c4f9cf1163b1053bee8087194549e00d1"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/map_radar_exposure.py",
+      "bytes": 20832,
+      "sha256": "9bf5c8b2ff71409b262f8184d18505c8dcb7d2cf0149db3fa1e6b4d0b6849bec"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/scripts/prove_access_bounds.py",
+      "bytes": 8308,
+      "sha256": "eb74d85be31dde3dc3eb0ee9fdb67957201c6a13b3e14574c08972883f95974c"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/access.py",
+      "bytes": 11565,
+      "sha256": "d58db1f3f080b604d172e2982ec8c81bf1962f22f3a4dd56d4811bfdf848fc86"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/access_bounds.py",
+      "bytes": 13664,
+      "sha256": "0321c2552d3fa38948b61fef6fd7436d1e9af2c45971599a26089cfaa040fc1f"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/buildings.py",
+      "bytes": 6095,
+      "sha256": "fc4e9ede857acb5408954e3146ba2ee32b833518e2d32a9c94d2b15f1c376e12"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/flood_model.py",
+      "bytes": 5840,
+      "sha256": "af81554d61c7a4d24a6d50dd1cfbeaa7b643e740384fb0694ccededfae8338a6"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/nearest_access.py",
+      "bytes": 4532,
+      "sha256": "d4d6ac5cfb2ac52a1da965ee671916ca53eef7c167eee7bfcc612094e5b4a6de"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/observation_access.py",
+      "bytes": 14825,
+      "sha256": "fe9a37ef9dae050c4bfcd7aa30cb91e8ac420199bf3079de0c2600652e4a660b"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/osm.py",
+      "bytes": 3189,
+      "sha256": "bbe1764eab4651b1a4d7143e9515f6804a5cd5c66923ae4035a3274973c6ab25"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/snap_products.py",
+      "bytes": 8627,
+      "sha256": "f404a3b943c8a6ac08404511dac5e91ecd4ce99b6ca9dbf842d007b87e9c7b82"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/src/akash_flood/water_inference.py",
+      "bytes": 4080,
+      "sha256": "2b751013903621b2f2c5e4923605de5bc73544b1344f154619b3d2709974b611"
+    },
+    {
+      "path": "/Users/earther/Desktop/IIT mandi/akash-flood/tests/test_observation_access.py",
+      "bytes": 7700,
+      "sha256": "361020bdf5153a5ecb054fdfa5a35ed3b28034d6bd64bf4c5fd46dc9173841ca"
+    }
+  ],
+  "all_original_frozen_inputs_and_scenario_outputs_unchanged": true,
+  "copied_data_byte_identical_to_preserved_viewer": true,
+  "route_geometry_invented": false,
+  "point_to_road_connector_inferred": false,
+  "model_inference_performed": false,
+  "graph_analysis_performed": false,
+  "reference_maps_loaded": false,
+  "network_requests": 0,
+  "gpu_used": false,
+  "browser_review": "pending root review",
+  "human_usability_or_nepali_review": false,
+  "claims": "Usability and exact saved geographic context only; no new flood accuracy, observed closures, physical access or arbitrary raw-data capability",
+  "wall_seconds": 2.0840684590220917
+}

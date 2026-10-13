@@ -1,0 +1,12 @@
+{
+  "schema": "akash-publication-origin-v1",
+  "imported_archive_sha256": "3f1ee013e4f5abbd34d0c04cd040af2c4aa8929281f010bd7dddfd4adab5c125",
+  "imported_payload_count": 217,
+  "imported_manifest": "../../release/SOURCE-MANIFEST.json",
+  "scope": "The imported manifest describes the pre-publication 217-payload source. Publication README, workflows and static presentation are additive delivery changes; it is not a manifest of the current Git repository.",
+  "analysis_code_modified": false,
+  "models_or_thresholds_retrained_or_rescored": false,
+  "actual_case_source": "Frozen R6 snapshots in the saved case; current source activation changes have not replayed raw processing.",
+  "author": "Eartherai",
+  "ai_tools_are_collaborators": false
+}

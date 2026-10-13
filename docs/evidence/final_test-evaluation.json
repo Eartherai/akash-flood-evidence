@@ -1,0 +1,2993 @@
+{
+  "evaluated_at": "2026-10-06T18:17:24.104633+00:00",
+  "split": "final_test",
+  "protocol_sha256": "57dc4cc412d09ef06889a29d6f3a7956d1c5666dbf57c58750b77575e3b749d2",
+  "freeze_sha256": "786b7a35555fe46ca9168db677957d53e91a0f60a1557673b94b939c94c1fa12",
+  "model_sha256": "8b8b5795aa890f01fa611d4bd46ed0b97b9e8b5974ebd6dfed5e27e0f8d54d2d",
+  "threshold": 0.5,
+  "chips": [
+    {
+      "s1": "Bolivia_103757_S1Hand.tif",
+      "label": "Bolivia_103757_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 22734,
+        "fp": 488,
+        "fn": 12628,
+        "tn": 52227,
+        "label_valid_pixels": 88077,
+        "assessed_label_pixels": 88077,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 174067,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.634142259414226,
+        "water_precision": 0.9789854448367927,
+        "water_recall": 0.642893501498784,
+        "water_f1": 0.7761163457599345,
+        "assessed_pixel_accuracy": 0.8510848462141081,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.642893501498784
+      }
+    },
+    {
+      "s1": "Bolivia_129334_S1Hand.tif",
+      "label": "Bolivia_129334_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 79490,
+        "fp": 2093,
+        "fn": 76577,
+        "tn": 78905,
+        "label_valid_pixels": 237814,
+        "assessed_label_pixels": 237065,
+        "unsupported_label_pixels": 749,
+        "unsupported_water_pixels": 576,
+        "ignored_label_pixels": 24330,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.5025923115832068,
+        "water_precision": 0.9743451454347106,
+        "water_recall": 0.5093325302594398,
+        "water_f1": 0.6689669682305912,
+        "assessed_pixel_accuracy": 0.6681500854196106,
+        "label_valid_assessment_coverage": 0.996850479786724,
+        "full_label_water_recall_unknown_not_detected": 0.5074596375197105
+      }
+    },
+    {
+      "s1": "Bolivia_195474_S1Hand.tif",
+      "label": "Bolivia_195474_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 0,
+        "fp": 35,
+        "fn": 1551,
+        "tn": 259749,
+        "label_valid_pixels": 261335,
+        "assessed_label_pixels": 261335,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 809,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": 0.0,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.9939311611533089,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.0
+      }
+    },
+    {
+      "s1": "Bolivia_23014_S1Hand.tif",
+      "label": "Bolivia_23014_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 3782,
+        "fp": 1856,
+        "fn": 3998,
+        "tn": 173359,
+        "label_valid_pixels": 209479,
+        "assessed_label_pixels": 182995,
+        "unsupported_label_pixels": 26484,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 52665,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.3924865089248651,
+        "water_precision": 0.670805250088684,
+        "water_recall": 0.48611825192802055,
+        "water_f1": 0.5637203756148458,
+        "assessed_pixel_accuracy": 0.9680100549195333,
+        "label_valid_assessment_coverage": 0.8735720525685152,
+        "full_label_water_recall_unknown_not_detected": 0.48611825192802055
+      }
+    },
+    {
+      "s1": "Bolivia_233925_S1Hand.tif",
+      "label": "Bolivia_233925_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 0,
+        "fp": 1070,
+        "fn": 1,
+        "tn": 145223,
+        "label_valid_pixels": 150537,
+        "assessed_label_pixels": 146294,
+        "unsupported_label_pixels": 4243,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 111607,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": 0.0,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.9926791255964018,
+        "label_valid_assessment_coverage": 0.9718142383600045,
+        "full_label_water_recall_unknown_not_detected": 0.0
+      }
+    },
+    {
+      "s1": "Bolivia_242570_S1Hand.tif",
+      "label": "Bolivia_242570_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 7405,
+        "fp": 6788,
+        "fn": 19941,
+        "tn": 141373,
+        "label_valid_pixels": 175507,
+        "assessed_label_pixels": 175507,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 86637,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.2169391222827679,
+        "water_precision": 0.5217360670753188,
+        "water_recall": 0.27078914649308855,
+        "water_f1": 0.35653241532054214,
+        "assessed_pixel_accuracy": 0.8477040801791381,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.27078914649308855
+      }
+    },
+    {
+      "s1": "Bolivia_290290_S1Hand.tif",
+      "label": "Bolivia_290290_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 3382,
+        "fp": 630,
+        "fn": 16317,
+        "tn": 184304,
+        "label_valid_pixels": 204633,
+        "assessed_label_pixels": 204633,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 57511,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.16636332333120174,
+        "water_precision": 0.8429710867397806,
+        "water_recall": 0.1716838418193817,
+        "water_f1": 0.2852684408080638,
+        "assessed_pixel_accuracy": 0.9171834454853323,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.1716838418193817
+      }
+    },
+    {
+      "s1": "Bolivia_294583_S1Hand.tif",
+      "label": "Bolivia_294583_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 11505,
+        "fp": 1617,
+        "fn": 3503,
+        "tn": 113847,
+        "label_valid_pixels": 130472,
+        "assessed_label_pixels": 130472,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 131672,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.6920300751879699,
+        "water_precision": 0.876771833561957,
+        "water_recall": 0.7665911513859275,
+        "water_f1": 0.8179879132598649,
+        "assessed_pixel_accuracy": 0.9607578637562082,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.7665911513859275
+      }
+    },
+    {
+      "s1": "Bolivia_312675_S1Hand.tif",
+      "label": "Bolivia_312675_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 616,
+        "fp": 94,
+        "fn": 8959,
+        "tn": 148339,
+        "label_valid_pixels": 158008,
+        "assessed_label_pixels": 158008,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 104136,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.06370875995449374,
+        "water_precision": 0.8676056338028169,
+        "water_recall": 0.06433420365535249,
+        "water_f1": 0.11978609625668449,
+        "assessed_pixel_accuracy": 0.9427054326363222,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.06433420365535249
+      }
+    },
+    {
+      "s1": "Bolivia_314919_S1Hand.tif",
+      "label": "Bolivia_314919_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 38755,
+        "fp": 1601,
+        "fn": 44923,
+        "tn": 103566,
+        "label_valid_pixels": 188845,
+        "assessed_label_pixels": 188845,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 73299,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.45444951277571266,
+        "water_precision": 0.9603280800872237,
+        "water_recall": 0.4631444346184182,
+        "water_f1": 0.6249092990631601,
+        "assessed_pixel_accuracy": 0.7536392279382562,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.4631444346184182
+      }
+    },
+    {
+      "s1": "Bolivia_360519_S1Hand.tif",
+      "label": "Bolivia_360519_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 46,
+        "fp": 981,
+        "fn": 368,
+        "tn": 242283,
+        "label_valid_pixels": 254091,
+        "assessed_label_pixels": 243678,
+        "unsupported_label_pixels": 10413,
+        "unsupported_water_pixels": 2387,
+        "ignored_label_pixels": 8053,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.032974910394265235,
+        "water_precision": 0.044790652385589096,
+        "water_recall": 0.1111111111111111,
+        "water_f1": 0.06384455239417071,
+        "assessed_pixel_accuracy": 0.994464005778117,
+        "label_valid_assessment_coverage": 0.959018619313553,
+        "full_label_water_recall_unknown_not_detected": 0.016422706176365584
+      }
+    },
+    {
+      "s1": "Bolivia_379434_S1Hand.tif",
+      "label": "Bolivia_379434_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 1611,
+        "fp": 881,
+        "fn": 9179,
+        "tn": 250473,
+        "label_valid_pixels": 262144,
+        "assessed_label_pixels": 262144,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 0,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.1380344443492417,
+        "water_precision": 0.6464686998394864,
+        "water_recall": 0.14930491195551437,
+        "water_f1": 0.2425839482005722,
+        "assessed_pixel_accuracy": 0.9616241455078125,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.14930491195551437
+      }
+    },
+    {
+      "s1": "Bolivia_432776_S1Hand.tif",
+      "label": "Bolivia_432776_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 31137,
+        "fp": 2124,
+        "fn": 41008,
+        "tn": 81128,
+        "label_valid_pixels": 156889,
+        "assessed_label_pixels": 155397,
+        "unsupported_label_pixels": 1492,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 105255,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.41924625348395694,
+        "water_precision": 0.9361414268963651,
+        "water_recall": 0.43158916071799847,
+        "water_f1": 0.5908012826594311,
+        "assessed_pixel_accuracy": 0.7224399441430658,
+        "label_valid_assessment_coverage": 0.9904900917208982,
+        "full_label_water_recall_unknown_not_detected": 0.43158916071799847
+      }
+    },
+    {
+      "s1": "Bolivia_60373_S1Hand.tif",
+      "label": "Bolivia_60373_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 5392,
+        "fp": 211,
+        "fn": 7088,
+        "tn": 186328,
+        "label_valid_pixels": 199019,
+        "assessed_label_pixels": 199019,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 63125,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.4248680167047514,
+        "water_precision": 0.9623416027128324,
+        "water_recall": 0.43205128205128207,
+        "water_f1": 0.5963612232483548,
+        "assessed_pixel_accuracy": 0.9633251096628965,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.43205128205128207
+      }
+    },
+    {
+      "s1": "Bolivia_76104_S1Hand.tif",
+      "label": "Bolivia_76104_LabelHand.tif",
+      "collection": "Bolivia",
+      "counts": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 5,
+        "tn": 190960,
+        "label_valid_pixels": 190965,
+        "assessed_label_pixels": 190965,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 71179,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": null,
+        "water_recall": 0.0,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.9999738171916319,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.0
+      }
+    },
+    {
+      "s1": "India_1017769_S1Hand.tif",
+      "label": "India_1017769_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 90212,
+        "fp": 15476,
+        "fn": 7931,
+        "tn": 59352,
+        "label_valid_pixels": 172971,
+        "assessed_label_pixels": 172971,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 89173,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.7939869212015596,
+        "water_precision": 0.8535689955340247,
+        "water_recall": 0.919189346158157,
+        "water_f1": 0.8851646707321261,
+        "assessed_pixel_accuracy": 0.8646767377190396,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.919189346158157
+      }
+    },
+    {
+      "s1": "India_1018317_S1Hand.tif",
+      "label": "India_1018317_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 148640,
+        "fp": 14599,
+        "fn": 2070,
+        "tn": 31668,
+        "label_valid_pixels": 196977,
+        "assessed_label_pixels": 196977,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 65167,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.8991645947891524,
+        "water_precision": 0.9105667150619644,
+        "water_recall": 0.9862650122752306,
+        "water_f1": 0.9469053890918588,
+        "assessed_pixel_accuracy": 0.9153759068317621,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.9862650122752306
+      }
+    },
+    {
+      "s1": "India_1018327_S1Hand.tif",
+      "label": "India_1018327_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 12017,
+        "fp": 464,
+        "fn": 24632,
+        "tn": 225029,
+        "label_valid_pixels": 262142,
+        "assessed_label_pixels": 262142,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 2,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.3237948966669361,
+        "water_precision": 0.9628234917073952,
+        "water_recall": 0.32789434909547327,
+        "water_f1": 0.48919193975167924,
+        "assessed_pixel_accuracy": 0.9042656270265734,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.32789434909547327
+      }
+    },
+    {
+      "s1": "India_103447_S1Hand.tif",
+      "label": "India_103447_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 16401,
+        "fp": 1436,
+        "fn": 10576,
+        "tn": 135154,
+        "label_valid_pixels": 163567,
+        "assessed_label_pixels": 163567,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 98577,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.5772357723577236,
+        "water_precision": 0.9194931883164209,
+        "water_recall": 0.6079623382881714,
+        "water_f1": 0.7319587628865979,
+        "assessed_pixel_accuracy": 0.9265622038675283,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.6079623382881714
+      }
+    },
+    {
+      "s1": "India_1050276_S1Hand.tif",
+      "label": "India_1050276_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 8553,
+        "fp": 935,
+        "fn": 40452,
+        "tn": 205245,
+        "label_valid_pixels": 255185,
+        "assessed_label_pixels": 255185,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 6959,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.17126551862234682,
+        "water_precision": 0.9014544688026982,
+        "water_recall": 0.17453321089684726,
+        "water_f1": 0.2924452498589575,
+        "assessed_pixel_accuracy": 0.8378157023336011,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.17453321089684726
+      }
+    },
+    {
+      "s1": "India_1068117_S1Hand.tif",
+      "label": "India_1068117_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 19677,
+        "fp": 1948,
+        "fn": 28283,
+        "tn": 179804,
+        "label_valid_pixels": 229712,
+        "assessed_label_pixels": 229712,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 32432,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.3942654484251022,
+        "water_precision": 0.9099190751445086,
+        "water_recall": 0.410279399499583,
+        "water_f1": 0.5655529208881225,
+        "assessed_pixel_accuracy": 0.868396078567946,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.410279399499583
+      }
+    },
+    {
+      "s1": "India_1072277_S1Hand.tif",
+      "label": "India_1072277_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 95,
+        "fp": 91,
+        "fn": 22451,
+        "tn": 239505,
+        "label_valid_pixels": 262142,
+        "assessed_label_pixels": 262142,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 2,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.004196669169943014,
+        "water_precision": 0.510752688172043,
+        "water_recall": 0.004213607735296727,
+        "water_f1": 0.008358261481611826,
+        "assessed_pixel_accuracy": 0.9140084381747298,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.004213607735296727
+      }
+    },
+    {
+      "s1": "India_118868_S1Hand.tif",
+      "label": "India_118868_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 141,
+        "fp": 1495,
+        "fn": 10544,
+        "tn": 147095,
+        "label_valid_pixels": 162148,
+        "assessed_label_pixels": 159275,
+        "unsupported_label_pixels": 2873,
+        "unsupported_water_pixels": 97,
+        "ignored_label_pixels": 99996,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.011576354679802956,
+        "water_precision": 0.08618581907090464,
+        "water_recall": 0.013196069255966308,
+        "water_f1": 0.022887752617482347,
+        "assessed_pixel_accuracy": 0.9244137498037984,
+        "label_valid_assessment_coverage": 0.9822816192614156,
+        "full_label_water_recall_unknown_not_detected": 0.013077351140790205
+      }
+    },
+    {
+      "s1": "India_135434_S1Hand.tif",
+      "label": "India_135434_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 3809,
+        "fp": 638,
+        "fn": 6503,
+        "tn": 106200,
+        "label_valid_pixels": 117150,
+        "assessed_label_pixels": 117150,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 144994,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.34785388127853883,
+        "water_precision": 0.8565324938160558,
+        "water_recall": 0.3693754848719938,
+        "water_f1": 0.5161596314113422,
+        "assessed_pixel_accuracy": 0.9390439607341016,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.3693754848719938
+      }
+    },
+    {
+      "s1": "India_136196_S1Hand.tif",
+      "label": "India_136196_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 0,
+        "fp": 3038,
+        "fn": 0,
+        "tn": 208706,
+        "label_valid_pixels": 211744,
+        "assessed_label_pixels": 211744,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 50400,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": null,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.9856524860208554,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": null
+      }
+    },
+    {
+      "s1": "India_164336_S1Hand.tif",
+      "label": "India_164336_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 23,
+        "fp": 41,
+        "fn": 1858,
+        "tn": 257179,
+        "label_valid_pixels": 259101,
+        "assessed_label_pixels": 259101,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 3043,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.011966701352757543,
+        "water_precision": 0.359375,
+        "water_recall": 0.012227538543328018,
+        "water_f1": 0.02365038560411311,
+        "assessed_pixel_accuracy": 0.9926708117683838,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.012227538543328018
+      }
+    },
+    {
+      "s1": "India_166709_S1Hand.tif",
+      "label": "India_166709_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 20,
+        "fp": 31,
+        "fn": 8819,
+        "tn": 248024,
+        "label_valid_pixels": 256894,
+        "assessed_label_pixels": 256894,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 5250,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.002254791431792559,
+        "water_precision": 0.39215686274509803,
+        "water_recall": 0.002262699400384659,
+        "water_f1": 0.0044994375703037125,
+        "assessed_pixel_accuracy": 0.9655499933824846,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.002262699400384659
+      }
+    },
+    {
+      "s1": "India_177319_S1Hand.tif",
+      "label": "India_177319_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 4,
+        "fp": 13,
+        "fn": 1574,
+        "tn": 254899,
+        "label_valid_pixels": 257225,
+        "assessed_label_pixels": 256490,
+        "unsupported_label_pixels": 735,
+        "unsupported_water_pixels": 17,
+        "ignored_label_pixels": 4919,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.00251414204902577,
+        "water_precision": 0.23529411764705882,
+        "water_recall": 0.0025348542458808617,
+        "water_f1": 0.005015673981191223,
+        "assessed_pixel_accuracy": 0.9938126242738509,
+        "label_valid_assessment_coverage": 0.9971425794537856,
+        "full_label_water_recall_unknown_not_detected": 0.0025078369905956114
+      }
+    },
+    {
+      "s1": "India_179238_S1Hand.tif",
+      "label": "India_179238_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 63,
+        "fp": 39,
+        "fn": 11529,
+        "tn": 180851,
+        "label_valid_pixels": 192482,
+        "assessed_label_pixels": 192482,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 69662,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0054165591952540625,
+        "water_precision": 0.6176470588235294,
+        "water_recall": 0.005434782608695652,
+        "water_f1": 0.0107747562852745,
+        "assessed_pixel_accuracy": 0.9399008738479442,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.005434782608695652
+      }
+    },
+    {
+      "s1": "India_180633_S1Hand.tif",
+      "label": "India_180633_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 69230,
+        "fp": 2613,
+        "fn": 6533,
+        "tn": 86179,
+        "label_valid_pixels": 164555,
+        "assessed_label_pixels": 164555,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 97589,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.8833061141165663,
+        "water_precision": 0.9636290244004287,
+        "water_recall": 0.9137705740268997,
+        "water_f1": 0.9380377491429888,
+        "assessed_pixel_accuracy": 0.9444197988514479,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.9137705740268997
+      }
+    },
+    {
+      "s1": "India_207862_S1Hand.tif",
+      "label": "India_207862_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 1361,
+        "fp": 764,
+        "fn": 19667,
+        "tn": 178323,
+        "label_valid_pixels": 200115,
+        "assessed_label_pixels": 200115,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 62029,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.06245411160058737,
+        "water_precision": 0.6404705882352941,
+        "water_recall": 0.06472322617462431,
+        "water_f1": 0.1175657582170777,
+        "assessed_pixel_accuracy": 0.8979037053694126,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.06472322617462431
+      }
+    },
+    {
+      "s1": "India_244057_S1Hand.tif",
+      "label": "India_244057_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 0,
+        "fp": 389,
+        "fn": 5,
+        "tn": 160143,
+        "label_valid_pixels": 160537,
+        "assessed_label_pixels": 160537,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 101607,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": 0.0,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.9975457371197917,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.0
+      }
+    },
+    {
+      "s1": "India_25540_S1Hand.tif",
+      "label": "India_25540_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 247,
+        "fp": 142,
+        "fn": 11312,
+        "tn": 176924,
+        "label_valid_pixels": 188625,
+        "assessed_label_pixels": 188625,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 73519,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.021109306896846425,
+        "water_precision": 0.6349614395886889,
+        "water_recall": 0.02136863050436889,
+        "water_f1": 0.04134583193839973,
+        "assessed_pixel_accuracy": 0.9392763419483101,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.02136863050436889
+      }
+    },
+    {
+      "s1": "India_265762_S1Hand.tif",
+      "label": "India_265762_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 101,
+        "fp": 80,
+        "fn": 8432,
+        "tn": 138683,
+        "label_valid_pixels": 147296,
+        "assessed_label_pixels": 147296,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 114848,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.01172646000232207,
+        "water_precision": 0.5580110497237569,
+        "water_recall": 0.011836399859369507,
+        "water_f1": 0.02318108790452146,
+        "assessed_pixel_accuracy": 0.942211601129698,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.011836399859369507
+      }
+    },
+    {
+      "s1": "India_273873_S1Hand.tif",
+      "label": "India_273873_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 396,
+        "fp": 3464,
+        "fn": 5050,
+        "tn": 146698,
+        "label_valid_pixels": 155608,
+        "assessed_label_pixels": 155608,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 106536,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.044444444444444446,
+        "water_precision": 0.10259067357512953,
+        "water_recall": 0.07271391847227322,
+        "water_f1": 0.0851063829787234,
+        "assessed_pixel_accuracy": 0.9452855894298494,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.07271391847227322
+      }
+    },
+    {
+      "s1": "India_285297_S1Hand.tif",
+      "label": "India_285297_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 5710,
+        "fp": 2613,
+        "fn": 30296,
+        "tn": 206423,
+        "label_valid_pixels": 245042,
+        "assessed_label_pixels": 245042,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 17102,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.1478546829280924,
+        "water_precision": 0.6860507028715608,
+        "water_recall": 0.15858468033105594,
+        "water_f1": 0.25761916578312166,
+        "assessed_pixel_accuracy": 0.8657005737791889,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.15858468033105594
+      }
+    },
+    {
+      "s1": "India_287642_S1Hand.tif",
+      "label": "India_287642_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 4546,
+        "fp": 2714,
+        "fn": 13368,
+        "tn": 94749,
+        "label_valid_pixels": 115377,
+        "assessed_label_pixels": 115377,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 146767,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.22038006592980414,
+        "water_precision": 0.6261707988980716,
+        "water_recall": 0.2537680026794686,
+        "water_f1": 0.3611662826725987,
+        "assessed_pixel_accuracy": 0.8606134671554989,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.2537680026794686
+      }
+    },
+    {
+      "s1": "India_324254_S1Hand.tif",
+      "label": "India_324254_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 25,
+        "fp": 26,
+        "fn": 3858,
+        "tn": 258235,
+        "label_valid_pixels": 262144,
+        "assessed_label_pixels": 262144,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 0,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.006395497569710923,
+        "water_precision": 0.49019607843137253,
+        "water_recall": 0.006438320885912954,
+        "water_f1": 0.012709710218607015,
+        "assessed_pixel_accuracy": 0.9851837158203125,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.006438320885912954
+      }
+    },
+    {
+      "s1": "India_373039_S1Hand.tif",
+      "label": "India_373039_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 7,
+        "fp": 6829,
+        "fn": 1502,
+        "tn": 234445,
+        "label_valid_pixels": 242783,
+        "assessed_label_pixels": 242783,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 19361,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0008395298632765651,
+        "water_precision": 0.001023990637799883,
+        "water_recall": 0.004638833664678595,
+        "water_f1": 0.0016776512881965249,
+        "assessed_pixel_accuracy": 0.965685406309338,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.004638833664678595
+      }
+    },
+    {
+      "s1": "India_383430_S1Hand.tif",
+      "label": "India_383430_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 7625,
+        "fp": 749,
+        "fn": 31603,
+        "tn": 211294,
+        "label_valid_pixels": 251271,
+        "assessed_label_pixels": 251271,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 10873,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.19073467243665107,
+        "water_precision": 0.9105564843563411,
+        "water_recall": 0.19437646578974202,
+        "water_f1": 0.3203646905592202,
+        "assessed_pixel_accuracy": 0.8712465823752045,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.19437646578974202
+      }
+    },
+    {
+      "s1": "India_391908_S1Hand.tif",
+      "label": "India_391908_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 6777,
+        "fp": 560,
+        "fn": 19212,
+        "tn": 185283,
+        "label_valid_pixels": 211832,
+        "assessed_label_pixels": 211832,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 50312,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.25526385174582844,
+        "water_precision": 0.923674526373177,
+        "water_recall": 0.2607641694563084,
+        "water_f1": 0.4067094760847386,
+        "assessed_pixel_accuracy": 0.906661883001624,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.2607641694563084
+      }
+    },
+    {
+      "s1": "India_399883_S1Hand.tif",
+      "label": "India_399883_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 118154,
+        "fp": 13387,
+        "fn": 18138,
+        "tn": 112440,
+        "label_valid_pixels": 262119,
+        "assessed_label_pixels": 262119,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 25,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.7893826121232771,
+        "water_precision": 0.8982294493731993,
+        "water_recall": 0.8669180876353711,
+        "water_f1": 0.8822960576179933,
+        "assessed_pixel_accuracy": 0.8797301988791351,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.8669180876353711
+      }
+    },
+    {
+      "s1": "India_44475_S1Hand.tif",
+      "label": "India_44475_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 0,
+        "fp": 19,
+        "fn": 0,
+        "tn": 260156,
+        "label_valid_pixels": 260175,
+        "assessed_label_pixels": 260175,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 1969,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": null,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.9999269722302296,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": null
+      }
+    },
+    {
+      "s1": "India_500266_S1Hand.tif",
+      "label": "India_500266_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 2020,
+        "fp": 557,
+        "fn": 36161,
+        "tn": 223403,
+        "label_valid_pixels": 262141,
+        "assessed_label_pixels": 262141,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 3,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.05214518044297589,
+        "water_precision": 0.7838571982925883,
+        "water_recall": 0.052905895602524816,
+        "water_f1": 0.09912164483046274,
+        "assessed_pixel_accuracy": 0.8599303428307666,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.052905895602524816
+      }
+    },
+    {
+      "s1": "India_533192_S1Hand.tif",
+      "label": "India_533192_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 30492,
+        "fp": 3876,
+        "fn": 12752,
+        "tn": 73541,
+        "label_valid_pixels": 135257,
+        "assessed_label_pixels": 120661,
+        "unsupported_label_pixels": 14596,
+        "unsupported_water_pixels": 5826,
+        "ignored_label_pixels": 126887,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.6471137521222411,
+        "water_precision": 0.8872206703910615,
+        "water_recall": 0.7051151604846915,
+        "water_f1": 0.7857547801886307,
+        "assessed_pixel_accuracy": 0.8621924234010989,
+        "label_valid_assessment_coverage": 0.8920869160191339,
+        "full_label_water_recall_unknown_not_detected": 0.621398002853067
+      }
+    },
+    {
+      "s1": "India_534470_S1Hand.tif",
+      "label": "India_534470_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 107,
+        "fp": 24,
+        "fn": 7327,
+        "tn": 243112,
+        "label_valid_pixels": 250570,
+        "assessed_label_pixels": 250570,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 11574,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.01434700992223116,
+        "water_precision": 0.816793893129771,
+        "water_recall": 0.014393327952649986,
+        "water_f1": 0.028288169200264376,
+        "assessed_pixel_accuracy": 0.9706628886139602,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.014393327952649986
+      }
+    },
+    {
+      "s1": "India_56450_S1Hand.tif",
+      "label": "India_56450_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 0,
+        "fp": 47,
+        "fn": 82,
+        "tn": 181119,
+        "label_valid_pixels": 181248,
+        "assessed_label_pixels": 181248,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 80896,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": 0.0,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.9992882680084746,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.0
+      }
+    },
+    {
+      "s1": "India_566697_S1Hand.tif",
+      "label": "India_566697_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 411,
+        "fp": 450,
+        "fn": 14308,
+        "tn": 200534,
+        "label_valid_pixels": 215703,
+        "assessed_label_pixels": 215703,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 46441,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.027094732678489025,
+        "water_precision": 0.47735191637630664,
+        "water_recall": 0.027923092601399552,
+        "water_f1": 0.052759948652118104,
+        "assessed_pixel_accuracy": 0.9315818509710111,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.027923092601399552
+      }
+    },
+    {
+      "s1": "India_570384_S1Hand.tif",
+      "label": "India_570384_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 4897,
+        "fp": 426,
+        "fn": 9651,
+        "tn": 227026,
+        "label_valid_pixels": 242000,
+        "assessed_label_pixels": 242000,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 20144,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.3270335247762789,
+        "water_precision": 0.9199699417621642,
+        "water_recall": 0.33660984327742643,
+        "water_f1": 0.4928790700015097,
+        "assessed_pixel_accuracy": 0.9583595041322314,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.33660984327742643
+      }
+    },
+    {
+      "s1": "India_591317_S1Hand.tif",
+      "label": "India_591317_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 105481,
+        "fp": 4133,
+        "fn": 8558,
+        "tn": 127877,
+        "label_valid_pixels": 246049,
+        "assessed_label_pixels": 246049,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 16095,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.8926056933960668,
+        "water_precision": 0.9622949623223311,
+        "water_recall": 0.924955497680618,
+        "water_f1": 0.9432558472276249,
+        "assessed_pixel_accuracy": 0.9484208430028165,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.924955497680618
+      }
+    },
+    {
+      "s1": "India_591549_S1Hand.tif",
+      "label": "India_591549_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 38,
+        "fp": 33,
+        "fn": 11016,
+        "tn": 234622,
+        "label_valid_pixels": 245709,
+        "assessed_label_pixels": 245709,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 16435,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0034274375394606296,
+        "water_precision": 0.5352112676056338,
+        "water_recall": 0.0034376696218563416,
+        "water_f1": 0.006831460674157303,
+        "assessed_pixel_accuracy": 0.9550321722037044,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.0034376696218563416
+      }
+    },
+    {
+      "s1": "India_592446_S1Hand.tif",
+      "label": "India_592446_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 3552,
+        "fp": 849,
+        "fn": 5492,
+        "tn": 214462,
+        "label_valid_pixels": 224355,
+        "assessed_label_pixels": 224355,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 37789,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.3590417466895785,
+        "water_precision": 0.8070892978868439,
+        "water_recall": 0.39274657231313576,
+        "water_f1": 0.5283748605429528,
+        "assessed_pixel_accuracy": 0.9717367564796862,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.39274657231313576
+      }
+    },
+    {
+      "s1": "India_59460_S1Hand.tif",
+      "label": "India_59460_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 2,
+        "fp": 405,
+        "fn": 313,
+        "tn": 208633,
+        "label_valid_pixels": 209353,
+        "assessed_label_pixels": 209353,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 52791,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.002777777777777778,
+        "water_precision": 0.004914004914004914,
+        "water_recall": 0.006349206349206349,
+        "water_f1": 0.00554016620498615,
+        "assessed_pixel_accuracy": 0.9965703859032352,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.006349206349206349
+      }
+    },
+    {
+      "s1": "India_624341_S1Hand.tif",
+      "label": "India_624341_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 57,
+        "fp": 290,
+        "fn": 3167,
+        "tn": 258628,
+        "label_valid_pixels": 262142,
+        "assessed_label_pixels": 262142,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 2,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.016220830961866817,
+        "water_precision": 0.1642651296829971,
+        "water_recall": 0.017679900744416874,
+        "water_f1": 0.03192383085970316,
+        "assessed_pixel_accuracy": 0.9868124909400249,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.017679900744416874
+      }
+    },
+    {
+      "s1": "India_631692_S1Hand.tif",
+      "label": "India_631692_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 802,
+        "tn": 261342,
+        "label_valid_pixels": 262144,
+        "assessed_label_pixels": 262144,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 0,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": null,
+        "water_recall": 0.0,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.9969406127929688,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.0
+      }
+    },
+    {
+      "s1": "India_652725_S1Hand.tif",
+      "label": "India_652725_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 2651,
+        "fp": 711,
+        "fn": 19144,
+        "tn": 239588,
+        "label_valid_pixels": 262094,
+        "assessed_label_pixels": 262094,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 50,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.11779081133919844,
+        "water_precision": 0.788518738845925,
+        "water_recall": 0.1216334021564579,
+        "water_f1": 0.21075644949715786,
+        "assessed_pixel_accuracy": 0.9242447366212122,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.1216334021564579
+      }
+    },
+    {
+      "s1": "India_664410_S1Hand.tif",
+      "label": "India_664410_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 1413,
+        "fp": 501,
+        "fn": 12113,
+        "tn": 248115,
+        "label_valid_pixels": 262142,
+        "assessed_label_pixels": 262142,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 2,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.10073429813930278,
+        "water_precision": 0.7382445141065831,
+        "water_recall": 0.10446547390211444,
+        "water_f1": 0.18303108808290156,
+        "assessed_pixel_accuracy": 0.951881041572888,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.10446547390211444
+      }
+    },
+    {
+      "s1": "India_691027_S1Hand.tif",
+      "label": "India_691027_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 868,
+        "fp": 412,
+        "fn": 7526,
+        "tn": 245228,
+        "label_valid_pixels": 254034,
+        "assessed_label_pixels": 254034,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 8110,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0985691573926868,
+        "water_precision": 0.678125,
+        "water_recall": 0.10340719561591613,
+        "water_f1": 0.17945007235890015,
+        "assessed_pixel_accuracy": 0.9687522142705307,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.10340719561591613
+      }
+    },
+    {
+      "s1": "India_698338_S1Hand.tif",
+      "label": "India_698338_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 769,
+        "fp": 213,
+        "fn": 9167,
+        "tn": 217835,
+        "label_valid_pixels": 227984,
+        "assessed_label_pixels": 227984,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 34160,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.07577101192235688,
+        "water_precision": 0.7830957230142567,
+        "water_recall": 0.07739533011272141,
+        "water_f1": 0.14086829089576847,
+        "assessed_pixel_accuracy": 0.9588567618780265,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.07739533011272141
+      }
+    },
+    {
+      "s1": "India_70352_S1Hand.tif",
+      "label": "India_70352_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 10237,
+        "fp": 1114,
+        "fn": 2951,
+        "tn": 224927,
+        "label_valid_pixels": 239229,
+        "assessed_label_pixels": 239229,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 22915,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.7157740176199133,
+        "water_precision": 0.9018588670601709,
+        "water_recall": 0.7762359720958447,
+        "water_f1": 0.8343453278454704,
+        "assessed_pixel_accuracy": 0.9830079129202564,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.7762359720958447
+      }
+    },
+    {
+      "s1": "India_707886_S1Hand.tif",
+      "label": "India_707886_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 2964,
+        "fp": 507,
+        "fn": 2704,
+        "tn": 250706,
+        "label_valid_pixels": 256881,
+        "assessed_label_pixels": 256881,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 5263,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.48,
+        "water_precision": 0.8539325842696629,
+        "water_recall": 0.5229357798165137,
+        "water_f1": 0.6486486486486487,
+        "assessed_pixel_accuracy": 0.9875000486606639,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.5229357798165137
+      }
+    },
+    {
+      "s1": "India_73419_S1Hand.tif",
+      "label": "India_73419_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 32,
+        "fp": 17,
+        "fn": 6220,
+        "tn": 172665,
+        "label_valid_pixels": 178934,
+        "assessed_label_pixels": 178934,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 83210,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.005104482373584304,
+        "water_precision": 0.6530612244897959,
+        "water_recall": 0.005118362124120281,
+        "water_f1": 0.010157117917790826,
+        "assessed_pixel_accuracy": 0.9651435724904155,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.005118362124120281
+      }
+    },
+    {
+      "s1": "India_747970_S1Hand.tif",
+      "label": "India_747970_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 1045,
+        "fp": 155,
+        "fn": 3962,
+        "tn": 241355,
+        "label_valid_pixels": 246517,
+        "assessed_label_pixels": 246517,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 15627,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.20244091437427353,
+        "water_precision": 0.8708333333333333,
+        "water_recall": 0.20870780906730577,
+        "water_f1": 0.3367166102787176,
+        "assessed_pixel_accuracy": 0.9832993262127967,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.20870780906730577
+      }
+    },
+    {
+      "s1": "India_747992_S1Hand.tif",
+      "label": "India_747992_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 20194,
+        "fp": 444,
+        "fn": 97128,
+        "tn": 144321,
+        "label_valid_pixels": 262087,
+        "assessed_label_pixels": 262087,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 57,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.17147563812985073,
+        "water_precision": 0.9784862874309526,
+        "water_recall": 0.1721245802151344,
+        "water_f1": 0.2927515221803421,
+        "assessed_pixel_accuracy": 0.6277114088069992,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.1721245802151344
+      }
+    },
+    {
+      "s1": "India_764946_S1Hand.tif",
+      "label": "India_764946_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 424,
+        "fp": 126,
+        "fn": 2722,
+        "tn": 239230,
+        "label_valid_pixels": 242502,
+        "assessed_label_pixels": 242502,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 19642,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.1295843520782396,
+        "water_precision": 0.7709090909090909,
+        "water_recall": 0.13477431659249842,
+        "water_f1": 0.22943722943722944,
+        "assessed_pixel_accuracy": 0.9882557669627468,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.13477431659249842
+      }
+    },
+    {
+      "s1": "India_769408_S1Hand.tif",
+      "label": "India_769408_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 952,
+        "fp": 449,
+        "fn": 7630,
+        "tn": 166876,
+        "label_valid_pixels": 175907,
+        "assessed_label_pixels": 175907,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 86237,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.10541468275938434,
+        "water_precision": 0.6795146324054246,
+        "water_recall": 0.11092985318107668,
+        "water_f1": 0.19072423119302814,
+        "assessed_pixel_accuracy": 0.9540723223066734,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.11092985318107668
+      }
+    },
+    {
+      "s1": "India_772630_S1Hand.tif",
+      "label": "India_772630_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 8,
+        "fp": 1511,
+        "fn": 1337,
+        "tn": 152476,
+        "label_valid_pixels": 155332,
+        "assessed_label_pixels": 155332,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 106812,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0028011204481792717,
+        "water_precision": 0.005266622778143515,
+        "water_recall": 0.005947955390334572,
+        "water_f1": 0.00558659217877095,
+        "assessed_pixel_accuracy": 0.9816650786702031,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.005947955390334572
+      }
+    },
+    {
+      "s1": "India_773682_S1Hand.tif",
+      "label": "India_773682_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 1538,
+        "fp": 203,
+        "fn": 29421,
+        "tn": 221631,
+        "label_valid_pixels": 252793,
+        "assessed_label_pixels": 252793,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 9351,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0493549836339131,
+        "water_precision": 0.8834003446295232,
+        "water_recall": 0.04967860719015472,
+        "water_f1": 0.09406727828746177,
+        "assessed_pixel_accuracy": 0.8828132108088436,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.04967860719015472
+      }
+    },
+    {
+      "s1": "India_774689_S1Hand.tif",
+      "label": "India_774689_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 4696,
+        "fp": 1826,
+        "fn": 14061,
+        "tn": 216533,
+        "label_valid_pixels": 237980,
+        "assessed_label_pixels": 237116,
+        "unsupported_label_pixels": 864,
+        "unsupported_water_pixels": 98,
+        "ignored_label_pixels": 24164,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.2281494437156877,
+        "water_precision": 0.7200245323520392,
+        "water_recall": 0.2503598656501573,
+        "water_f1": 0.37153368408560467,
+        "assessed_pixel_accuracy": 0.932999038445318,
+        "label_valid_assessment_coverage": 0.9963694428103202,
+        "full_label_water_recall_unknown_not_detected": 0.249058605144524
+      }
+    },
+    {
+      "s1": "India_79637_S1Hand.tif",
+      "label": "India_79637_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 357,
+        "fp": 92,
+        "fn": 4808,
+        "tn": 256887,
+        "label_valid_pixels": 262144,
+        "assessed_label_pixels": 262144,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 0,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.06790945406125166,
+        "water_precision": 0.7951002227171492,
+        "water_recall": 0.0691190706679574,
+        "water_f1": 0.12718204488778054,
+        "assessed_pixel_accuracy": 0.9813079833984375,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.0691190706679574
+      }
+    },
+    {
+      "s1": "India_80221_S1Hand.tif",
+      "label": "India_80221_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 111660,
+        "fp": 11028,
+        "fn": 2846,
+        "tn": 26259,
+        "label_valid_pixels": 151793,
+        "assessed_label_pixels": 151793,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 110351,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.8894801408383386,
+        "water_precision": 0.9101134585289515,
+        "water_recall": 0.9751454072275688,
+        "water_f1": 0.9415077953067953,
+        "assessed_pixel_accuracy": 0.9085992107672949,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.9751454072275688
+      }
+    },
+    {
+      "s1": "India_804466_S1Hand.tif",
+      "label": "India_804466_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 3760,
+        "fp": 505,
+        "fn": 46468,
+        "tn": 211401,
+        "label_valid_pixels": 262134,
+        "assessed_label_pixels": 262134,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 10,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.07411349614649242,
+        "water_precision": 0.8815943728018757,
+        "water_recall": 0.07485864458071195,
+        "water_f1": 0.13799937606665078,
+        "assessed_pixel_accuracy": 0.8208053896098941,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.07485864458071195
+      }
+    },
+    {
+      "s1": "India_828067_S1Hand.tif",
+      "label": "India_828067_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 1592,
+        "fp": 234,
+        "fn": 5402,
+        "tn": 175892,
+        "label_valid_pixels": 183120,
+        "assessed_label_pixels": 183120,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 79024,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.22025456557830658,
+        "water_precision": 0.8718510405257394,
+        "water_recall": 0.22762367743780385,
+        "water_f1": 0.36099773242630384,
+        "assessed_pixel_accuracy": 0.9692223678462211,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.22762367743780385
+      }
+    },
+    {
+      "s1": "India_833266_S1Hand.tif",
+      "label": "India_833266_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 295,
+        "fp": 16,
+        "fn": 17967,
+        "tn": 201396,
+        "label_valid_pixels": 219674,
+        "assessed_label_pixels": 219674,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 42470,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.016139621402779296,
+        "water_precision": 0.9485530546623794,
+        "water_recall": 0.016153761909977003,
+        "water_f1": 0.03176654283099122,
+        "assessed_pixel_accuracy": 0.9181377859919699,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.016153761909977003
+      }
+    },
+    {
+      "s1": "India_842775_S1Hand.tif",
+      "label": "India_842775_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 283,
+        "fp": 163,
+        "fn": 5646,
+        "tn": 240326,
+        "label_valid_pixels": 246418,
+        "assessed_label_pixels": 246418,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 15726,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.04645436638214051,
+        "water_precision": 0.6345291479820628,
+        "water_recall": 0.047731489289930845,
+        "water_f1": 0.0887843137254902,
+        "assessed_pixel_accuracy": 0.9764262350964621,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.047731489289930845
+      }
+    },
+    {
+      "s1": "India_869358_S1Hand.tif",
+      "label": "India_869358_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 731,
+        "fp": 421,
+        "fn": 4319,
+        "tn": 256673,
+        "label_valid_pixels": 262144,
+        "assessed_label_pixels": 262144,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 0,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.13361359897642114,
+        "water_precision": 0.6345486111111112,
+        "water_recall": 0.14475247524752474,
+        "water_f1": 0.23573040954530797,
+        "assessed_pixel_accuracy": 0.9819183349609375,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.14475247524752474
+      }
+    },
+    {
+      "s1": "India_900498_S1Hand.tif",
+      "label": "India_900498_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 98866,
+        "fp": 7559,
+        "fn": 25087,
+        "tn": 130480,
+        "label_valid_pixels": 261992,
+        "assessed_label_pixels": 261992,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 152,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.751764097572845,
+        "water_precision": 0.9289734554850834,
+        "water_recall": 0.7976087710664526,
+        "water_f1": 0.8582937606889547,
+        "assessed_pixel_accuracy": 0.8753931417753213,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.7976087710664526
+      }
+    },
+    {
+      "s1": "India_91379_S1Hand.tif",
+      "label": "India_91379_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 2886,
+        "fp": 291,
+        "fn": 26708,
+        "tn": 232248,
+        "label_valid_pixels": 262133,
+        "assessed_label_pixels": 262133,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 11,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0965701857118956,
+        "water_precision": 0.9084041548630784,
+        "water_recall": 0.09751976752044333,
+        "water_f1": 0.17613133563211375,
+        "assessed_pixel_accuracy": 0.897002666585283,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.09751976752044333
+      }
+    },
+    {
+      "s1": "India_943439_S1Hand.tif",
+      "label": "India_943439_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 21772,
+        "fp": 2527,
+        "fn": 25837,
+        "tn": 199960,
+        "label_valid_pixels": 250096,
+        "assessed_label_pixels": 250096,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 12048,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.43425881602042443,
+        "water_precision": 0.8960039507798675,
+        "water_recall": 0.4573084920918314,
+        "water_f1": 0.605551538076431,
+        "assessed_pixel_accuracy": 0.8865875503806538,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.4573084920918314
+      }
+    },
+    {
+      "s1": "India_952728_S1Hand.tif",
+      "label": "India_952728_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 495,
+        "fp": 260,
+        "fn": 5353,
+        "tn": 182608,
+        "label_valid_pixels": 188716,
+        "assessed_label_pixels": 188716,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 73428,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.08104125736738703,
+        "water_precision": 0.6556291390728477,
+        "water_recall": 0.08464432284541723,
+        "water_f1": 0.14993184915947297,
+        "assessed_pixel_accuracy": 0.9702568939570572,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.08464432284541723
+      }
+    },
+    {
+      "s1": "India_956930_S1Hand.tif",
+      "label": "India_956930_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 3972,
+        "fp": 251,
+        "fn": 36124,
+        "tn": 196783,
+        "label_valid_pixels": 237130,
+        "assessed_label_pixels": 237130,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 25014,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.09844598111383746,
+        "water_precision": 0.9405635803930855,
+        "water_recall": 0.09906225059856345,
+        "water_f1": 0.17924592161375483,
+        "assessed_pixel_accuracy": 0.8466031290853119,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.09906225059856345
+      }
+    },
+    {
+      "s1": "India_979278_S1Hand.tif",
+      "label": "India_979278_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 2923,
+        "fp": 2723,
+        "fn": 2514,
+        "tn": 97830,
+        "label_valid_pixels": 109069,
+        "assessed_label_pixels": 105990,
+        "unsupported_label_pixels": 3079,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 153075,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.3582107843137255,
+        "water_precision": 0.5177116542685086,
+        "water_recall": 0.5376126540371529,
+        "water_f1": 0.5274745105115943,
+        "assessed_pixel_accuracy": 0.9505896782715351,
+        "label_valid_assessment_coverage": 0.9717701638412382,
+        "full_label_water_recall_unknown_not_detected": 0.5376126540371529
+      }
+    },
+    {
+      "s1": "India_981708_S1Hand.tif",
+      "label": "India_981708_LabelHand.tif",
+      "collection": "India",
+      "counts": {
+        "tp": 57,
+        "fp": 1541,
+        "fn": 10289,
+        "tn": 208106,
+        "label_valid_pixels": 224024,
+        "assessed_label_pixels": 219993,
+        "unsupported_label_pixels": 4031,
+        "unsupported_water_pixels": 42,
+        "ignored_label_pixels": 38120,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.004795154370320518,
+        "water_precision": 0.03566958698372966,
+        "water_recall": 0.005509375604098202,
+        "water_f1": 0.009544541192230409,
+        "assessed_pixel_accuracy": 0.9462255617224185,
+        "label_valid_assessment_coverage": 0.9820063921722673,
+        "full_label_water_recall_unknown_not_detected": 0.00548710050057759
+      }
+    },
+    {
+      "s1": "Pakistan_1027214_S1Hand.tif",
+      "label": "Pakistan_1027214_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 14285,
+        "fp": 5042,
+        "fn": 9585,
+        "tn": 130046,
+        "label_valid_pixels": 158958,
+        "assessed_label_pixels": 158958,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 103186,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.49408550083010516,
+        "water_precision": 0.7391214363325918,
+        "water_recall": 0.5984499371596146,
+        "water_f1": 0.6613885223510892,
+        "assessed_pixel_accuracy": 0.9079819826620869,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.5984499371596146
+      }
+    },
+    {
+      "s1": "Pakistan_1036366_S1Hand.tif",
+      "label": "Pakistan_1036366_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 10529,
+        "fp": 1115,
+        "fn": 12144,
+        "tn": 86592,
+        "label_valid_pixels": 110380,
+        "assessed_label_pixels": 110380,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 151764,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.4426181267866151,
+        "water_precision": 0.9042425283407763,
+        "water_recall": 0.4643849512636175,
+        "water_f1": 0.6136317277151266,
+        "assessed_pixel_accuracy": 0.8798786011958688,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.4643849512636175
+      }
+    },
+    {
+      "s1": "Pakistan_132143_S1Hand.tif",
+      "label": "Pakistan_132143_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 0,
+        "fp": 542,
+        "fn": 0,
+        "tn": 261602,
+        "label_valid_pixels": 262144,
+        "assessed_label_pixels": 262144,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 0,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": null,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.9979324340820312,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": null
+      }
+    },
+    {
+      "s1": "Pakistan_167553_S1Hand.tif",
+      "label": "Pakistan_167553_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 249,
+        "fp": 10766,
+        "fn": 1209,
+        "tn": 234881,
+        "label_valid_pixels": 247105,
+        "assessed_label_pixels": 247105,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 15039,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.02036976439790576,
+        "water_precision": 0.022605537902859737,
+        "water_recall": 0.17078189300411523,
+        "water_f1": 0.03992624067986852,
+        "assessed_pixel_accuracy": 0.9515388195301593,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.17078189300411523
+      }
+    },
+    {
+      "s1": "Pakistan_210595_S1Hand.tif",
+      "label": "Pakistan_210595_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 0,
+        "fp": 592,
+        "fn": 0,
+        "tn": 261552,
+        "label_valid_pixels": 262144,
+        "assessed_label_pixels": 262144,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 0,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": null,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.99774169921875,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": null
+      }
+    },
+    {
+      "s1": "Pakistan_211386_S1Hand.tif",
+      "label": "Pakistan_211386_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 1467,
+        "fp": 2012,
+        "fn": 5392,
+        "tn": 246534,
+        "label_valid_pixels": 255405,
+        "assessed_label_pixels": 255405,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 6739,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.16537030774433548,
+        "water_precision": 0.42167289450991663,
+        "water_recall": 0.2138795742819653,
+        "water_f1": 0.2838073128264655,
+        "assessed_pixel_accuracy": 0.9710107476361074,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.2138795742819653
+      }
+    },
+    {
+      "s1": "Pakistan_246510_S1Hand.tif",
+      "label": "Pakistan_246510_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 5973,
+        "fp": 16593,
+        "fn": 4768,
+        "tn": 231483,
+        "label_valid_pixels": 258817,
+        "assessed_label_pixels": 258817,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 3327,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.21851906051071926,
+        "water_precision": 0.26469024195692636,
+        "water_recall": 0.5560934736058095,
+        "water_f1": 0.358663344041793,
+        "assessed_pixel_accuracy": 0.9174667815483527,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.5560934736058095
+      }
+    },
+    {
+      "s1": "Pakistan_246718_S1Hand.tif",
+      "label": "Pakistan_246718_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 8553,
+        "fp": 699,
+        "fn": 4573,
+        "tn": 221453,
+        "label_valid_pixels": 235278,
+        "assessed_label_pixels": 235278,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 26866,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.6186618444846292,
+        "water_precision": 0.9244487678339819,
+        "water_recall": 0.6516074965716898,
+        "water_f1": 0.76441147555635,
+        "assessed_pixel_accuracy": 0.9775924650838582,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.6516074965716898
+      }
+    },
+    {
+      "s1": "Pakistan_336228_S1Hand.tif",
+      "label": "Pakistan_336228_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 0,
+        "fp": 3210,
+        "fn": 0,
+        "tn": 129261,
+        "label_valid_pixels": 132471,
+        "assessed_label_pixels": 132471,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 129673,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": null,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.9757682813596938,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": null
+      }
+    },
+    {
+      "s1": "Pakistan_35915_S1Hand.tif",
+      "label": "Pakistan_35915_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 43822,
+        "fp": 4264,
+        "fn": 8479,
+        "tn": 72668,
+        "label_valid_pixels": 129233,
+        "assessed_label_pixels": 129233,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 132911,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.77471934942102,
+        "water_precision": 0.91132554173772,
+        "water_recall": 0.8378807288579568,
+        "water_f1": 0.8730612529510793,
+        "assessed_pixel_accuracy": 0.9013951544884047,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.8378807288579568
+      }
+    },
+    {
+      "s1": "Pakistan_366265_S1Hand.tif",
+      "label": "Pakistan_366265_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 0,
+        "fp": 1688,
+        "fn": 2,
+        "tn": 125601,
+        "label_valid_pixels": 127291,
+        "assessed_label_pixels": 127291,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 134853,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": 0.0,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.9867233347212293,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.0
+      }
+    },
+    {
+      "s1": "Pakistan_401863_S1Hand.tif",
+      "label": "Pakistan_401863_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 2455,
+        "fp": 7861,
+        "fn": 869,
+        "tn": 247660,
+        "label_valid_pixels": 258845,
+        "assessed_label_pixels": 258845,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 3299,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.21949038891372374,
+        "water_precision": 0.23797983714618068,
+        "water_recall": 0.7385679903730445,
+        "water_f1": 0.35997067448680353,
+        "assessed_pixel_accuracy": 0.966273252332477,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.7385679903730445
+      }
+    },
+    {
+      "s1": "Pakistan_43105_S1Hand.tif",
+      "label": "Pakistan_43105_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 0,
+        "fp": 8215,
+        "fn": 271,
+        "tn": 252456,
+        "label_valid_pixels": 261675,
+        "assessed_label_pixels": 260942,
+        "unsupported_label_pixels": 733,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 469,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": 0.0,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.967479363230143,
+        "label_valid_assessment_coverage": 0.9971988153243527,
+        "full_label_water_recall_unknown_not_detected": 0.0
+      }
+    },
+    {
+      "s1": "Pakistan_474121_S1Hand.tif",
+      "label": "Pakistan_474121_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 7070,
+        "fp": 7467,
+        "fn": 1823,
+        "tn": 164429,
+        "label_valid_pixels": 180789,
+        "assessed_label_pixels": 180789,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 81355,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.43215158924205377,
+        "water_precision": 0.48634518814060673,
+        "water_recall": 0.7950073091195322,
+        "water_f1": 0.6034997865983781,
+        "assessed_pixel_accuracy": 0.9486141302844753,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.7950073091195322
+      }
+    },
+    {
+      "s1": "Pakistan_528249_S1Hand.tif",
+      "label": "Pakistan_528249_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 0,
+        "fp": 295,
+        "fn": 0,
+        "tn": 76687,
+        "label_valid_pixels": 76982,
+        "assessed_label_pixels": 76982,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 185162,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": null,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.996167935361513,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": null
+      }
+    },
+    {
+      "s1": "Pakistan_548910_S1Hand.tif",
+      "label": "Pakistan_548910_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 63,
+        "fp": 198,
+        "fn": 3376,
+        "tn": 232059,
+        "label_valid_pixels": 235696,
+        "assessed_label_pixels": 235696,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 26448,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.01732196865548529,
+        "water_precision": 0.2413793103448276,
+        "water_recall": 0.01831927886013376,
+        "water_f1": 0.03405405405405405,
+        "assessed_pixel_accuracy": 0.984836399429774,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.01831927886013376
+      }
+    },
+    {
+      "s1": "Pakistan_65724_S1Hand.tif",
+      "label": "Pakistan_65724_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 0,
+        "fp": 5326,
+        "fn": 0,
+        "tn": 256817,
+        "label_valid_pixels": 262143,
+        "assessed_label_pixels": 262143,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 1,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": null,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.9796828448594851,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": null
+      }
+    },
+    {
+      "s1": "Pakistan_664885_S1Hand.tif",
+      "label": "Pakistan_664885_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 1953,
+        "fp": 4403,
+        "fn": 430,
+        "tn": 66224,
+        "label_valid_pixels": 73010,
+        "assessed_label_pixels": 73010,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 189134,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.28779840848806365,
+        "water_precision": 0.30726872246696035,
+        "water_recall": 0.819555182543013,
+        "water_f1": 0.446961894953656,
+        "assessed_pixel_accuracy": 0.9338035885495137,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.819555182543013
+      }
+    },
+    {
+      "s1": "Pakistan_667363_S1Hand.tif",
+      "label": "Pakistan_667363_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 467,
+        "fp": 7754,
+        "fn": 752,
+        "tn": 153511,
+        "label_valid_pixels": 162484,
+        "assessed_label_pixels": 162484,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 99660,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0520450239607712,
+        "water_precision": 0.056805741393991,
+        "water_recall": 0.3831009023789992,
+        "water_f1": 0.09894067796610169,
+        "assessed_pixel_accuracy": 0.9476502301765097,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.3831009023789992
+      }
+    },
+    {
+      "s1": "Pakistan_694942_S1Hand.tif",
+      "label": "Pakistan_694942_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 14907,
+        "fp": 17028,
+        "fn": 3574,
+        "tn": 155935,
+        "label_valid_pixels": 191444,
+        "assessed_label_pixels": 191444,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 70700,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.4198090624911994,
+        "water_precision": 0.46679192108971346,
+        "water_recall": 0.8066121963097235,
+        "water_f1": 0.5913598857505554,
+        "assessed_pixel_accuracy": 0.8923862852844696,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.8066121963097235
+      }
+    },
+    {
+      "s1": "Pakistan_70625_S1Hand.tif",
+      "label": "Pakistan_70625_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 1346,
+        "fp": 23140,
+        "fn": 3321,
+        "tn": 234337,
+        "label_valid_pixels": 262144,
+        "assessed_label_pixels": 262144,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 0,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.04840507785809329,
+        "water_precision": 0.054970187045658744,
+        "water_recall": 0.2884079708592243,
+        "water_f1": 0.09234041093540973,
+        "assessed_pixel_accuracy": 0.8990592956542969,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.2884079708592243
+      }
+    },
+    {
+      "s1": "Pakistan_712873_S1Hand.tif",
+      "label": "Pakistan_712873_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 390,
+        "fp": 328,
+        "fn": 926,
+        "tn": 117913,
+        "label_valid_pixels": 119557,
+        "assessed_label_pixels": 119557,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 142587,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.23722627737226276,
+        "water_precision": 0.5431754874651811,
+        "water_recall": 0.29635258358662614,
+        "water_f1": 0.3834808259587021,
+        "assessed_pixel_accuracy": 0.9895112791388209,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.29635258358662614
+      }
+    },
+    {
+      "s1": "Pakistan_740461_S1Hand.tif",
+      "label": "Pakistan_740461_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 0,
+        "fp": 36520,
+        "fn": 0,
+        "tn": 174936,
+        "label_valid_pixels": 211456,
+        "assessed_label_pixels": 211456,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 50688,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": null,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.8272926755447942,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": null
+      }
+    },
+    {
+      "s1": "Pakistan_760290_S1Hand.tif",
+      "label": "Pakistan_760290_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 0,
+        "fp": 11211,
+        "fn": 0,
+        "tn": 222287,
+        "label_valid_pixels": 233498,
+        "assessed_label_pixels": 233498,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 28646,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0,
+        "water_precision": 0.0,
+        "water_recall": null,
+        "water_f1": 0.0,
+        "assessed_pixel_accuracy": 0.9519867407857883,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": null
+      }
+    },
+    {
+      "s1": "Pakistan_849790_S1Hand.tif",
+      "label": "Pakistan_849790_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 13658,
+        "fp": 852,
+        "fn": 158250,
+        "tn": 84479,
+        "label_valid_pixels": 257239,
+        "assessed_label_pixels": 257239,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 4905,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0790576522343135,
+        "water_precision": 0.9412818745692626,
+        "water_recall": 0.07944947297391627,
+        "water_f1": 0.14653091439667842,
+        "assessed_pixel_accuracy": 0.3815012498104875,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.07944947297391627
+      }
+    },
+    {
+      "s1": "Pakistan_909806_S1Hand.tif",
+      "label": "Pakistan_909806_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 146,
+        "fp": 63,
+        "fn": 1268,
+        "tn": 114810,
+        "label_valid_pixels": 116287,
+        "assessed_label_pixels": 116287,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 145857,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.0988490182802979,
+        "water_precision": 0.6985645933014354,
+        "water_recall": 0.10325318246110325,
+        "water_f1": 0.17991373998767715,
+        "assessed_pixel_accuracy": 0.9885541806048828,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.10325318246110325
+      }
+    },
+    {
+      "s1": "Pakistan_94095_S1Hand.tif",
+      "label": "Pakistan_94095_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 41659,
+        "fp": 14098,
+        "fn": 11907,
+        "tn": 112906,
+        "label_valid_pixels": 180570,
+        "assessed_label_pixels": 180570,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 81574,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.6156745093402696,
+        "water_precision": 0.7471528238606812,
+        "water_recall": 0.7777134749654632,
+        "water_f1": 0.7621269083358488,
+        "assessed_pixel_accuracy": 0.8559838289859888,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.7777134749654632
+      }
+    },
+    {
+      "s1": "Pakistan_9684_S1Hand.tif",
+      "label": "Pakistan_9684_LabelHand.tif",
+      "collection": "Pakistan",
+      "counts": {
+        "tp": 168,
+        "fp": 405,
+        "fn": 1028,
+        "tn": 111949,
+        "label_valid_pixels": 113550,
+        "assessed_label_pixels": 113550,
+        "unsupported_label_pixels": 0,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 148594,
+        "total_pixels": 262144
+      },
+      "metrics": {
+        "water_iou": 0.10493441599000625,
+        "water_precision": 0.2931937172774869,
+        "water_recall": 0.14046822742474915,
+        "water_f1": 0.18993781797625778,
+        "assessed_pixel_accuracy": 0.9873800088066931,
+        "label_valid_assessment_coverage": 1.0,
+        "full_label_water_recall_unknown_not_detected": 0.14046822742474915
+      }
+    }
+  ],
+  "counts": {
+    "tp": 1333346,
+    "fp": 333639,
+    "fn": 1371274,
+    "tn": 20114452,
+    "label_valid_pixels": 23223003,
+    "assessed_label_pixels": 23152711,
+    "unsupported_label_pixels": 70292,
+    "unsupported_water_pixels": 9043,
+    "ignored_label_pixels": 5874981,
+    "total_pixels": 29097984
+  },
+  "micro_metrics": {
+    "water_iou": 0.4388519872729744,
+    "water_precision": 0.799854827727904,
+    "water_recall": 0.4929882941041625,
+    "water_f1": 0.6100029622987438,
+    "assessed_pixel_accuracy": 0.9263622735151836,
+    "label_valid_assessment_coverage": 0.9969731735383232,
+    "full_label_water_recall_unknown_not_detected": 0.49134546183516525
+  },
+  "collections": {
+    "Bolivia": {
+      "counts": {
+        "tp": 205855,
+        "fp": 20469,
+        "fn": 246046,
+        "tn": 2352064,
+        "label_valid_pixels": 2867815,
+        "assessed_label_pixels": 2824434,
+        "unsupported_label_pixels": 43381,
+        "unsupported_water_pixels": 2963,
+        "ignored_label_pixels": 1064345,
+        "total_pixels": 3932160
+      },
+      "metrics": {
+        "water_iou": 0.4357918580773546,
+        "water_precision": 0.9095588625156855,
+        "water_recall": 0.45553118935342035,
+        "water_f1": 0.607040436433337,
+        "assessed_pixel_accuracy": 0.9056395015780153,
+        "label_valid_assessment_coverage": 0.9848731525569118,
+        "full_label_water_recall_unknown_not_detected": 0.45256384325864435
+      }
+    },
+    "India": {
+      "counts": {
+        "tp": 958331,
+        "fp": 121483,
+        "fn": 891281,
+        "tn": 12981320,
+        "label_valid_pixels": 14978593,
+        "assessed_label_pixels": 14952415,
+        "unsupported_label_pixels": 26178,
+        "unsupported_water_pixels": 6080,
+        "ignored_label_pixels": 2847199,
+        "total_pixels": 17825792
+      },
+      "metrics": {
+        "water_iou": 0.48619219266448344,
+        "water_precision": 0.8874963651147327,
+        "water_recall": 0.5181254230617016,
+        "water_f1": 0.6542790294071261,
+        "assessed_pixel_accuracy": 0.9322675300277581,
+        "label_valid_assessment_coverage": 0.9982523058073612,
+        "full_label_water_recall_unknown_not_detected": 0.5164278339293374
+      }
+    },
+    "Pakistan": {
+      "counts": {
+        "tp": 169160,
+        "fp": 191687,
+        "fn": 233947,
+        "tn": 4781068,
+        "label_valid_pixels": 5376595,
+        "assessed_label_pixels": 5375862,
+        "unsupported_label_pixels": 733,
+        "unsupported_water_pixels": 0,
+        "ignored_label_pixels": 1963437,
+        "total_pixels": 7340032
+      },
+      "metrics": {
+        "water_iou": 0.28440098588755097,
+        "water_precision": 0.46878593974731675,
+        "water_recall": 0.4196404428600843,
+        "water_f1": 0.44285388910850654,
+        "assessed_pixel_accuracy": 0.9208249765339959,
+        "label_valid_assessment_coverage": 0.9998636683625975,
+        "full_label_water_recall_unknown_not_detected": 0.4196404428600843
+      }
+    }
+  },
+  "wall_seconds": 12.127094416995533,
+  "gpu_used": false,
+  "scope": "Supervised water vs nonwater on held-out geographic collections; permanent/flood water inseparable",
+  "reference_inputs_loaded": false,
+  "retuning_used": false
+}

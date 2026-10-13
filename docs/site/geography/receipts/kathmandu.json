@@ -1,0 +1,98 @@
+{
+  "schema": "akash-observation-access-receipt-v1",
+  "status": "completed",
+  "finished_at": "2026-10-11T07:15:24.568525+00:00",
+  "protocol": {
+    "path": "research/observation-access-2026-10-11/protocol.frozen.json",
+    "bytes": 16408,
+    "sha256": "e366442079bb98a09b68692b6c137fbc750275fdf0206666602e627111514f08"
+  },
+  "case": {
+    "case_id": "fresh-44ce4717c693684c",
+    "bbox": [
+      85.25,
+      27.62,
+      85.35,
+      27.82
+    ],
+    "context_bbox": [
+      85.22,
+      27.59,
+      85.38,
+      27.85
+    ],
+    "event_date": "2024-09-28",
+    "osm_snapshot": "2024-09-01T00:00:00Z",
+    "max_days": 24,
+    "context_buffer_deg": null,
+    "context_source": "explicit_bbox"
+  },
+  "original_status_counts": {
+    "robust_connected": 69
+  },
+  "expanded_status_counts": {
+    "ambiguous": 41,
+    "robust_connected": 28
+  },
+  "status_transitions": {
+    "robust_connected->ambiguous": 41,
+    "robust_connected->robust_connected": 28
+  },
+  "scope_status_counts": {
+    "all_source": {
+      "ambiguous": 41,
+      "robust_connected": 28
+    },
+    "inside_water_aoi": {
+      "robust_connected": 28,
+      "ambiguous": 8
+    },
+    "inside_extraction_context": {
+      "ambiguous": 40,
+      "robust_connected": 28
+    },
+    "incidental_outside_context": {
+      "ambiguous": 1
+    }
+  },
+  "original_witness_count": 69,
+  "source_graph_nodes": 253451,
+  "source_directed_edges": 519044,
+  "source_physical_groups": 261690,
+  "uncertain_physical_group_count": 122715,
+  "uncertain_directed_edge_count": 244877,
+  "new_uncertain_physical_group_count": 122422,
+  "wall_seconds": 13.519127374980599,
+  "cpu_seconds": 13.358883,
+  "peak_process_rss_bytes": 609484800,
+  "all_frozen_inputs_unchanged": true,
+  "outputs": [
+    {
+      "path": "outputs/observation-access-2026-10-11/kathmandu-v1/original-witness-support.json",
+      "bytes": 33840522,
+      "sha256": "5d5d87dc2768baea7aa1d459b19337d855532400dc612e43a0061d79d1e75df9"
+    },
+    {
+      "path": "outputs/observation-access-2026-10-11/kathmandu-v1/expanded-scenario.json",
+      "bytes": 27832836,
+      "sha256": "60bb5d685e1f57b90b939740d06cf78b1d73135b4989c460d83bd848485c3c93"
+    }
+  ],
+  "claims": {
+    "observed_closures": false,
+    "safe_routes": false,
+    "local_hazard_accuracy": false,
+    "model_inference": false,
+    "training": false,
+    "network": false,
+    "gpu": false,
+    "reference_geometry_loaded": false
+  },
+  "limitations": [
+    "Source-bound graph/coverage analysis, not independent hazard validation.",
+    "Unknown/outside support is an explicit open/closed scenario, not physical observed damage or a failure probability.",
+    "Assessed nonwater does not establish physical passability; other unmapped and unspecified failures remain excluded.",
+    "Original source-to-OSM and nearest-target validation receipts are reused, not independently rerun.",
+    "Projected saved centreline support lengths differ in denominator from original great-circle graph distance."
+  ]
+}
