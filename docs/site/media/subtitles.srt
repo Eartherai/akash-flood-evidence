@@ -1,0 +1,103 @@
+1
+00:00:00,000 --> 00:00:06,000
+Akash asks what satellite evidence supports, and which road-access conclusions depend on unknowns.
+
+2
+00:00:06,000 --> 00:00:13,000
+It joins before-and-after radar, optical observations, elevation and pre-event OpenStreetMap.
+
+3
+00:00:13,000 --> 00:00:20,000
+Its strongest feature is a conditional access proof: test uncertain roads and keep the evidence.
+
+4
+00:00:20,000 --> 00:00:26,000
+This actual saved radar map comes from the completed Rasuwa case for 26 August 2026.
+
+5
+00:00:26,000 --> 00:00:33,000
+There are 25,237 newly predicted water candidate cells. They are not confirmed damage.
+
+6
+00:00:33,000 --> 00:00:39,000
+Radar jointly assesses 1,666,783 of 2,480,036 cells; 813,253 remain unknown.
+
+7
+00:00:39,000 --> 00:00:46,000
+Before-and-after processing uses matched radar sources from 16 and 28 August. Local accuracy remains unproved.
+
+8
+00:00:46,000 --> 00:00:52,000
+The optical layer retains its native grid and its own observation denominator.
+
+9
+00:00:52,000 --> 00:00:59,000
+Only 68,801 of 620,008 cells are jointly assessed: 11.10 percent.
+
+10
+00:00:59,000 --> 00:01:05,000
+A further 551,207 cells remain unknown. Cloud and missing support are not filled with certainty.
+
+11
+00:01:05,000 --> 00:01:12,000
+The 1,060 surface-change candidates use fixed hypotheses. They are not validated debris classifications.
+
+12
+00:01:12,000 --> 00:01:20,000
+The current browser can inspect saved access evidence. This does not execute a new satellite run.
+
+13
+00:01:20,000 --> 00:01:28,000
+Within this AOI: 14 settlements are undetermined, six unmapped, and two baseline disconnected.
+
+14
+00:01:28,000 --> 00:01:36,000
+The graph fixes baseline targets and checks uncertain road groups under all-open and all-closed scenarios.
+
+15
+00:01:36,000 --> 00:01:44,000
+Witness paths and cut certificates can be checked independently. They do not establish safe passage or observed closures.
+
+16
+00:01:44,000 --> 00:01:51,000
+The recorded known-case workflow completed all 14 stages in 171.07 seconds on the local computer.
+
+17
+00:01:51,000 --> 00:01:58,000
+Radar, elevation and pre-event OSM were verified cached inputs. This is not a cold-acquisition timing.
+
+18
+00:01:58,000 --> 00:02:05,000
+New Sentinel-2 acquisition received 60,069,247 bytes. Source identities and output receipts remain inspectable.
+
+19
+00:02:05,000 --> 00:02:12,000
+Historical-map provider failures are retained. Arbitrary judge-selected raw-data reliability remains unproved.
+
+20
+00:02:12,000 --> 00:02:19,000
+The unchanged Sen1Floods11 water benchmark reports 43.89 percent IoU and 79.99 percent precision.
+
+21
+00:02:19,000 --> 00:02:26,000
+Water recall is 49.30 percent. This benchmark does not validate Himalayan flood, debris or infrastructure damage.
+
+22
+00:02:26,000 --> 00:02:34,000
+Earlier EMSR927 comparisons are checking-only, involve different classes and fail internal coverage gates. No accuracy is invented.
+
+23
+00:02:34,000 --> 00:02:40,000
+Open the public saved-evidence website to inspect maps, source facts and conditional access results.
+
+24
+00:02:40,000 --> 00:02:47,000
+Use the separate local console and documented prerequisites to plan and run bounded satellite processing.
+
+25
+00:02:47,000 --> 00:02:53,000
+The static website does not run that backend or the optional local Qwen copilot.
+
+26
+00:02:53,000 --> 00:03:00,000
+Original code is MIT. Data retains upstream terms. AI assistance is disclosed. This is an educational evidence prototype.

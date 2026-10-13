@@ -2,7 +2,7 @@
 
 Akash turns radar and optical observations into inspectable flood evidence, then asks how missing road observations change a settlement's modeled access to a fixed destination. Unknown pixels stay unknown. A graph connection never becomes a claim that a road is physically safe.
 
-**[Open the public saved-evidence demo](https://eartherai.github.io/akash-flood-evidence/)** · **[Submission story](docs/submission/about-project.md)**
+**[Open the public saved-evidence demo](https://eartherai.github.io/akash-flood-evidence/)** · **[Three-minute English-subtitled demo](https://eartherai.github.io/akash-flood-evidence/demo.html)** · **[Submission story](docs/submission/about-project.md)**
 
 The public website runs the saved case explorer and a separate historical two-case geographic viewer entirely in the browser. Python processing, SNAP and the local Qwen copilot run locally after setup; GitHub Pages does not execute those services. The saved-fact lookup on the public website is deterministic and is not a live language model.
 

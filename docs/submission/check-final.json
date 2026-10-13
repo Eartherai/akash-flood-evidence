@@ -1,0 +1,95 @@
+
+> check
+> npx --yes hyperframes@0.8.152 check --json
+
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 15
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 180,
+    "samples": [
+      10,
+      30,
+      50,
+      70,
+      90,
+      110,
+      130,
+      150,
+      170
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      10,
+      50,
+      90,
+      130,
+      170
+    ],
+    "checked": 51,
+    "passed": 51
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "bfb438da-eb03-4818-a76b-af15107057b5",
+    "revision": "b304377e-5b8b-44e0-9e2a-cad0fec86d46",
+    "report": "/Users/earther/Desktop/IIT mandi/videos/akash-public-evidence-demo/.hyperframes/artifacts/checks/bfb438da-eb03-4818-a76b-af15107057b5.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.8.152",
+    "latestVersion": "0.8.152",
+    "updateAvailable": false
+  }
+}

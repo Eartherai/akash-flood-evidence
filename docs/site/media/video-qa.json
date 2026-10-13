@@ -1,0 +1,38 @@
+{
+  "schema": "akash-final-video-qa-v1",
+  "date": "2026-10-13",
+  "file": "akash-demo.mp4",
+  "bytes": 6169241,
+  "sha256": "7b66d4a89cd7ab2f8c78eff89a1d1dcb4ca2b6945173445ab0f7105b8ce714bb",
+  "duration_seconds": 180,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "frame_count": 4320,
+  "codec": "h264",
+  "audio_tracks": 0,
+  "burned_english_cues": 26,
+  "full_decode_passed": true,
+  "sequential_frames_extracted": 18,
+  "visually_reviewed_frame_indices": [
+    240,
+    2316,
+    4008,
+    792,
+    1416,
+    2016,
+    2832,
+    3408,
+    4318
+  ],
+  "all_seven_scenes_visually_reviewed": true,
+  "human_or_language_validation": false,
+  "science_reexecuted": false,
+  "capture_mode": "screenshot, software browser GPU, one worker",
+  "render_seconds": 187.6,
+  "actual_browser_interaction_encoded_seconds": 9.458333,
+  "actual_sample_wall_seconds": 9.386,
+  "seek_frame_extraction_warning": "Earlier seek-extracted stills showed artifacts not present in sequentially decoded reference frame. Use sequential decode when verifying this film."
+}

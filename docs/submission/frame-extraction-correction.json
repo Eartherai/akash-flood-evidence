@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-13",
+  "observation": "Standard hardware-render frame240 is clean when decoded from beginning; seek-extracted10s image is corrupted. Fast -ss extraction cannot establish renderer corruption.",
+  "earlier_failed_frame_checks_preserved": true,
+  "final_method": "Sequential full decode, select exact frame number; no -ss seek",
+  "selected_indices": [
+    12,
+    240,
+    482,
+    792,
+    1106,
+    1416,
+    1730,
+    1848,
+    1956,
+    2016,
+    2316,
+    2498,
+    2832,
+    3170,
+    3408,
+    3698,
+    4008,
+    4318
+  ]
+}

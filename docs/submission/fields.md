@@ -1,6 +1,6 @@
 # Akash Devpost fields — prepared 13 October 2026
 
-Public URLs below are the planned publication targets. Use them in Devpost only after the publishing agent verifies them.
+Public repository and website links were verified on 13 October 2026. Both initial GitHub workflows succeeded; anonymous HTTP checks and actual browser controls passed. A YouTube URL and final Devpost receipt remain pending.
 
 ## General info
 
@@ -12,9 +12,9 @@ Public URLs below are the planned publication targets. Use them in Devpost only 
 
 **Built with:** The 22 real project/media technologies in `built-with.txt`. OpenAI Codex disclosure is intentional and required; that does not add a GitHub collaborator or a human team member.
 
-**Try it out — provisional website:** https://eartherai.github.io/akash-flood-evidence/
+**Try it out — website:** https://eartherai.github.io/akash-flood-evidence/
 
-**Try it out — provisional source repository:** https://github.com/Eartherai/akash-flood-evidence
+**Try it out — source repository:** https://github.com/Eartherai/akash-flood-evidence
 
 ## Project media
 
@@ -22,7 +22,7 @@ Use actual screenshots of the published site after the publisher verifies the di
 
 **Video demo link:** A verified public or unlisted YouTube URL is still needed. Do not paste a local file, a GitHub Pages MP4, a private video or an invented URL into this field. General guidelines require 3–10 minutes with English audio or English subtitles; Track B specifies a three-minute demo.
 
-The preserved `akash-track-b-demo-2026-10-11.mp4` is exactly three minutes and has English subtitles. It predates the 12 October 14-stage run. If used without a refreshed film, its upload title/description and the project page must explicitly identify it as the **11 October saved-evidence demonstration**, not a demonstration of the latest 14-stage execution. It must not be described as a fresh raw-data run.
+The refreshed **13 October three-minute demo** has complete burned English subtitles. It uses the current saved case maps, actual browser controls and the recorded 12 October run receipt. It is a saved-evidence demonstration, not a new raw-data execution. Watch/download it at https://eartherai.github.io/akash-flood-evidence/demo.html after the media deployment is verified; upload the MP4 to YouTube as public or unlisted, then paste that YouTube URL in the required video field. The older 11 October film remains preserved as historical media.
 
 ## Additional info
 
@@ -30,11 +30,11 @@ The preserved `akash-track-b-demo-2026-10-11.mp4` is exactly three minutes and h
 
 **Track selection:** Track B.
 
-**GitHub repository — provisional:** https://github.com/Eartherai/akash-flood-evidence
+**GitHub repository:** https://github.com/Eartherai/akash-flood-evidence
 
 **Team leader email:** Enter the real human team leader's email. Do not list an AI tool as the leader or teammate.
 
-**Live demo — provisional:** https://eartherai.github.io/akash-flood-evidence/
+**Live demo:** https://eartherai.github.io/akash-flood-evidence/
 
 ## Handoff notes for the human submitter
 

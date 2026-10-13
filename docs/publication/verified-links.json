@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-13",
+  "repository": "https://github.com/Eartherai/akash-flood-evidence",
+  "demo": "https://eartherai.github.io/akash-flood-evidence/",
+  "head_commit": "93314e02a8e4552a51f44a69f26e6aca06bc2925",
+  "initial_workflows": [
+    {
+      "name": "Publish saved evidence demo",
+      "id": 38438691621,
+      "conclusion": "success"
+    },
+    {
+      "name": "Source and saved-evidence checks",
+      "id": 38438691421,
+      "conclusion": "success"
+    }
+  ],
+  "anonymous_http_resources": 21,
+  "public_browser_verified": true,
+  "youtube_url": null,
+  "devpost_submitted": false,
+  "collaborators": [
+    "Eartherai"
+  ],
+  "commit_authors": [
+    "Eartherai"
+  ],
+  "codex_coauthor_trailers": false,
+  "ai_disclosure_preserved": true,
+  "static_website_runs_satellite_backend": false,
+  "new_hazard_accuracy_established": false
+}
