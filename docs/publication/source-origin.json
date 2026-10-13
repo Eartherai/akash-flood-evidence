@@ -8,5 +8,11 @@
   "models_or_thresholds_retrained_or_rescored": false,
   "actual_case_source": "Frozen R6 snapshots in the saved case; current source activation changes have not replayed raw processing.",
   "author": "Eartherai",
-  "ai_tools_are_collaborators": false
+  "ai_tools_are_collaborators": false,
+  "publication_test_change": {
+    "path": "tests/test_water_inference.py",
+    "reason": "Exact float32 logarithm assertion failed on one Ubuntu runner by one ULP. Keep zero dB exact, valid/nodata checks exact, and allow at most two float32 ULPs around -20 dB.",
+    "inference_implementation_changed": false,
+    "saved_model_or_output_changed": false
+  }
 }

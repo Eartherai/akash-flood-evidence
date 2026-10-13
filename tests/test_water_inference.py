@@ -25,7 +25,10 @@ def test_raw_power_log_keeps_zero_db_and_excludes_nonpositive():
     s['Sigma0_VV'][:] = [[1, 0], [-.01, np.inf]]
     db, valid = positive_db(s)
     assert valid.tolist() == [[True, False], [False, False]]
-    assert db[:, 0, 0].tolist() == [0, -20]
+    assert db[0, 0, 0] == 0
+    # Float32 log10 kernels can differ by an ULP across CPU implementations.
+    tolerance = float(2 * np.spacing(np.float32(20)))
+    assert db[1, 0, 0] == pytest.approx(-20, rel=0, abs=tolerance)
     assert np.isnan(db[:, ~valid]).all()
 
 
